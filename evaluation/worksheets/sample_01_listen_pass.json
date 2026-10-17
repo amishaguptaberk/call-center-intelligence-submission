@@ -1,0 +1,1111 @@
+{
+  "schema_version": "1.0",
+  "recording_id": "sample_01",
+  "purpose": "Completed listen-pass worksheet for sample_01 (manual audio review).",
+  "instructions": [
+    "This worksheet has been filled from a completed manual audio review.",
+    "predicted_speaker / rule_trace are frozen baseline outputs (heuristics_v1).",
+    "verified_speaker is the listen-pass label for single-speaker rows.",
+    "Row 7: mixed; verified_speaker left null; see mixed_* fields.",
+    "No transcript text is stored in this file."
+  ],
+  "source_prediction": {
+    "system_id": "student",
+    "source": "diagnostics/debug.log sample_01 reason lines",
+    "note": "end_sec estimated as next segment start when available; last row end_sec null"
+  },
+  "rows": [
+    {
+      "row_id": 1,
+      "start_sec": 7.79,
+      "end_sec": 11.49,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "AGENT_PATTERN",
+      "rule_trace": {
+        "previous": "None",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": null
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 2,
+      "start_sec": 11.49,
+      "end_sec": 14.0,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 3,
+      "start_sec": 14.0,
+      "end_sec": 15.94,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "AGENT_PATTERN",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": 1.3699999999999992
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 4,
+      "start_sec": 15.94,
+      "end_sec": 20.62,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6399999999999988
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 5,
+      "start_sec": 20.62,
+      "end_sec": 24.0,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "AGENT_PATTERN",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": 0.6600000000000001
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 6,
+      "start_sec": 24.0,
+      "end_sec": 26.54,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.17999999999999972
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 7,
+      "start_sec": 26.54,
+      "end_sec": 30.66,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.3999999999999986
+      },
+      "verified_speaker": null,
+      "ambiguous": true,
+      "notes": "MIXED by listen-pass: Agent speaks first, then Customer. Exact internal boundary not annotated.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "mixed",
+      "speakers_present": [
+        "Agent",
+        "Customer"
+      ],
+      "speaker_order": [
+        "Agent",
+        "Customer"
+      ],
+      "internal_boundary_sec": null,
+      "internal_boundary_status": "pending_precise_timestamp_verification",
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 8,
+      "start_sec": 30.66,
+      "end_sec": 33.68,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7399999999999984
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 9,
+      "start_sec": 33.68,
+      "end_sec": 36.58,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5200000000000031
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 10,
+      "start_sec": 36.58,
+      "end_sec": 38.72,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 11,
+      "start_sec": 38.72,
+      "end_sec": 41.08,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6199999999999974
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 12,
+      "start_sec": 41.08,
+      "end_sec": 43.28,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6400000000000006
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 13,
+      "start_sec": 43.28,
+      "end_sec": 46.64,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "AGENT_PATTERN",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": 0.21999999999999886
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 14,
+      "start_sec": 46.64,
+      "end_sec": 53.7,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 15,
+      "start_sec": 53.7,
+      "end_sec": 58.26,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6200000000000045
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 16,
+      "start_sec": 58.26,
+      "end_sec": 60.86,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6799999999999997
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 17,
+      "start_sec": 60.86,
+      "end_sec": 64.84,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7000000000000028
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 18,
+      "start_sec": 64.84,
+      "end_sec": 68.58,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 19,
+      "start_sec": 68.58,
+      "end_sec": 72.32,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.9200000000000017
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 20,
+      "start_sec": 72.32,
+      "end_sec": 74.74,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8599999999999994
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 21,
+      "start_sec": 74.74,
+      "end_sec": 76.68,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7999999999999972
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 22,
+      "start_sec": 76.68,
+      "end_sec": 79.3,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.10000000000000853
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 23,
+      "start_sec": 79.3,
+      "end_sec": 81.08,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8400000000000034
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 24,
+      "start_sec": 81.08,
+      "end_sec": 83.58,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 25,
+      "start_sec": 83.58,
+      "end_sec": 85.54,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.9399999999999977
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 26,
+      "start_sec": 85.54,
+      "end_sec": 86.96,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 27,
+      "start_sec": 86.96,
+      "end_sec": 89.3,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 28,
+      "start_sec": 89.3,
+      "end_sec": 91.2,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 29,
+      "start_sec": 91.2,
+      "end_sec": 91.74,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.2400000000000091
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 30,
+      "start_sec": 91.74,
+      "end_sec": 97.02,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 31,
+      "start_sec": 97.02,
+      "end_sec": 102.46,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5999999999999943
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 32,
+      "start_sec": 102.46,
+      "end_sec": 104.74,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6599999999999966
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass correction vs predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 33,
+      "start_sec": 104.74,
+      "end_sec": 110.16,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8599999999999994
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 34,
+      "start_sec": 110.16,
+      "end_sec": 113.76,
+      "predicted_speaker": "Agent",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8999999999999915
+      },
+      "verified_speaker": "Agent",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Agent"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 35,
+      "start_sec": 113.76,
+      "end_sec": 116.44,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "QUESTION_SWITCH",
+      "rule_trace": {
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7600000000000051
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    },
+    {
+      "row_id": 36,
+      "start_sec": 116.44,
+      "end_sec": null,
+      "predicted_speaker": "Customer",
+      "triggering_rule": "FALLBACK",
+      "rule_trace": {
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "verified_speaker": "Customer",
+      "ambiguous": false,
+      "notes": "Listen-pass confirms predicted_speaker.",
+      "hint_overlaps_draft_ambiguous_interval": false,
+      "verified_status": "clear",
+      "speakers_present": [
+        "Customer"
+      ],
+      "speaker_order": null,
+      "internal_boundary_sec": null,
+      "internal_boundary_status": null,
+      "provenance": {
+        "method": "manual_audio_verification",
+        "basis": "listen_pass",
+        "audio_verified": true,
+        "annotator": "student_manual_review"
+      }
+    }
+  ],
+  "review": {
+    "status": "completed",
+    "method": "manual_audio_verification",
+    "basis": "listen_pass",
+    "annotator": "student_manual_review",
+    "reviewed_recording": "sample_01.mp3",
+    "notes": "Verified speakers filled from human listen-pass. Row 7 is mixed (Agent then Customer); internal split timestamp not marked."
+  }
+}

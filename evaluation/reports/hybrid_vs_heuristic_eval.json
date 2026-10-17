@@ -1,0 +1,583 @@
+{
+  "method": {
+    "heuristic": "sentence + dialogue-act + pattern-anchored FALLBACK",
+    "hybrid": "Community-1 bounded subprocess \u2192 align/group/role; heuristic on timeout/error"
+  },
+  "annotation_note": "Only sample_01 has listen-pass annotation.v2. Continuum/ack metrics on other files are structural proxies (same method as heuristic_all10 report).",
+  "timeout_policy": {
+    "floor_sec": "60",
+    "base_sec": "30",
+    "per_audio_sec": "2.5",
+    "fixed": null
+  },
+  "aggregate": {
+    "heuristic_continuum_breaks": 387,
+    "hybrid_continuum_breaks": 303,
+    "heuristic_missed_acks": 21,
+    "hybrid_missed_acks": 7,
+    "hybrid_fallbacks": 0,
+    "hybrid_acoustic_ok": 10,
+    "continuum_reduction": 84,
+    "ack_reduction": 14
+  },
+  "per_file": {
+    "sample_01": {
+      "sentences": 43,
+      "heuristic": {
+        "segments": 21,
+        "runtime_sec_diarize_only": 0.002,
+        "speaker_mix": {
+          "Agent": 14,
+          "Customer": 7
+        },
+        "continuum_breaks": 10,
+        "missed_short_acks": 2,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 29,
+        "runtime_sec_diarize_only": 34.246,
+        "speaker_mix": {
+          "Agent": 16,
+          "Customer": 13
+        },
+        "continuum_breaks": 16,
+        "missed_short_acks": 0,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 336.736,
+        "audio_duration_sec": 122.694,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          },
+          "notes": "Opening cues favored SPEAKER_01: {'SPEAKER_00': 0, 'SPEAKER_01': 2}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 7.4,
+          "community1_audio_load": 0.613,
+          "community1_inference": 22.777,
+          "community1_pipeline_forward": 22.164,
+          "align_group_role": 0.018
+        }
+      },
+      "delta_continuum_breaks": 6,
+      "delta_missed_acks": -2,
+      "annotation_v2": {
+        "heuristic": {
+          "correct": 27,
+          "clear": 35,
+          "accuracy": 0.7714285714285715,
+          "confusions": {
+            "Customer->Agent": 8
+          },
+          "errors": [
+            {
+              "id": "s01-student-006",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-009",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-011",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-015",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-021",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-029",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-032",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            },
+            {
+              "id": "s01-student-036",
+              "gt": "Customer",
+              "pred": "Agent",
+              "correct": false
+            }
+          ]
+        },
+        "hybrid": {
+          "correct": 35,
+          "clear": 35,
+          "accuracy": 1.0,
+          "confusions": {},
+          "errors": []
+        },
+        "baseline_reference_27_of_35": "prior dialogue-act heuristic report"
+      }
+    },
+    "sample_02": {
+      "sentences": 160,
+      "heuristic": {
+        "segments": 64,
+        "runtime_sec_diarize_only": 0.006,
+        "speaker_mix": {
+          "Agent": 32,
+          "Customer": 32
+        },
+        "continuum_breaks": 39,
+        "missed_short_acks": 4,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 168,
+        "runtime_sec_diarize_only": 90.363,
+        "speaker_mix": {
+          "Agent": 101,
+          "Customer": 67
+        },
+        "continuum_breaks": 48,
+        "missed_short_acks": 0,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 1322.307,
+        "audio_duration_sec": 516.923,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          },
+          "notes": "Opening cues favored SPEAKER_01: {'SPEAKER_00': 0, 'SPEAKER_01': 1}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 5.762,
+          "community1_audio_load": 1.016,
+          "community1_inference": 78.204,
+          "community1_pipeline_forward": 77.188,
+          "align_group_role": 0.256
+        }
+      },
+      "delta_continuum_breaks": 9,
+      "delta_missed_acks": -4
+    },
+    "sample_03": {
+      "sentences": 68,
+      "heuristic": {
+        "segments": 47,
+        "runtime_sec_diarize_only": 0.003,
+        "speaker_mix": {
+          "Agent": 28,
+          "Customer": 19
+        },
+        "continuum_breaks": 35,
+        "missed_short_acks": 2,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 57,
+        "runtime_sec_diarize_only": 38.87,
+        "speaker_mix": {
+          "Agent": 33,
+          "Customer": 24
+        },
+        "continuum_breaks": 23,
+        "missed_short_acks": 0,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 480.496,
+        "audio_duration_sec": 180.198,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Agent",
+            "SPEAKER_01": "Customer"
+          },
+          "notes": "Opening cues favored SPEAKER_00: {'SPEAKER_00': 2, 'SPEAKER_01': 0}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 6.921,
+          "community1_audio_load": 2.434,
+          "community1_inference": 28.382,
+          "community1_pipeline_forward": 25.948,
+          "align_group_role": 0.027
+        }
+      },
+      "delta_continuum_breaks": -12,
+      "delta_missed_acks": -2
+    },
+    "sample_04": {
+      "sentences": 152,
+      "heuristic": {
+        "segments": 72,
+        "runtime_sec_diarize_only": 0.005,
+        "speaker_mix": {
+          "Agent": 44,
+          "Customer": 28
+        },
+        "continuum_breaks": 62,
+        "missed_short_acks": 4,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 133,
+        "runtime_sec_diarize_only": 83.742,
+        "speaker_mix": {
+          "Agent": 59,
+          "Customer": 74
+        },
+        "continuum_breaks": 36,
+        "missed_short_acks": 2,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 1138.782,
+        "audio_duration_sec": 443.513,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          },
+          "notes": "Opening cues favored SPEAKER_01: {'SPEAKER_00': 0, 'SPEAKER_01': 1}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 5.792,
+          "community1_audio_load": 0.962,
+          "community1_inference": 71.126,
+          "community1_pipeline_forward": 70.165,
+          "align_group_role": 0.169
+        }
+      },
+      "delta_continuum_breaks": -26,
+      "delta_missed_acks": -2
+    },
+    "sample_05": {
+      "sentences": 118,
+      "heuristic": {
+        "segments": 46,
+        "runtime_sec_diarize_only": 0.012,
+        "speaker_mix": {
+          "Agent": 31,
+          "Customer": 15
+        },
+        "continuum_breaks": 38,
+        "missed_short_acks": 3,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 120,
+        "runtime_sec_diarize_only": 50.819,
+        "speaker_mix": {
+          "Customer": 58,
+          "Agent": 62
+        },
+        "continuum_breaks": 50,
+        "missed_short_acks": 1,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 846.878,
+        "audio_duration_sec": 326.751,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Agent",
+            "SPEAKER_01": "Customer"
+          },
+          "notes": "Opening cues favored SPEAKER_00: {'SPEAKER_00': 1, 'SPEAKER_01': 0}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 6.305,
+          "community1_audio_load": 0.857,
+          "community1_inference": 41.063,
+          "community1_pipeline_forward": 40.206,
+          "align_group_role": 0.109
+        }
+      },
+      "delta_continuum_breaks": 12,
+      "delta_missed_acks": -2
+    },
+    "sample_06": {
+      "sentences": 78,
+      "heuristic": {
+        "segments": 68,
+        "runtime_sec_diarize_only": 0.003,
+        "speaker_mix": {
+          "Agent": 44,
+          "Customer": 24
+        },
+        "continuum_breaks": 39,
+        "missed_short_acks": 0,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 86,
+        "runtime_sec_diarize_only": 41.336,
+        "speaker_mix": {
+          "Agent": 64,
+          "Customer": 22
+        },
+        "continuum_breaks": 23,
+        "missed_short_acks": 0,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 639.263,
+        "audio_duration_sec": 243.705,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          },
+          "notes": "Opening cues favored SPEAKER_01: {'SPEAKER_00': 0, 'SPEAKER_01': 2}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 5.56,
+          "community1_audio_load": 0.665,
+          "community1_inference": 32.351,
+          "community1_pipeline_forward": 31.686,
+          "align_group_role": 0.049
+        }
+      },
+      "delta_continuum_breaks": -16,
+      "delta_missed_acks": 0
+    },
+    "sample_07": {
+      "sentences": 110,
+      "heuristic": {
+        "segments": 47,
+        "runtime_sec_diarize_only": 0.005,
+        "speaker_mix": {
+          "Agent": 27,
+          "Customer": 20
+        },
+        "continuum_breaks": 46,
+        "missed_short_acks": 2,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 143,
+        "runtime_sec_diarize_only": 59.021,
+        "speaker_mix": {
+          "Agent": 49,
+          "Customer": 94
+        },
+        "continuum_breaks": 20,
+        "missed_short_acks": 0,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 974.472,
+        "audio_duration_sec": 377.789,
+        "role_mapping": {
+          "method": "first_reliable_speaker_as_agent",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          },
+          "notes": "First reliable speaker SPEAKER_01 \u2192 Agent (not by SPEAKER_XX index)."
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 6.277,
+          "community1_audio_load": 0.851,
+          "community1_inference": 45.256,
+          "community1_pipeline_forward": 44.404,
+          "align_group_role": 0.117
+        }
+      },
+      "delta_continuum_breaks": -26,
+      "delta_missed_acks": -2
+    },
+    "sample_08": {
+      "sentences": 131,
+      "heuristic": {
+        "segments": 75,
+        "runtime_sec_diarize_only": 0.005,
+        "speaker_mix": {
+          "Agent": 43,
+          "Customer": 32
+        },
+        "continuum_breaks": 44,
+        "missed_short_acks": 1,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 141,
+        "runtime_sec_diarize_only": 56.586,
+        "speaker_mix": {
+          "Customer": 102,
+          "Agent": 39
+        },
+        "continuum_breaks": 27,
+        "missed_short_acks": 1,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 989.826,
+        "audio_duration_sec": 383.93,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Agent",
+            "SPEAKER_01": "Customer"
+          },
+          "notes": "Opening cues favored SPEAKER_00: {'SPEAKER_00': 2, 'SPEAKER_01': 0}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 5.775,
+          "community1_audio_load": 0.8,
+          "community1_inference": 45.526,
+          "community1_pipeline_forward": 44.725,
+          "align_group_role": 0.13
+        }
+      },
+      "delta_continuum_breaks": -17,
+      "delta_missed_acks": 0
+    },
+    "sample_09": {
+      "sentences": 130,
+      "heuristic": {
+        "segments": 77,
+        "runtime_sec_diarize_only": 0.005,
+        "speaker_mix": {
+          "Agent": 41,
+          "Customer": 36
+        },
+        "continuum_breaks": 38,
+        "missed_short_acks": 1,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 158,
+        "runtime_sec_diarize_only": 51.112,
+        "speaker_mix": {
+          "Customer": 78,
+          "Agent": 80
+        },
+        "continuum_breaks": 32,
+        "missed_short_acks": 1,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 939.758,
+        "audio_duration_sec": 363.903,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Agent",
+            "SPEAKER_01": "Customer"
+          },
+          "notes": "Opening cues favored SPEAKER_00: {'SPEAKER_00': 2, 'SPEAKER_01': 0}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 5.85,
+          "community1_audio_load": 0.805,
+          "community1_inference": 42.289,
+          "community1_pipeline_forward": 41.484,
+          "align_group_role": 0.159
+        }
+      },
+      "delta_continuum_breaks": -6,
+      "delta_missed_acks": 0
+    },
+    "sample_10": {
+      "sentences": 85,
+      "heuristic": {
+        "segments": 63,
+        "runtime_sec_diarize_only": 0.002,
+        "speaker_mix": {
+          "Agent": 36,
+          "Customer": 27
+        },
+        "continuum_breaks": 36,
+        "missed_short_acks": 2,
+        "label_source": "heuristic"
+      },
+      "hybrid": {
+        "segments": 98,
+        "runtime_sec_diarize_only": 44.554,
+        "speaker_mix": {
+          "Agent": 52,
+          "Customer": 46
+        },
+        "continuum_breaks": 28,
+        "missed_short_acks": 2,
+        "fallback_activated": false,
+        "fallback_reason": null,
+        "label_source": "acoustic",
+        "acoustic_verified": true,
+        "acoustic_timeout_sec": 823.513,
+        "audio_duration_sec": 317.405,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Agent",
+            "SPEAKER_01": "Customer"
+          },
+          "notes": "Opening cues favored SPEAKER_00: {'SPEAKER_00': 1, 'SPEAKER_01': 0}"
+        },
+        "ambiguous_or_unmapped": 0,
+        "timing_sec": {
+          "community1_device": "mps",
+          "community1_pipeline_init": 5.716,
+          "community1_audio_load": 0.769,
+          "community1_inference": 35.383,
+          "community1_pipeline_forward": 34.614,
+          "align_group_role": 0.049
+        }
+      },
+      "delta_continuum_breaks": -8,
+      "delta_missed_acks": 0
+    }
+  }
+}

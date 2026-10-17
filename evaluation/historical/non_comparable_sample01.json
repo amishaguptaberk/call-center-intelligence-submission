@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "note": "Frozen non-canonical evaluations. Do not treat as comparable or as current scoring.",
+  "evaluations": [
+    {
+      "id": "ref_index_manual_sample01_15_of_37",
+      "comparable": false,
+      "system_id": "reference",
+      "method": "Index-aligned to reference ASR segments; manual transcript-role labels; 1 ambiguous excluded",
+      "correct": 15,
+      "denominator": 37,
+      "accuracy": 0.40540540540540543,
+      "source": "call-center-ref-eval/evaluation/artifacts/metrics_report.json manual_content_gt",
+      "why_non_comparable": "Uses reference segment indices as the unit of scoring; cannot fairly score a system with different ASR boundaries."
+    },
+    {
+      "id": "ad_hoc_student_vs_ref_gt_tol_0.6_20_of_30",
+      "comparable": false,
+      "system_id": "student",
+      "method": "Ad-hoc chat comparison: align student starts to reference GT starts within 0.6s; 7 clear GT intervals unmatched and excluded",
+      "correct": 20,
+      "denominator": 30,
+      "accuracy": 0.6666666666666666,
+      "source": "Cursor session comparison 2026-09-20 (diagnostics/compare_mine_vs_ref.txt related)",
+      "why_non_comparable": "Different denominator than 37; silent exclusions; arbitrary 0.6s tolerance; not a fixed annotation timeline."
+    }
+  ]
+}

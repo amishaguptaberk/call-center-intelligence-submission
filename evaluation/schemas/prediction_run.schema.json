@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.call-center/evaluation/schemas/prediction_run.schema.json",
+  "title": "CallCenterPredictionRun",
+  "description": "One inference run for one recording. Full transcript text belongs only in gitignored local sidecars.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "system_id",
+    "created_at",
+    "audio",
+    "operational",
+    "segments",
+    "privacy"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "run_id": { "type": "string", "minLength": 1 },
+    "system_id": {
+      "type": "string",
+      "enum": ["student", "reference", "other"]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "git_commit": {
+      "type": ["string", "null"],
+      "description": "Git SHA, or a dirty marker such as '<sha>-dirty'."
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "whisper_size": { "type": "string" },
+        "device": { "type": "string" },
+        "compute_type": { "type": "string" }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "required": ["recording_id"],
+      "additionalProperties": false,
+      "properties": {
+        "recording_id": { "type": "string" },
+        "filename": { "type": "string" },
+        "sha256": { "type": ["string", "null"] },
+        "path_local": {
+          "type": ["string", "null"],
+          "description": "Local path only; do not commit absolute paths containing secrets."
+        }
+      }
+    },
+    "operational": {
+      "type": "object",
+      "required": ["ok"],
+      "additionalProperties": false,
+      "properties": {
+        "ok": { "type": "boolean" },
+        "runtime_sec": { "type": ["number", "null"], "minimum": 0 },
+        "error": { "type": ["string", "null"] }
+      }
+    },
+    "segments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/segment" }
+    },
+    "privacy": {
+      "type": "object",
+      "required": ["transcripts_included"],
+      "additionalProperties": false,
+      "properties": {
+        "transcripts_included": {
+          "type": "boolean",
+          "description": "Shareable prediction runs must set this false."
+        },
+        "transcripts_path_local": {
+          "type": ["string", "null"],
+          "description": "Gitignored sidecar with raw text, if any."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "segment": {
+      "type": "object",
+      "required": ["start_sec", "end_sec", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "start_sec": { "type": "number", "minimum": 0 },
+        "end_sec": { "type": "number", "minimum": 0 },
+        "label": { "type": "string", "enum": ["Agent", "Customer"] },
+        "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "rule_trace": {
+          "type": ["object", "null"],
+          "additionalProperties": true,
+          "properties": {
+            "rule": { "type": "string" },
+            "previous": { "type": ["string", "null"] },
+            "agent_match": { "type": "boolean" },
+            "customer_match": { "type": "boolean" },
+            "gap_sec": { "type": ["number", "null"] }
+          }
+        },
+        "text_sha256_12": {
+          "type": ["string", "null"],
+          "description": "Optional short fingerprint; not reversible to text."
+        },
+        "text": {
+          "type": ["string", "null"],
+          "description": "Must be null in any committed or shareable artifact."
+        }
+      }
+    }
+  }
+}

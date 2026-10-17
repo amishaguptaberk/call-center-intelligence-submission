@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      DB_PATH: /app/var/db.sqlite3
+      DIARIZATION_BACKEND: heuristic
+    ports:
+      - "127.0.0.1:7860:7860"
+    volumes:
+      - records:/app/var
+volumes:
+  records:

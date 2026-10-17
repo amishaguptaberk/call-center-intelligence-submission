@@ -1,0 +1,15 @@
+# Python 3.11+; tested direct dependencies for the application.
+pydantic==2.13.5
+python-dotenv==1.2.3
+mutagen==1.48.1
+SQLAlchemy==2.0.54
+faster-whisper==1.2.1
+langchain-core==1.6.4
+langchain-openai==1.6.5
+langchain-google-genai==4.4.0
+langchain-groq==1.1.3
+langgraph==1.2.12
+reportlab==5.0.1
+gradio==6.28.0
+librosa==0.11.0
+soundfile==0.14.0

@@ -1,0 +1,5795 @@
+[
+  {
+    "file": "sample_01.mp3",
+    "ok": true,
+    "runtime_sec": 4.509,
+    "segment_count": 38,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 7.79,
+        "end": 11.31,
+        "speaker": "Agent",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=70 sha=9836b6a137a7>"
+      },
+      {
+        "start": 11.63,
+        "end": 13.07,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=28 sha=b31083e83aa0>"
+      },
+      {
+        "start": 14.22,
+        "end": 15.54,
+        "speaker": "Agent",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=36 sha=9d5caef86b6c>"
+      },
+      {
+        "start": 16.18,
+        "end": 20.4,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=83 sha=e7492cd1dd6c>"
+      },
+      {
+        "start": 20.76,
+        "end": 23.98,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=76 sha=d203fd57cf75>"
+      },
+      {
+        "start": 24.2,
+        "end": 26.36,
+        "speaker": "Agent",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=39 sha=a286001e635f>"
+      },
+      {
+        "start": 26.62,
+        "end": 27.18,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=12 sha=2fa98e4d3bdb>"
+      },
+      {
+        "start": 27.56,
+        "end": 30.14,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=17 sha=90ac9da07991>"
+      },
+      {
+        "start": 30.86,
+        "end": 33.28,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=53 sha=ff4fccc12875>"
+      },
+      {
+        "start": 33.72,
+        "end": 36.72,
+        "speaker": "Customer",
+        "confidence": 0.7139,
+        "text_redacted": "<redacted len=34 sha=91888f5129c5>"
+      },
+      {
+        "start": 36.72,
+        "end": 38.36,
+        "speaker": "Customer",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=13 sha=ad4079809dd5>"
+      },
+      {
+        "start": 38.86,
+        "end": 41.08,
+        "speaker": "Customer",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=36 sha=20702d19466e>"
+      },
+      {
+        "start": 41.34,
+        "end": 42.88,
+        "speaker": "Customer",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=40 sha=6745e38591c3>"
+      },
+      {
+        "start": 43.38,
+        "end": 46.32,
+        "speaker": "Customer",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=60 sha=d614f5426ead>"
+      },
+      {
+        "start": 46.74,
+        "end": 50.46,
+        "speaker": "Agent",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=34 sha=2ee6a5f25c2f>"
+      },
+      {
+        "start": 50.82,
+        "end": 53.24,
+        "speaker": "Agent",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=24 sha=ebb610a53598>"
+      },
+      {
+        "start": 53.98,
+        "end": 57.56,
+        "speaker": "Agent",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=36 sha=3f7eafc681fa>"
+      },
+      {
+        "start": 58.38,
+        "end": 60.16,
+        "speaker": "Agent",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=40 sha=a3a56f0583dd>"
+      },
+      {
+        "start": 61.16,
+        "end": 64.92,
+        "speaker": "Agent",
+        "confidence": 0.7355,
+        "text_redacted": "<redacted len=69 sha=c5c4ccb0d99b>"
+      },
+      {
+        "start": 64.92,
+        "end": 67.86,
+        "speaker": "Agent",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=36 sha=9533fcbea65a>"
+      },
+      {
+        "start": 68.74,
+        "end": 70.48,
+        "speaker": "Agent",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=32 sha=a55bc73ebe07>"
+      },
+      {
+        "start": 70.9,
+        "end": 71.8,
+        "speaker": "Agent",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=22 sha=c243a7a84402>"
+      },
+      {
+        "start": 72.38,
+        "end": 74.4,
+        "speaker": "Agent",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=46 sha=867bb288515a>"
+      },
+      {
+        "start": 75.56,
+        "end": 76.6,
+        "speaker": "Agent",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=33 sha=696cbadf02ef>"
+      },
+      {
+        "start": 76.66,
+        "end": 78.84,
+        "speaker": "Agent",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=49 sha=3acb2e05c819>"
+      },
+      {
+        "start": 79.56,
+        "end": 79.76,
+        "speaker": "Customer",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=10 sha=6cdbc2f5a879>"
+      },
+      {
+        "start": 79.9,
+        "end": 83.22,
+        "speaker": "Customer",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=58 sha=c0b659e9cd1c>"
+      },
+      {
+        "start": 83.76,
+        "end": 86.72,
+        "speaker": "Customer",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=68 sha=b6279ff4cdf1>"
+      },
+      {
+        "start": 87.2,
+        "end": 90.04,
+        "speaker": "Customer",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=71 sha=330f19d4c57c>"
+      },
+      {
+        "start": 90.04,
+        "end": 91.26,
+        "speaker": "Customer",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=21 sha=4e80113421e3>"
+      },
+      {
+        "start": 91.28,
+        "end": 92.1,
+        "speaker": "Customer",
+        "confidence": 0.7888,
+        "text_redacted": "<redacted len=7 sha=1d08dac721a3>"
+      },
+      {
+        "start": 92.1,
+        "end": 96.56,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=83 sha=60b7c136d113>"
+      },
+      {
+        "start": 97.2,
+        "end": 102.0,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=85 sha=58f2abe92e83>"
+      },
+      {
+        "start": 102.78,
+        "end": 104.1,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=36 sha=11fbb633242b>"
+      },
+      {
+        "start": 104.92,
+        "end": 109.58,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=74 sha=6d8d2061f518>"
+      },
+      {
+        "start": 110.34,
+        "end": 113.38,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=74 sha=32357d728241>"
+      },
+      {
+        "start": 113.8,
+        "end": 116.6,
+        "speaker": "Agent",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=39 sha=58bf55bdbedd>"
+      },
+      {
+        "start": 117.74,
+        "end": 118.62,
+        "speaker": "Agent",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=15 sha=4b3ba128be2e>"
+      }
+    ]
+  },
+  {
+    "file": "sample_02.mp3",
+    "ok": true,
+    "runtime_sec": 12.012,
+    "segment_count": 110,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 12.24,
+        "end": 16.4,
+        "speaker": "Agent",
+        "confidence": 0.5823,
+        "text_redacted": "<redacted len=79 sha=54f11a6aa704>"
+      },
+      {
+        "start": 17.56,
+        "end": 23.46,
+        "speaker": "Customer",
+        "confidence": 0.5823,
+        "text_redacted": "<redacted len=90 sha=df4bbda1b148>"
+      },
+      {
+        "start": 23.46,
+        "end": 28.92,
+        "speaker": "Customer",
+        "confidence": 0.5823,
+        "text_redacted": "<redacted len=53 sha=050a3455c6fe>"
+      },
+      {
+        "start": 28.92,
+        "end": 33.14,
+        "speaker": "Customer",
+        "confidence": 0.5823,
+        "text_redacted": "<redacted len=49 sha=68bc2ca275b4>"
+      },
+      {
+        "start": 33.14,
+        "end": 38.78,
+        "speaker": "Customer",
+        "confidence": 0.5823,
+        "text_redacted": "<redacted len=91 sha=2f91bed045a9>"
+      },
+      {
+        "start": 38.78,
+        "end": 43.78,
+        "speaker": "Customer",
+        "confidence": 0.6482,
+        "text_redacted": "<redacted len=70 sha=7af76ca00686>"
+      },
+      {
+        "start": 43.78,
+        "end": 50.36,
+        "speaker": "Customer",
+        "confidence": 0.6482,
+        "text_redacted": "<redacted len=116 sha=6c97e05c9d3a>"
+      },
+      {
+        "start": 50.36,
+        "end": 54.28,
+        "speaker": "Customer",
+        "confidence": 0.6482,
+        "text_redacted": "<redacted len=65 sha=8924cd426199>"
+      },
+      {
+        "start": 54.28,
+        "end": 56.66,
+        "speaker": "Customer",
+        "confidence": 0.6482,
+        "text_redacted": "<redacted len=39 sha=36231d9e8d12>"
+      },
+      {
+        "start": 56.66,
+        "end": 64.74,
+        "speaker": "Customer",
+        "confidence": 0.6482,
+        "text_redacted": "<redacted len=128 sha=1be8c37af800>"
+      },
+      {
+        "start": 64.74,
+        "end": 69.06,
+        "speaker": "Customer",
+        "confidence": 0.7525,
+        "text_redacted": "<redacted len=63 sha=a01ea24ae74f>"
+      },
+      {
+        "start": 69.4,
+        "end": 72.26,
+        "speaker": "Customer",
+        "confidence": 0.7525,
+        "text_redacted": "<redacted len=65 sha=607188b912fd>"
+      },
+      {
+        "start": 74.01,
+        "end": 79.45,
+        "speaker": "Agent",
+        "confidence": 0.7525,
+        "text_redacted": "<redacted len=81 sha=39a25b6eaac6>"
+      },
+      {
+        "start": 79.45,
+        "end": 80.19,
+        "speaker": "Customer",
+        "confidence": 0.7525,
+        "text_redacted": "<redacted len=9 sha=bc66ab30564e>"
+      },
+      {
+        "start": 81.21,
+        "end": 85.29,
+        "speaker": "Customer",
+        "confidence": 0.7525,
+        "text_redacted": "<redacted len=77 sha=58a45eea97cb>"
+      },
+      {
+        "start": 86.15,
+        "end": 90.47,
+        "speaker": "Customer",
+        "confidence": 0.7525,
+        "text_redacted": "<redacted len=85 sha=656634654a1c>"
+      },
+      {
+        "start": 90.47,
+        "end": 96.45,
+        "speaker": "Customer",
+        "confidence": 0.6261,
+        "text_redacted": "<redacted len=85 sha=864966761e60>"
+      },
+      {
+        "start": 96.45,
+        "end": 111.34,
+        "speaker": "Customer",
+        "confidence": 0.6261,
+        "text_redacted": "<redacted len=91 sha=8d44865a6a8b>"
+      },
+      {
+        "start": 111.63,
+        "end": 117.01,
+        "speaker": "Customer",
+        "confidence": 0.6261,
+        "text_redacted": "<redacted len=78 sha=028ffdbdfe54>"
+      },
+      {
+        "start": 117.01,
+        "end": 122.13,
+        "speaker": "Customer",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=80 sha=7caf8cdbb8bb>"
+      },
+      {
+        "start": 122.13,
+        "end": 127.39,
+        "speaker": "Customer",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=70 sha=9f9f48f210b9>"
+      },
+      {
+        "start": 128.51,
+        "end": 133.57,
+        "speaker": "Customer",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=84 sha=959c066856b8>"
+      },
+      {
+        "start": 133.57,
+        "end": 136.17,
+        "speaker": "Customer",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=41 sha=a51c210b69d1>"
+      },
+      {
+        "start": 136.63,
+        "end": 139.89,
+        "speaker": "Customer",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=39 sha=36eaf27edf44>"
+      },
+      {
+        "start": 140.75,
+        "end": 142.01,
+        "speaker": "Agent",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=19 sha=ebcd12e794e0>"
+      },
+      {
+        "start": 142.01,
+        "end": 145.87,
+        "speaker": "Customer",
+        "confidence": 0.5305,
+        "text_redacted": "<redacted len=74 sha=aff61e4b21a6>"
+      },
+      {
+        "start": 146.99,
+        "end": 150.1,
+        "speaker": "Customer",
+        "confidence": 0.672,
+        "text_redacted": "<redacted len=36 sha=da7dfa5f0a7f>"
+      },
+      {
+        "start": 150.98,
+        "end": 155.92,
+        "speaker": "Customer",
+        "confidence": 0.672,
+        "text_redacted": "<redacted len=75 sha=7af8e59af254>"
+      },
+      {
+        "start": 156.64,
+        "end": 159.4,
+        "speaker": "Customer",
+        "confidence": 0.672,
+        "text_redacted": "<redacted len=42 sha=1c0d29b5f032>"
+      },
+      {
+        "start": 160.34,
+        "end": 162.46,
+        "speaker": "Customer",
+        "confidence": 0.672,
+        "text_redacted": "<redacted len=38 sha=6367d2db89aa>"
+      },
+      {
+        "start": 162.98,
+        "end": 166.2,
+        "speaker": "Customer",
+        "confidence": 0.672,
+        "text_redacted": "<redacted len=46 sha=9d15c35ff6b8>"
+      },
+      {
+        "start": 166.42,
+        "end": 171.1,
+        "speaker": "Customer",
+        "confidence": 0.672,
+        "text_redacted": "<redacted len=68 sha=d561c1e2f2ba>"
+      },
+      {
+        "start": 171.1,
+        "end": 178.6,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=88 sha=a08d656a2e6c>"
+      },
+      {
+        "start": 178.6,
+        "end": 186.72,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=92 sha=ecd67f3a1a08>"
+      },
+      {
+        "start": 186.72,
+        "end": 194.72,
+        "speaker": "Customer",
+        "confidence": 0.7904,
+        "text_redacted": "<redacted len=87 sha=b75896c178b7>"
+      },
+      {
+        "start": 194.72,
+        "end": 200.36,
+        "speaker": "Customer",
+        "confidence": 0.6436,
+        "text_redacted": "<redacted len=74 sha=f728f28c3473>"
+      },
+      {
+        "start": 200.94,
+        "end": 204.8,
+        "speaker": "Agent",
+        "confidence": 0.6436,
+        "text_redacted": "<redacted len=51 sha=0b0762a4ed96>"
+      },
+      {
+        "start": 205.26,
+        "end": 209.54,
+        "speaker": "Agent",
+        "confidence": 0.6436,
+        "text_redacted": "<redacted len=85 sha=755740c6d1ad>"
+      },
+      {
+        "start": 209.54,
+        "end": 213.76,
+        "speaker": "Agent",
+        "confidence": 0.6436,
+        "text_redacted": "<redacted len=73 sha=3233df2398ad>"
+      },
+      {
+        "start": 215.93,
+        "end": 217.37,
+        "speaker": "Customer",
+        "confidence": 0.6436,
+        "text_redacted": "<redacted len=23 sha=b062492f6e37>"
+      },
+      {
+        "start": 218.75,
+        "end": 222.37,
+        "speaker": "Agent",
+        "confidence": 0.6436,
+        "text_redacted": "<redacted len=65 sha=35b62590ec69>"
+      },
+      {
+        "start": 222.37,
+        "end": 232.85,
+        "speaker": "Customer",
+        "confidence": 0.7847,
+        "text_redacted": "<redacted len=109 sha=b92576922db9>"
+      },
+      {
+        "start": 234.02,
+        "end": 235.42,
+        "speaker": "Customer",
+        "confidence": 0.7847,
+        "text_redacted": "<redacted len=25 sha=22fb9b2730cf>"
+      },
+      {
+        "start": 236.12,
+        "end": 240.56,
+        "speaker": "Customer",
+        "confidence": 0.7847,
+        "text_redacted": "<redacted len=76 sha=9b9579605b20>"
+      },
+      {
+        "start": 240.88,
+        "end": 245.96,
+        "speaker": "Agent",
+        "confidence": 0.7847,
+        "text_redacted": "<redacted len=70 sha=7afa48e8e407>"
+      },
+      {
+        "start": 247.06,
+        "end": 252.32,
+        "speaker": "Agent",
+        "confidence": 0.7847,
+        "text_redacted": "<redacted len=100 sha=52a333811c3a>"
+      },
+      {
+        "start": 252.32,
+        "end": 258.72,
+        "speaker": "Agent",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=82 sha=39e360e84a16>"
+      },
+      {
+        "start": 259.16,
+        "end": 259.56,
+        "speaker": "Customer",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=7 sha=5179dad09edb>"
+      },
+      {
+        "start": 260.72,
+        "end": 267.3,
+        "speaker": "Customer",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=94 sha=2a4b17fd8117>"
+      },
+      {
+        "start": 267.38,
+        "end": 269.5,
+        "speaker": "Customer",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=34 sha=5090411a6b19>"
+      },
+      {
+        "start": 269.78,
+        "end": 270.62,
+        "speaker": "Customer",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=13 sha=644e298d89f9>"
+      },
+      {
+        "start": 271.52,
+        "end": 272.08,
+        "speaker": "Customer",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=11 sha=b036f01a0e96>"
+      },
+      {
+        "start": 272.32,
+        "end": 275.36,
+        "speaker": "Customer",
+        "confidence": 0.7403,
+        "text_redacted": "<redacted len=49 sha=f965dd2e7e86>"
+      },
+      {
+        "start": 276.02,
+        "end": 283.34,
+        "speaker": "Agent",
+        "confidence": 0.6353,
+        "text_redacted": "<redacted len=81 sha=abb75f045c5e>"
+      },
+      {
+        "start": 284.68,
+        "end": 286.38,
+        "speaker": "Customer",
+        "confidence": 0.6353,
+        "text_redacted": "<redacted len=26 sha=5a7efa2d7c00>"
+      },
+      {
+        "start": 286.92,
+        "end": 292.1,
+        "speaker": "Customer",
+        "confidence": 0.6353,
+        "text_redacted": "<redacted len=74 sha=959faa74740b>"
+      },
+      {
+        "start": 293.22,
+        "end": 295.8,
+        "speaker": "Customer",
+        "confidence": 0.6353,
+        "text_redacted": "<redacted len=40 sha=14ebc868edbb>"
+      },
+      {
+        "start": 296.04,
+        "end": 299.44,
+        "speaker": "Customer",
+        "confidence": 0.6353,
+        "text_redacted": "<redacted len=60 sha=bdf8a4a30f20>"
+      },
+      {
+        "start": 299.7,
+        "end": 303.66,
+        "speaker": "Customer",
+        "confidence": 0.6353,
+        "text_redacted": "<redacted len=63 sha=8f47f0c0f428>"
+      },
+      {
+        "start": 303.66,
+        "end": 309.02,
+        "speaker": "Customer",
+        "confidence": 0.7889,
+        "text_redacted": "<redacted len=65 sha=4a63e5369e66>"
+      },
+      {
+        "start": 309.08,
+        "end": 313.08,
+        "speaker": "Customer",
+        "confidence": 0.7889,
+        "text_redacted": "<redacted len=51 sha=773e7a535295>"
+      },
+      {
+        "start": 313.66,
+        "end": 317.86,
+        "speaker": "Customer",
+        "confidence": 0.7889,
+        "text_redacted": "<redacted len=57 sha=58937e41e38a>"
+      },
+      {
+        "start": 318.86,
+        "end": 324.38,
+        "speaker": "Customer",
+        "confidence": 0.7889,
+        "text_redacted": "<redacted len=92 sha=4d39ae5e475b>"
+      },
+      {
+        "start": 324.78,
+        "end": 328.4,
+        "speaker": "Customer",
+        "confidence": 0.7889,
+        "text_redacted": "<redacted len=54 sha=d6ec38db4630>"
+      },
+      {
+        "start": 329.76,
+        "end": 330.98,
+        "speaker": "Agent",
+        "confidence": 0.7889,
+        "text_redacted": "<redacted len=20 sha=5bbcc254f276>"
+      },
+      {
+        "start": 330.98,
+        "end": 334.38,
+        "speaker": "Agent",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=60 sha=fdbae46a064e>"
+      },
+      {
+        "start": 335.02,
+        "end": 335.2,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=8 sha=445ea76e0fec>"
+      },
+      {
+        "start": 335.78,
+        "end": 340.42,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=74 sha=706455462810>"
+      },
+      {
+        "start": 340.9,
+        "end": 345.34,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=82 sha=87313e2d1fc3>"
+      },
+      {
+        "start": 345.74,
+        "end": 350.02,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=62 sha=1b5c3e7cd3cb>"
+      },
+      {
+        "start": 350.52,
+        "end": 354.52,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=68 sha=0a858a779e5a>"
+      },
+      {
+        "start": 354.7,
+        "end": 359.0,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=68 sha=6b8559de082b>"
+      },
+      {
+        "start": 359.0,
+        "end": 365.64,
+        "speaker": "Customer",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=78 sha=2021af697906>"
+      },
+      {
+        "start": 366.06,
+        "end": 366.72,
+        "speaker": "Agent",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=14 sha=5407199cf426>"
+      },
+      {
+        "start": 367.42,
+        "end": 367.52,
+        "speaker": "Customer",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=4 sha=0ea5977074d1>"
+      },
+      {
+        "start": 367.82,
+        "end": 370.64,
+        "speaker": "Agent",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=54 sha=93e97fc9dd0a>"
+      },
+      {
+        "start": 371.74,
+        "end": 373.88,
+        "speaker": "Customer",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=42 sha=4169c19ff98c>"
+      },
+      {
+        "start": 374.96,
+        "end": 375.22,
+        "speaker": "Agent",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=8 sha=a386908e3024>"
+      },
+      {
+        "start": 375.7,
+        "end": 377.9,
+        "speaker": "Agent",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=27 sha=5342baa014a0>"
+      },
+      {
+        "start": 379.08,
+        "end": 382.86,
+        "speaker": "Agent",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=86 sha=0c79b60b6845>"
+      },
+      {
+        "start": 386.1,
+        "end": 387.54,
+        "speaker": "Customer",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=13 sha=755f0cb64009>"
+      },
+      {
+        "start": 387.96,
+        "end": 388.34,
+        "speaker": "Customer",
+        "confidence": 0.669,
+        "text_redacted": "<redacted len=10 sha=6cdbc2f5a879>"
+      },
+      {
+        "start": 388.34,
+        "end": 394.84,
+        "speaker": "Customer",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=97 sha=105213033ae5>"
+      },
+      {
+        "start": 395.7,
+        "end": 397.16,
+        "speaker": "Customer",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=18 sha=5bc4740d07bb>"
+      },
+      {
+        "start": 398.61,
+        "end": 400.15,
+        "speaker": "Agent",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=16 sha=adce376df855>"
+      },
+      {
+        "start": 402.11,
+        "end": 402.35,
+        "speaker": "Customer",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=10 sha=6cdbc2f5a879>"
+      },
+      {
+        "start": 402.63,
+        "end": 410.17,
+        "speaker": "Customer",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=80 sha=eb3528aa914b>"
+      },
+      {
+        "start": 411.74,
+        "end": 413.0,
+        "speaker": "Agent",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=21 sha=098ab196722e>"
+      },
+      {
+        "start": 413.72,
+        "end": 414.24,
+        "speaker": "Agent",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=5 sha=03b25bed61da>"
+      },
+      {
+        "start": 414.7,
+        "end": 417.96,
+        "speaker": "Agent",
+        "confidence": 0.7264,
+        "text_redacted": "<redacted len=48 sha=4f125367849b>"
+      },
+      {
+        "start": 417.96,
+        "end": 421.94,
+        "speaker": "Agent",
+        "confidence": 0.5933,
+        "text_redacted": "<redacted len=47 sha=181864466ec0>"
+      },
+      {
+        "start": 421.94,
+        "end": 425.58,
+        "speaker": "Agent",
+        "confidence": 0.5933,
+        "text_redacted": "<redacted len=68 sha=204b0aa6f8cb>"
+      },
+      {
+        "start": 426.24,
+        "end": 432.82,
+        "speaker": "Agent",
+        "confidence": 0.5933,
+        "text_redacted": "<redacted len=64 sha=54be2144b37c>"
+      },
+      {
+        "start": 432.82,
+        "end": 436.22,
+        "speaker": "Agent",
+        "confidence": 0.5933,
+        "text_redacted": "<redacted len=61 sha=3dc8bab64050>"
+      },
+      {
+        "start": 436.88,
+        "end": 441.02,
+        "speaker": "Agent",
+        "confidence": 0.5933,
+        "text_redacted": "<redacted len=66 sha=79d852a509eb>"
+      },
+      {
+        "start": 441.02,
+        "end": 446.02,
+        "speaker": "Agent",
+        "confidence": 0.5933,
+        "text_redacted": "<redacted len=78 sha=0fc6f5a61086>"
+      },
+      {
+        "start": 448.01,
+        "end": 452.63,
+        "speaker": "Customer",
+        "confidence": 0.6734,
+        "text_redacted": "<redacted len=73 sha=fe0003fbd7ea>"
+      },
+      {
+        "start": 454.22,
+        "end": 457.2,
+        "speaker": "Agent",
+        "confidence": 0.6734,
+        "text_redacted": "<redacted len=73 sha=9d58a7ed6cda>"
+      },
+      {
+        "start": 458.85,
+        "end": 466.11,
+        "speaker": "Customer",
+        "confidence": 0.6734,
+        "text_redacted": "<redacted len=139 sha=52017fbf4f24>"
+      },
+      {
+        "start": 466.83,
+        "end": 474.13,
+        "speaker": "Customer",
+        "confidence": 0.6734,
+        "text_redacted": "<redacted len=136 sha=8982def79e29>"
+      },
+      {
+        "start": 474.13,
+        "end": 477.87,
+        "speaker": "Customer",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=82 sha=717f53efd67f>"
+      },
+      {
+        "start": 478.27,
+        "end": 480.07,
+        "speaker": "Agent",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=35 sha=018b7c754fcc>"
+      },
+      {
+        "start": 480.47,
+        "end": 483.97,
+        "speaker": "Agent",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=83 sha=55917809cf90>"
+      },
+      {
+        "start": 483.97,
+        "end": 489.35,
+        "speaker": "Agent",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=98 sha=2588ae95bd34>"
+      },
+      {
+        "start": 489.35,
+        "end": 492.95,
+        "speaker": "Agent",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=83 sha=8cb412eb3cbe>"
+      },
+      {
+        "start": 493.91,
+        "end": 496.31,
+        "speaker": "Agent",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=46 sha=317218eb6ec9>"
+      },
+      {
+        "start": 496.93,
+        "end": 500.97,
+        "speaker": "Agent",
+        "confidence": 0.7453,
+        "text_redacted": "<redacted len=67 sha=2f58f73d8c43>"
+      },
+      {
+        "start": 500.97,
+        "end": 506.91,
+        "speaker": "Agent",
+        "confidence": 0.784,
+        "text_redacted": "<redacted len=101 sha=d549e3c8cefb>"
+      },
+      {
+        "start": 507.45,
+        "end": 509.11,
+        "speaker": "Agent",
+        "confidence": 0.784,
+        "text_redacted": "<redacted len=21 sha=4d6a4c884278>"
+      },
+      {
+        "start": 510.03,
+        "end": 511.29,
+        "speaker": "Agent",
+        "confidence": 0.784,
+        "text_redacted": "<redacted len=18 sha=2c8c51162c0f>"
+      }
+    ]
+  },
+  {
+    "file": "sample_03.mp3",
+    "ok": true,
+    "runtime_sec": 3.561,
+    "segment_count": 41,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 9.52,
+        "end": 11.6,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=35 sha=c0e4d4f752b6>"
+      },
+      {
+        "start": 11.94,
+        "end": 14.9,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=44 sha=de041aee2b74>"
+      },
+      {
+        "start": 14.9,
+        "end": 15.3,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=6 sha=2d8bd7d9bb5f>"
+      },
+      {
+        "start": 16.08,
+        "end": 18.6,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=50 sha=080672a71713>"
+      },
+      {
+        "start": 20.03,
+        "end": 20.23,
+        "speaker": "Customer",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=5 sha=c10c03715605>"
+      },
+      {
+        "start": 20.43,
+        "end": 23.65,
+        "speaker": "Customer",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=72 sha=04429fa72485>"
+      },
+      {
+        "start": 25.09,
+        "end": 25.35,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=6 sha=ad19b8cc2deb>"
+      },
+      {
+        "start": 25.69,
+        "end": 28.37,
+        "speaker": "Customer",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=68 sha=b91d2b8bbe9d>"
+      },
+      {
+        "start": 31.24,
+        "end": 31.74,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=6 sha=420c703b1161>"
+      },
+      {
+        "start": 32.46,
+        "end": 33.5,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=16 sha=3bb142cf6fdf>"
+      },
+      {
+        "start": 33.5,
+        "end": 35.04,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=43 sha=dd5464041132>"
+      },
+      {
+        "start": 35.36,
+        "end": 37.1,
+        "speaker": "Agent",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=41 sha=16ed90c7bdda>"
+      },
+      {
+        "start": 38.38,
+        "end": 40.64,
+        "speaker": "Customer",
+        "confidence": 0.7133,
+        "text_redacted": "<redacted len=38 sha=3c93e29dfb9b>"
+      },
+      {
+        "start": 40.83,
+        "end": 46.25,
+        "speaker": "Agent",
+        "confidence": 0.7196,
+        "text_redacted": "<redacted len=23 sha=d3de23ae0a7a>"
+      },
+      {
+        "start": 50.22,
+        "end": 53.74,
+        "speaker": "Customer",
+        "confidence": 0.7196,
+        "text_redacted": "<redacted len=72 sha=cb647f92739a>"
+      },
+      {
+        "start": 55.24,
+        "end": 55.26,
+        "speaker": "Agent",
+        "confidence": 0.7196,
+        "text_redacted": "<redacted len=5 sha=c10c03715605>"
+      },
+      {
+        "start": 57.33,
+        "end": 63.07,
+        "speaker": "Customer",
+        "confidence": 0.7196,
+        "text_redacted": "<redacted len=74 sha=c16326a8a285>"
+      },
+      {
+        "start": 64.2,
+        "end": 67.0,
+        "speaker": "Agent",
+        "confidence": 0.7196,
+        "text_redacted": "<redacted len=28 sha=2c18312bdc81>"
+      },
+      {
+        "start": 71.24,
+        "end": 75.86,
+        "speaker": "Customer",
+        "confidence": 0.7196,
+        "text_redacted": "<redacted len=79 sha=436061da4349>"
+      },
+      {
+        "start": 78.35,
+        "end": 80.85,
+        "speaker": "Agent",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=27 sha=e4ab4597cbe9>"
+      },
+      {
+        "start": 83.52,
+        "end": 85.62,
+        "speaker": "Customer",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=35 sha=621e4839163d>"
+      },
+      {
+        "start": 85.94,
+        "end": 88.5,
+        "speaker": "Customer",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=24 sha=c180737408d1>"
+      },
+      {
+        "start": 89.02,
+        "end": 91.2,
+        "speaker": "Customer",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=38 sha=a50e57df3a7f>"
+      },
+      {
+        "start": 92.16,
+        "end": 96.72,
+        "speaker": "Customer",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=79 sha=3a7afd6ceb05>"
+      },
+      {
+        "start": 98.13,
+        "end": 99.57,
+        "speaker": "Agent",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=21 sha=48cf8171870c>"
+      },
+      {
+        "start": 99.71,
+        "end": 101.59,
+        "speaker": "Agent",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=37 sha=0f1daaa7fe3e>"
+      },
+      {
+        "start": 104.05,
+        "end": 109.73,
+        "speaker": "Customer",
+        "confidence": 0.6778,
+        "text_redacted": "<redacted len=82 sha=8a657399f75b>"
+      },
+      {
+        "start": 110.02,
+        "end": 113.52,
+        "speaker": "Customer",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=43 sha=12dd594136a1>"
+      },
+      {
+        "start": 113.97,
+        "end": 117.33,
+        "speaker": "Customer",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=61 sha=68ba24d12d79>"
+      },
+      {
+        "start": 118.49,
+        "end": 120.47,
+        "speaker": "Customer",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=35 sha=cdb26450ccf8>"
+      },
+      {
+        "start": 121.27,
+        "end": 122.33,
+        "speaker": "Customer",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 127.74,
+        "end": 131.3,
+        "speaker": "Agent",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=68 sha=3c128537c8e1>"
+      },
+      {
+        "start": 132.8,
+        "end": 138.06,
+        "speaker": "Customer",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=78 sha=8816e61ec105>"
+      },
+      {
+        "start": 139.18,
+        "end": 141.45,
+        "speaker": "Customer",
+        "confidence": 0.6915,
+        "text_redacted": "<redacted len=21 sha=6cd7e9335dc4>"
+      },
+      {
+        "start": 142.4,
+        "end": 148.04,
+        "speaker": "Customer",
+        "confidence": 0.6235,
+        "text_redacted": "<redacted len=84 sha=eb771fbe939e>"
+      },
+      {
+        "start": 148.04,
+        "end": 155.69,
+        "speaker": "Customer",
+        "confidence": 0.6235,
+        "text_redacted": "<redacted len=81 sha=8b27b32dc408>"
+      },
+      {
+        "start": 155.77,
+        "end": 160.83,
+        "speaker": "Customer",
+        "confidence": 0.6235,
+        "text_redacted": "<redacted len=81 sha=7b167f523409>"
+      },
+      {
+        "start": 161.19,
+        "end": 166.35,
+        "speaker": "Agent",
+        "confidence": 0.6235,
+        "text_redacted": "<redacted len=85 sha=4f17c2a86e20>"
+      },
+      {
+        "start": 166.35,
+        "end": 171.62,
+        "speaker": "Agent",
+        "confidence": 0.6235,
+        "text_redacted": "<redacted len=85 sha=71016e7fc200>"
+      },
+      {
+        "start": 171.62,
+        "end": 175.64,
+        "speaker": "Agent",
+        "confidence": 0.4431,
+        "text_redacted": "<redacted len=61 sha=f1f55531699d>"
+      },
+      {
+        "start": 176.66,
+        "end": 177.64,
+        "speaker": "Agent",
+        "confidence": 0.4431,
+        "text_redacted": "<redacted len=18 sha=9e0f46ad013d>"
+      }
+    ]
+  },
+  {
+    "file": "sample_04.mp3",
+    "ok": true,
+    "runtime_sec": 9.626,
+    "segment_count": 114,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.24,
+        "speaker": "Agent",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=48 sha=f2629c629819>"
+      },
+      {
+        "start": 6.84,
+        "end": 11.54,
+        "speaker": "Customer",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=77 sha=150beac265bc>"
+      },
+      {
+        "start": 12.16,
+        "end": 15.42,
+        "speaker": "Customer",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=55 sha=e331f64dc5e2>"
+      },
+      {
+        "start": 20.51,
+        "end": 22.05,
+        "speaker": "Agent",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=20 sha=5195ddf522ed>"
+      },
+      {
+        "start": 23.37,
+        "end": 25.27,
+        "speaker": "Customer",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=27 sha=24394291cf44>"
+      },
+      {
+        "start": 25.83,
+        "end": 26.03,
+        "speaker": "Customer",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=5 sha=0f4ee998d417>"
+      },
+      {
+        "start": 31.33,
+        "end": 33.01,
+        "speaker": "Agent",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=35 sha=8cc9443579ef>"
+      },
+      {
+        "start": 33.17,
+        "end": 35.03,
+        "speaker": "Agent",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=36 sha=1fd1957b532e>"
+      },
+      {
+        "start": 36.34,
+        "end": 39.66,
+        "speaker": "Customer",
+        "confidence": 0.7761,
+        "text_redacted": "<redacted len=59 sha=2a1ba11feba0>"
+      },
+      {
+        "start": 40.79,
+        "end": 46.79,
+        "speaker": "Agent",
+        "confidence": 0.7716,
+        "text_redacted": "<redacted len=67 sha=82ee0fa6dead>"
+      },
+      {
+        "start": 48.27,
+        "end": 53.65,
+        "speaker": "Customer",
+        "confidence": 0.7716,
+        "text_redacted": "<redacted len=76 sha=16f31bb41823>"
+      },
+      {
+        "start": 54.51,
+        "end": 57.69,
+        "speaker": "Customer",
+        "confidence": 0.7716,
+        "text_redacted": "<redacted len=52 sha=11edc8ad360a>"
+      },
+      {
+        "start": 58.93,
+        "end": 62.81,
+        "speaker": "Agent",
+        "confidence": 0.7716,
+        "text_redacted": "<redacted len=80 sha=8c7e21b4262b>"
+      },
+      {
+        "start": 63.07,
+        "end": 65.81,
+        "speaker": "Agent",
+        "confidence": 0.7716,
+        "text_redacted": "<redacted len=51 sha=ff9481ffbec2>"
+      },
+      {
+        "start": 66.42,
+        "end": 75.24,
+        "speaker": "Agent",
+        "confidence": 0.6815,
+        "text_redacted": "<redacted len=83 sha=ddb798d76cf6>"
+      },
+      {
+        "start": 75.24,
+        "end": 87.89,
+        "speaker": "Agent",
+        "confidence": 0.6815,
+        "text_redacted": "<redacted len=84 sha=d14ba04a916c>"
+      },
+      {
+        "start": 87.89,
+        "end": 96.48,
+        "speaker": "Agent",
+        "confidence": 0.6815,
+        "text_redacted": "<redacted len=84 sha=e9235abf21d3>"
+      },
+      {
+        "start": 96.48,
+        "end": 102.19,
+        "speaker": "Agent",
+        "confidence": 0.6784,
+        "text_redacted": "<redacted len=71 sha=ef61ef130b87>"
+      },
+      {
+        "start": 102.41,
+        "end": 106.71,
+        "speaker": "Customer",
+        "confidence": 0.6784,
+        "text_redacted": "<redacted len=95 sha=68400cc243c9>"
+      },
+      {
+        "start": 108.37,
+        "end": 112.69,
+        "speaker": "Agent",
+        "confidence": 0.6784,
+        "text_redacted": "<redacted len=83 sha=4c2f69415764>"
+      },
+      {
+        "start": 113.29,
+        "end": 119.74,
+        "speaker": "Agent",
+        "confidence": 0.6784,
+        "text_redacted": "<redacted len=92 sha=ee8814fbfc3a>"
+      },
+      {
+        "start": 120.6,
+        "end": 124.32,
+        "speaker": "Agent",
+        "confidence": 0.6784,
+        "text_redacted": "<redacted len=55 sha=2eeca8b84fae>"
+      },
+      {
+        "start": 129.01,
+        "end": 132.53,
+        "speaker": "Customer",
+        "confidence": 0.8159,
+        "text_redacted": "<redacted len=42 sha=15bc0af73dd8>"
+      },
+      {
+        "start": 133.1,
+        "end": 139.68,
+        "speaker": "Agent",
+        "confidence": 0.8159,
+        "text_redacted": "<redacted len=104 sha=fe17d96abf2f>"
+      },
+      {
+        "start": 141.44,
+        "end": 147.4,
+        "speaker": "Customer",
+        "confidence": 0.8159,
+        "text_redacted": "<redacted len=49 sha=4cc2ec902116>"
+      },
+      {
+        "start": 148.38,
+        "end": 153.9,
+        "speaker": "Customer",
+        "confidence": 0.8159,
+        "text_redacted": "<redacted len=64 sha=a5ecc1a1dd95>"
+      },
+      {
+        "start": 153.9,
+        "end": 155.26,
+        "speaker": "Agent",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=7 sha=463b404b8177>"
+      },
+      {
+        "start": 160.08,
+        "end": 161.5,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=15 sha=a604b45aa2e8>"
+      },
+      {
+        "start": 161.94,
+        "end": 168.2,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=90 sha=73afd131b001>"
+      },
+      {
+        "start": 168.2,
+        "end": 170.34,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=33 sha=a2147af41428>"
+      },
+      {
+        "start": 170.92,
+        "end": 175.8,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=68 sha=cfcfcdc470e0>"
+      },
+      {
+        "start": 175.8,
+        "end": 176.48,
+        "speaker": "Agent",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=11 sha=3fe2a07691e5>"
+      },
+      {
+        "start": 176.66,
+        "end": 177.48,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=27 sha=046accd1bead>"
+      },
+      {
+        "start": 177.56,
+        "end": 179.54,
+        "speaker": "Agent",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=30 sha=a1f79223de5f>"
+      },
+      {
+        "start": 180.16,
+        "end": 181.22,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=18 sha=b2e311d91494>"
+      },
+      {
+        "start": 181.82,
+        "end": 186.7,
+        "speaker": "Customer",
+        "confidence": 0.7022,
+        "text_redacted": "<redacted len=85 sha=7167477f2b5a>"
+      },
+      {
+        "start": 186.7,
+        "end": 188.86,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=10 sha=b3f42eab7a8f>"
+      },
+      {
+        "start": 189.86,
+        "end": 191.72,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=33 sha=597d051214dd>"
+      },
+      {
+        "start": 192.76,
+        "end": 196.12,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=61 sha=d9142ac173e4>"
+      },
+      {
+        "start": 196.12,
+        "end": 197.56,
+        "speaker": "Customer",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=15 sha=686783de0179>"
+      },
+      {
+        "start": 197.88,
+        "end": 198.66,
+        "speaker": "Customer",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=18 sha=faccafa49772>"
+      },
+      {
+        "start": 199.5,
+        "end": 202.48,
+        "speaker": "Customer",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=49 sha=daea6a980421>"
+      },
+      {
+        "start": 202.48,
+        "end": 205.18,
+        "speaker": "Customer",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=48 sha=e2e5e0f80db1>"
+      },
+      {
+        "start": 205.18,
+        "end": 206.64,
+        "speaker": "Customer",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=36 sha=f0fa3c225d1d>"
+      },
+      {
+        "start": 207.93,
+        "end": 209.95,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=27 sha=2baf1a15b4b8>"
+      },
+      {
+        "start": 210.73,
+        "end": 212.11,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=27 sha=4f6a208083a1>"
+      },
+      {
+        "start": 212.27,
+        "end": 213.17,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=12 sha=896a8590cdf2>"
+      },
+      {
+        "start": 213.53,
+        "end": 214.67,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=33 sha=4eb1ea0d42f0>"
+      },
+      {
+        "start": 214.67,
+        "end": 216.09,
+        "speaker": "Agent",
+        "confidence": 0.7325,
+        "text_redacted": "<redacted len=40 sha=5733d443ed5a>"
+      },
+      {
+        "start": 217.22,
+        "end": 219.36,
+        "speaker": "Agent",
+        "confidence": 0.7328,
+        "text_redacted": "<redacted len=42 sha=3e5a1bd11838>"
+      },
+      {
+        "start": 219.6,
+        "end": 223.32,
+        "speaker": "Agent",
+        "confidence": 0.7328,
+        "text_redacted": "<redacted len=66 sha=e53b51bcc517>"
+      },
+      {
+        "start": 224.62,
+        "end": 229.5,
+        "speaker": "Customer",
+        "confidence": 0.7328,
+        "text_redacted": "<redacted len=84 sha=df544a84c38a>"
+      },
+      {
+        "start": 229.86,
+        "end": 233.26,
+        "speaker": "Customer",
+        "confidence": 0.7328,
+        "text_redacted": "<redacted len=82 sha=9e1ef1c010c1>"
+      },
+      {
+        "start": 233.86,
+        "end": 237.22,
+        "speaker": "Customer",
+        "confidence": 0.7328,
+        "text_redacted": "<redacted len=61 sha=7d06d8852589>"
+      },
+      {
+        "start": 237.6,
+        "end": 240.84,
+        "speaker": "Customer",
+        "confidence": 0.7328,
+        "text_redacted": "<redacted len=53 sha=6daedb88c68c>"
+      },
+      {
+        "start": 240.84,
+        "end": 243.74,
+        "speaker": "Customer",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=40 sha=63b3ef20a39b>"
+      },
+      {
+        "start": 244.0,
+        "end": 244.72,
+        "speaker": "Customer",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=21 sha=5a55b22c48ca>"
+      },
+      {
+        "start": 244.92,
+        "end": 249.1,
+        "speaker": "Agent",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=79 sha=8e2ce1ab1ca8>"
+      },
+      {
+        "start": 249.56,
+        "end": 252.3,
+        "speaker": "Agent",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=46 sha=26a5ef23818b>"
+      },
+      {
+        "start": 252.9,
+        "end": 254.32,
+        "speaker": "Agent",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=27 sha=2738cc10e978>"
+      },
+      {
+        "start": 255.5,
+        "end": 259.4,
+        "speaker": "Agent",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=84 sha=5978180f94dd>"
+      },
+      {
+        "start": 260.34,
+        "end": 260.78,
+        "speaker": "Customer",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=8 sha=445ea76e0fec>"
+      },
+      {
+        "start": 261.02,
+        "end": 263.66,
+        "speaker": "Customer",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=44 sha=b668acbc4f9a>"
+      },
+      {
+        "start": 263.84,
+        "end": 269.1,
+        "speaker": "Customer",
+        "confidence": 0.7642,
+        "text_redacted": "<redacted len=110 sha=75d2443b4482>"
+      },
+      {
+        "start": 269.66,
+        "end": 273.56,
+        "speaker": "Customer",
+        "confidence": 0.7035,
+        "text_redacted": "<redacted len=65 sha=ebc4e56f9732>"
+      },
+      {
+        "start": 274.48,
+        "end": 279.16,
+        "speaker": "Customer",
+        "confidence": 0.7035,
+        "text_redacted": "<redacted len=89 sha=b637012c5b2c>"
+      },
+      {
+        "start": 280.41,
+        "end": 285.03,
+        "speaker": "Agent",
+        "confidence": 0.7035,
+        "text_redacted": "<redacted len=70 sha=648ae46e0da9>"
+      },
+      {
+        "start": 285.69,
+        "end": 289.97,
+        "speaker": "Agent",
+        "confidence": 0.7035,
+        "text_redacted": "<redacted len=64 sha=46ae9d4e6174>"
+      },
+      {
+        "start": 290.73,
+        "end": 294.19,
+        "speaker": "Agent",
+        "confidence": 0.7035,
+        "text_redacted": "<redacted len=77 sha=fe74f802847d>"
+      },
+      {
+        "start": 294.19,
+        "end": 297.95,
+        "speaker": "Agent",
+        "confidence": 0.7035,
+        "text_redacted": "<redacted len=71 sha=6251f2e29bb2>"
+      },
+      {
+        "start": 297.95,
+        "end": 300.97,
+        "speaker": "Agent",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=54 sha=bd460a40d746>"
+      },
+      {
+        "start": 302.32,
+        "end": 305.08,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=46 sha=6897f4a8888e>"
+      },
+      {
+        "start": 305.7,
+        "end": 308.6,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=70 sha=8728f6e97686>"
+      },
+      {
+        "start": 308.92,
+        "end": 312.46,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=78 sha=0fb264b8f177>"
+      },
+      {
+        "start": 313.26,
+        "end": 316.5,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=54 sha=3cfcbc358c6e>"
+      },
+      {
+        "start": 316.5,
+        "end": 318.8,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=33 sha=c1cfa5b8eadc>"
+      },
+      {
+        "start": 319.46,
+        "end": 321.7,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=43 sha=4c82d776506c>"
+      },
+      {
+        "start": 321.74,
+        "end": 323.1,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=27 sha=347048afa395>"
+      },
+      {
+        "start": 323.62,
+        "end": 324.0,
+        "speaker": "Customer",
+        "confidence": 0.8101,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 324.0,
+        "end": 329.74,
+        "speaker": "Customer",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=84 sha=9f674d90e13b>"
+      },
+      {
+        "start": 330.34,
+        "end": 333.42,
+        "speaker": "Customer",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=65 sha=388b37f2b34e>"
+      },
+      {
+        "start": 334.34,
+        "end": 336.02,
+        "speaker": "Agent",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=27 sha=9b1de6c8ec52>"
+      },
+      {
+        "start": 336.48,
+        "end": 337.34,
+        "speaker": "Agent",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 347.06,
+        "end": 348.26,
+        "speaker": "Customer",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=27 sha=44a9cb9d313f>"
+      },
+      {
+        "start": 349.53,
+        "end": 350.11,
+        "speaker": "Agent",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=12 sha=6928470f5d32>"
+      },
+      {
+        "start": 350.83,
+        "end": 355.65,
+        "speaker": "Customer",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=80 sha=4674e5da3897>"
+      },
+      {
+        "start": 355.85,
+        "end": 360.33,
+        "speaker": "Customer",
+        "confidence": 0.7526,
+        "text_redacted": "<redacted len=49 sha=1b46d5a54042>"
+      },
+      {
+        "start": 362.36,
+        "end": 367.66,
+        "speaker": "Agent",
+        "confidence": 0.689,
+        "text_redacted": "<redacted len=78 sha=a9f7e7a48259>"
+      },
+      {
+        "start": 367.66,
+        "end": 371.28,
+        "speaker": "Agent",
+        "confidence": 0.689,
+        "text_redacted": "<redacted len=75 sha=e290eec4c7a1>"
+      },
+      {
+        "start": 371.28,
+        "end": 376.48,
+        "speaker": "Agent",
+        "confidence": 0.689,
+        "text_redacted": "<redacted len=70 sha=73b84ca5b64f>"
+      },
+      {
+        "start": 376.48,
+        "end": 381.82,
+        "speaker": "Agent",
+        "confidence": 0.689,
+        "text_redacted": "<redacted len=77 sha=455ee165b36e>"
+      },
+      {
+        "start": 381.82,
+        "end": 391.94,
+        "speaker": "Agent",
+        "confidence": 0.689,
+        "text_redacted": "<redacted len=68 sha=c1346cda9530>"
+      },
+      {
+        "start": 391.94,
+        "end": 395.1,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=59 sha=299db96ece8f>"
+      },
+      {
+        "start": 395.46,
+        "end": 398.54,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=37 sha=64dd2b33b933>"
+      },
+      {
+        "start": 398.54,
+        "end": 401.64,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=27 sha=464b63691660>"
+      },
+      {
+        "start": 402.52,
+        "end": 403.04,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=8 sha=b129df1b5a0d>"
+      },
+      {
+        "start": 403.56,
+        "end": 405.04,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=27 sha=423361d6d876>"
+      },
+      {
+        "start": 405.2,
+        "end": 406.5,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=29 sha=66712c4cd627>"
+      },
+      {
+        "start": 406.92,
+        "end": 408.16,
+        "speaker": "Customer",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=28 sha=21c48dbc2456>"
+      },
+      {
+        "start": 408.88,
+        "end": 409.88,
+        "speaker": "Customer",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=26 sha=f7d6a6d9ee1c>"
+      },
+      {
+        "start": 409.92,
+        "end": 410.76,
+        "speaker": "Customer",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=18 sha=d40007520b94>"
+      },
+      {
+        "start": 411.18,
+        "end": 412.86,
+        "speaker": "Customer",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=31 sha=06b055c1354e>"
+      },
+      {
+        "start": 413.08,
+        "end": 415.04,
+        "speaker": "Customer",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=30 sha=f77c55c00d6f>"
+      },
+      {
+        "start": 415.18,
+        "end": 416.6,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=31 sha=d2812fec07fa>"
+      },
+      {
+        "start": 417.41,
+        "end": 419.91,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=41 sha=ec78f69e336f>"
+      },
+      {
+        "start": 420.29,
+        "end": 420.65,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=4 sha=d34d6c966998>"
+      },
+      {
+        "start": 421.15,
+        "end": 421.57,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=7 sha=b6fb1c286b88>"
+      },
+      {
+        "start": 421.65,
+        "end": 422.09,
+        "speaker": "Agent",
+        "confidence": 0.627,
+        "text_redacted": "<redacted len=4 sha=d34d6c966998>"
+      },
+      {
+        "start": 424.28,
+        "end": 429.1,
+        "speaker": "Customer",
+        "confidence": 0.7729,
+        "text_redacted": "<redacted len=87 sha=8d6a63a99b72>"
+      },
+      {
+        "start": 429.1,
+        "end": 432.12,
+        "speaker": "Customer",
+        "confidence": 0.7729,
+        "text_redacted": "<redacted len=54 sha=9338493f1949>"
+      },
+      {
+        "start": 432.86,
+        "end": 438.44,
+        "speaker": "Customer",
+        "confidence": 0.7729,
+        "text_redacted": "<redacted len=90 sha=1f70c8d41dad>"
+      },
+      {
+        "start": 438.44,
+        "end": 440.88,
+        "speaker": "Customer",
+        "confidence": 0.7729,
+        "text_redacted": "<redacted len=41 sha=25ad44c2e5c1>"
+      },
+      {
+        "start": 441.34,
+        "end": 442.68,
+        "speaker": "Customer",
+        "confidence": 0.7729,
+        "text_redacted": "<redacted len=32 sha=becf92dbf11d>"
+      },
+      {
+        "start": 442.88,
+        "end": 443.22,
+        "speaker": "Customer",
+        "confidence": 0.7729,
+        "text_redacted": "<redacted len=4 sha=d34d6c966998>"
+      }
+    ]
+  },
+  {
+    "file": "sample_05.mp3",
+    "ok": true,
+    "runtime_sec": 7.836,
+    "segment_count": 91,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.85,
+        "speaker": "Agent",
+        "confidence": 0.8141,
+        "text_redacted": "<redacted len=69 sha=fa63e0255ece>"
+      },
+      {
+        "start": 8.98,
+        "end": 14.78,
+        "speaker": "Customer",
+        "confidence": 0.8141,
+        "text_redacted": "<redacted len=104 sha=40ebeac7bbd2>"
+      },
+      {
+        "start": 15.26,
+        "end": 20.8,
+        "speaker": "Agent",
+        "confidence": 0.8141,
+        "text_redacted": "<redacted len=88 sha=036d8412133a>"
+      },
+      {
+        "start": 21.58,
+        "end": 26.02,
+        "speaker": "Customer",
+        "confidence": 0.8141,
+        "text_redacted": "<redacted len=80 sha=f13be8d1743e>"
+      },
+      {
+        "start": 26.24,
+        "end": 30.56,
+        "speaker": "Customer",
+        "confidence": 0.8141,
+        "text_redacted": "<redacted len=81 sha=1199f108906c>"
+      },
+      {
+        "start": 30.56,
+        "end": 32.74,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=41 sha=a20fc8c42390>"
+      },
+      {
+        "start": 33.7,
+        "end": 39.26,
+        "speaker": "Customer",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=124 sha=7c8128e16c53>"
+      },
+      {
+        "start": 39.98,
+        "end": 50.62,
+        "speaker": "Agent",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=40 sha=446924f64b3a>"
+      },
+      {
+        "start": 50.98,
+        "end": 53.12,
+        "speaker": "Agent",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=52 sha=d1318c7f44d4>"
+      },
+      {
+        "start": 53.62,
+        "end": 56.8,
+        "speaker": "Agent",
+        "confidence": 0.8204,
+        "text_redacted": "<redacted len=72 sha=0e7aa6de7634>"
+      },
+      {
+        "start": 56.8,
+        "end": 61.46,
+        "speaker": "Agent",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=80 sha=37046c972d68>"
+      },
+      {
+        "start": 61.72,
+        "end": 65.44,
+        "speaker": "Customer",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=63 sha=25f9d944c16a>"
+      },
+      {
+        "start": 66.28,
+        "end": 69.16,
+        "speaker": "Customer",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=59 sha=ee03d64db5a0>"
+      },
+      {
+        "start": 69.52,
+        "end": 69.94,
+        "speaker": "Agent",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=6 sha=420c703b1161>"
+      },
+      {
+        "start": 70.46,
+        "end": 75.34,
+        "speaker": "Agent",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=112 sha=973fdb0079a9>"
+      },
+      {
+        "start": 76.16,
+        "end": 79.52,
+        "speaker": "Agent",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=71 sha=efb4a6027f53>"
+      },
+      {
+        "start": 80.32,
+        "end": 81.68,
+        "speaker": "Agent",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=23 sha=b3d223903038>"
+      },
+      {
+        "start": 82.16,
+        "end": 83.52,
+        "speaker": "Agent",
+        "confidence": 0.8396,
+        "text_redacted": "<redacted len=34 sha=192ff37ca174>"
+      },
+      {
+        "start": 83.52,
+        "end": 87.04,
+        "speaker": "Agent",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=65 sha=065dd616b039>"
+      },
+      {
+        "start": 88.04,
+        "end": 90.58,
+        "speaker": "Agent",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=53 sha=93d05c296e08>"
+      },
+      {
+        "start": 91.2,
+        "end": 93.64,
+        "speaker": "Agent",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=50 sha=2081b04c3101>"
+      },
+      {
+        "start": 93.92,
+        "end": 96.14,
+        "speaker": "Agent",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=39 sha=1683c6fd71ae>"
+      },
+      {
+        "start": 96.82,
+        "end": 100.94,
+        "speaker": "Agent",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=83 sha=c4867571662c>"
+      },
+      {
+        "start": 102.36,
+        "end": 105.94,
+        "speaker": "Customer",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=76 sha=5aab2261143d>"
+      },
+      {
+        "start": 106.06,
+        "end": 107.84,
+        "speaker": "Customer",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=43 sha=cb4dd41654e0>"
+      },
+      {
+        "start": 108.6,
+        "end": 109.86,
+        "speaker": "Customer",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=23 sha=2d7f96163aa3>"
+      },
+      {
+        "start": 110.28,
+        "end": 111.9,
+        "speaker": "Agent",
+        "confidence": 0.9132,
+        "text_redacted": "<redacted len=38 sha=4283a2aad768>"
+      },
+      {
+        "start": 111.9,
+        "end": 113.22,
+        "speaker": "Agent",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=20 sha=f4ea294e336f>"
+      },
+      {
+        "start": 113.66,
+        "end": 115.94,
+        "speaker": "Customer",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=53 sha=279a51c93fca>"
+      },
+      {
+        "start": 116.6,
+        "end": 120.56,
+        "speaker": "Customer",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=89 sha=83b396a53db1>"
+      },
+      {
+        "start": 120.56,
+        "end": 122.3,
+        "speaker": "Customer",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=30 sha=c4bdd1cefc50>"
+      },
+      {
+        "start": 122.76,
+        "end": 127.94,
+        "speaker": "Customer",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=87 sha=9628cc772331>"
+      },
+      {
+        "start": 128.56,
+        "end": 130.5,
+        "speaker": "Customer",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=45 sha=78e30293d39b>"
+      },
+      {
+        "start": 131.14,
+        "end": 136.52,
+        "speaker": "Customer",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=84 sha=85a4aeb04c56>"
+      },
+      {
+        "start": 137.92,
+        "end": 140.78,
+        "speaker": "Agent",
+        "confidence": 0.8439,
+        "text_redacted": "<redacted len=63 sha=5a785fbcdf63>"
+      },
+      {
+        "start": 140.78,
+        "end": 145.82,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=92 sha=93deae73522b>"
+      },
+      {
+        "start": 146.46,
+        "end": 151.64,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=96 sha=d8722b8befe3>"
+      },
+      {
+        "start": 152.32,
+        "end": 154.4,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=38 sha=d0f095721332>"
+      },
+      {
+        "start": 154.56,
+        "end": 156.04,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=27 sha=8d4061155da9>"
+      },
+      {
+        "start": 156.68,
+        "end": 159.66,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=55 sha=1f6b2dde3f47>"
+      },
+      {
+        "start": 159.92,
+        "end": 164.26,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=85 sha=69dff20e16ae>"
+      },
+      {
+        "start": 164.68,
+        "end": 167.76,
+        "speaker": "Customer",
+        "confidence": 0.9058,
+        "text_redacted": "<redacted len=61 sha=afc2e949b566>"
+      },
+      {
+        "start": 167.86,
+        "end": 171.8,
+        "speaker": "Customer",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=62 sha=0e4432d1e0ef>"
+      },
+      {
+        "start": 172.28,
+        "end": 175.76,
+        "speaker": "Customer",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=76 sha=74d7acba7b40>"
+      },
+      {
+        "start": 176.5,
+        "end": 177.36,
+        "speaker": "Customer",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=22 sha=156afd5e2030>"
+      },
+      {
+        "start": 177.84,
+        "end": 179.52,
+        "speaker": "Agent",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=25 sha=8eb629c73bfb>"
+      },
+      {
+        "start": 180.24,
+        "end": 184.02,
+        "speaker": "Agent",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=67 sha=8c684638bed5>"
+      },
+      {
+        "start": 184.34,
+        "end": 185.8,
+        "speaker": "Agent",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=35 sha=db39190c356b>"
+      },
+      {
+        "start": 186.2,
+        "end": 189.78,
+        "speaker": "Agent",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=76 sha=48086bce51d4>"
+      },
+      {
+        "start": 190.38,
+        "end": 194.66,
+        "speaker": "Agent",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=89 sha=face4f0005d2>"
+      },
+      {
+        "start": 194.66,
+        "end": 197.2,
+        "speaker": "Agent",
+        "confidence": 0.8304,
+        "text_redacted": "<redacted len=53 sha=5e7c13a9df5b>"
+      },
+      {
+        "start": 197.2,
+        "end": 200.4,
+        "speaker": "Agent",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=42 sha=15cc46734069>"
+      },
+      {
+        "start": 200.7,
+        "end": 201.76,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=8 sha=6c7af00ac1e2>"
+      },
+      {
+        "start": 202.4,
+        "end": 203.22,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=22 sha=082e7f72c2f2>"
+      },
+      {
+        "start": 203.9,
+        "end": 205.28,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=23 sha=2f4de3eba511>"
+      },
+      {
+        "start": 205.5,
+        "end": 206.56,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=21 sha=abd39d93becd>"
+      },
+      {
+        "start": 206.92,
+        "end": 211.28,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=94 sha=fae78952f25c>"
+      },
+      {
+        "start": 211.88,
+        "end": 215.28,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=53 sha=5a665817ddc7>"
+      },
+      {
+        "start": 215.76,
+        "end": 216.06,
+        "speaker": "Agent",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=5 sha=ed251864987c>"
+      },
+      {
+        "start": 216.98,
+        "end": 219.16,
+        "speaker": "Agent",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=49 sha=d5e9b30adc51>"
+      },
+      {
+        "start": 220.36,
+        "end": 220.62,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=8 sha=a386908e3024>"
+      },
+      {
+        "start": 221.14,
+        "end": 222.1,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=22 sha=ecdd87074407>"
+      },
+      {
+        "start": 222.4,
+        "end": 227.12,
+        "speaker": "Customer",
+        "confidence": 0.8771,
+        "text_redacted": "<redacted len=102 sha=76f4db7c6eca>"
+      },
+      {
+        "start": 227.12,
+        "end": 229.3,
+        "speaker": "Customer",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=38 sha=6149889008c9>"
+      },
+      {
+        "start": 229.88,
+        "end": 233.26,
+        "speaker": "Customer",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=67 sha=9311b6603d4a>"
+      },
+      {
+        "start": 233.76,
+        "end": 238.48,
+        "speaker": "Customer",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=92 sha=6a5beded7b32>"
+      },
+      {
+        "start": 239.16,
+        "end": 240.4,
+        "speaker": "Agent",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=18 sha=82a1d2e7079c>"
+      },
+      {
+        "start": 240.6,
+        "end": 244.2,
+        "speaker": "Agent",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=66 sha=7d6747e02b58>"
+      },
+      {
+        "start": 244.46,
+        "end": 246.9,
+        "speaker": "Agent",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=49 sha=a90452a5034d>"
+      },
+      {
+        "start": 247.28,
+        "end": 249.6,
+        "speaker": "Agent",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=48 sha=3c937d865ad6>"
+      },
+      {
+        "start": 249.8,
+        "end": 250.7,
+        "speaker": "Agent",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=17 sha=386adb3cd4b1>"
+      },
+      {
+        "start": 251.81,
+        "end": 254.89,
+        "speaker": "Agent",
+        "confidence": 0.8841,
+        "text_redacted": "<redacted len=71 sha=fa8cb8ca43fa>"
+      },
+      {
+        "start": 254.89,
+        "end": 260.29,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=86 sha=0a627e1feae4>"
+      },
+      {
+        "start": 260.29,
+        "end": 262.53,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=47 sha=cd3c56e27a86>"
+      },
+      {
+        "start": 262.71,
+        "end": 263.41,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=16 sha=facdecc1a6d7>"
+      },
+      {
+        "start": 263.89,
+        "end": 265.01,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=27 sha=d6c0eb99b600>"
+      },
+      {
+        "start": 265.75,
+        "end": 269.93,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=72 sha=b234e93d9f33>"
+      },
+      {
+        "start": 270.13,
+        "end": 272.03,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=39 sha=7bd827ea536f>"
+      },
+      {
+        "start": 272.67,
+        "end": 276.31,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=84 sha=e19b15caedb1>"
+      },
+      {
+        "start": 276.91,
+        "end": 279.17,
+        "speaker": "Agent",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=51 sha=337da385452c>"
+      },
+      {
+        "start": 279.45,
+        "end": 280.61,
+        "speaker": "Customer",
+        "confidence": 0.8007,
+        "text_redacted": "<redacted len=14 sha=623fb6b2b94a>"
+      },
+      {
+        "start": 280.61,
+        "end": 284.67,
+        "speaker": "Customer",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=79 sha=dd0509171cbc>"
+      },
+      {
+        "start": 284.93,
+        "end": 286.73,
+        "speaker": "Customer",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=38 sha=6ac2f6a1febc>"
+      },
+      {
+        "start": 287.13,
+        "end": 289.21,
+        "speaker": "Customer",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=43 sha=a30ca9db1679>"
+      },
+      {
+        "start": 289.87,
+        "end": 294.31,
+        "speaker": "Customer",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=97 sha=8b2792cc9bd9>"
+      },
+      {
+        "start": 294.91,
+        "end": 296.45,
+        "speaker": "Customer",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=28 sha=b58a8a187d1c>"
+      },
+      {
+        "start": 296.77,
+        "end": 298.15,
+        "speaker": "Agent",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=21 sha=b84dd7049254>"
+      },
+      {
+        "start": 298.51,
+        "end": 299.87,
+        "speaker": "Agent",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=19 sha=f4ed286b74ef>"
+      },
+      {
+        "start": 300.21,
+        "end": 301.91,
+        "speaker": "Agent",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=33 sha=ab259090386c>"
+      },
+      {
+        "start": 302.31,
+        "end": 304.99,
+        "speaker": "Agent",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=47 sha=2a26e8e5d365>"
+      },
+      {
+        "start": 305.66,
+        "end": 308.28,
+        "speaker": "Agent",
+        "confidence": 0.795,
+        "text_redacted": "<redacted len=49 sha=0f0e920fb4a2>"
+      }
+    ]
+  },
+  {
+    "file": "sample_06.mp3",
+    "ok": true,
+    "runtime_sec": 5.288,
+    "segment_count": 57,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 10.32,
+        "end": 15.92,
+        "speaker": "Agent",
+        "confidence": 0.8421,
+        "text_redacted": "<redacted len=75 sha=26e8e5d6b71c>"
+      },
+      {
+        "start": 16.94,
+        "end": 22.5,
+        "speaker": "Customer",
+        "confidence": 0.8421,
+        "text_redacted": "<redacted len=97 sha=b70183cac431>"
+      },
+      {
+        "start": 23.53,
+        "end": 27.61,
+        "speaker": "Customer",
+        "confidence": 0.8421,
+        "text_redacted": "<redacted len=77 sha=b846a6de763e>"
+      },
+      {
+        "start": 28.15,
+        "end": 33.16,
+        "speaker": "Customer",
+        "confidence": 0.8421,
+        "text_redacted": "<redacted len=73 sha=3be6cf9a02b5>"
+      },
+      {
+        "start": 34.54,
+        "end": 39.8,
+        "speaker": "Agent",
+        "confidence": 0.8421,
+        "text_redacted": "<redacted len=52 sha=7bda5422e07a>"
+      },
+      {
+        "start": 39.96,
+        "end": 45.58,
+        "speaker": "Agent",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=93 sha=72d23bde2953>"
+      },
+      {
+        "start": 45.58,
+        "end": 46.52,
+        "speaker": "Customer",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=21 sha=b430456e6085>"
+      },
+      {
+        "start": 47.39,
+        "end": 49.49,
+        "speaker": "Customer",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=38 sha=ba685fe72196>"
+      },
+      {
+        "start": 50.48,
+        "end": 54.2,
+        "speaker": "Customer",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=75 sha=5a77cfb2e86c>"
+      },
+      {
+        "start": 55.31,
+        "end": 56.29,
+        "speaker": "Agent",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=17 sha=e9dca2d12642>"
+      },
+      {
+        "start": 57.16,
+        "end": 59.5,
+        "speaker": "Agent",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=41 sha=50ca977e24dd>"
+      },
+      {
+        "start": 60.27,
+        "end": 64.07,
+        "speaker": "Customer",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=36 sha=137289499ab6>"
+      },
+      {
+        "start": 65.63,
+        "end": 67.33,
+        "speaker": "Agent",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=25 sha=fd4fcb357e65>"
+      },
+      {
+        "start": 68.34,
+        "end": 70.0,
+        "speaker": "Agent",
+        "confidence": 0.7971,
+        "text_redacted": "<redacted len=30 sha=61c9e63d9f34>"
+      },
+      {
+        "start": 70.22,
+        "end": 75.44,
+        "speaker": "Agent",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=92 sha=29dd029e047d>"
+      },
+      {
+        "start": 76.31,
+        "end": 77.83,
+        "speaker": "Agent",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=37 sha=3bac5bf0b179>"
+      },
+      {
+        "start": 78.94,
+        "end": 82.02,
+        "speaker": "Customer",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=66 sha=9f46dd27650d>"
+      },
+      {
+        "start": 82.94,
+        "end": 85.68,
+        "speaker": "Customer",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=50 sha=7890f21fe574>"
+      },
+      {
+        "start": 86.62,
+        "end": 88.48,
+        "speaker": "Customer",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=37 sha=c3176941edb5>"
+      },
+      {
+        "start": 89.33,
+        "end": 94.01,
+        "speaker": "Customer",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=91 sha=e5bd8c4d18bd>"
+      },
+      {
+        "start": 95.17,
+        "end": 96.85,
+        "speaker": "Customer",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=36 sha=a8b5e164889c>"
+      },
+      {
+        "start": 97.72,
+        "end": 99.82,
+        "speaker": "Customer",
+        "confidence": 0.8461,
+        "text_redacted": "<redacted len=34 sha=e57d905d5684>"
+      },
+      {
+        "start": 99.98,
+        "end": 104.16,
+        "speaker": "Customer",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=66 sha=4cb338e2e869>"
+      },
+      {
+        "start": 104.76,
+        "end": 106.46,
+        "speaker": "Customer",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=32 sha=5c37ed1f3bb0>"
+      },
+      {
+        "start": 107.55,
+        "end": 110.11,
+        "speaker": "Customer",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=53 sha=3b07c79e38e7>"
+      },
+      {
+        "start": 111.0,
+        "end": 113.64,
+        "speaker": "Customer",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=55 sha=678b4eaf62cf>"
+      },
+      {
+        "start": 114.78,
+        "end": 116.56,
+        "speaker": "Agent",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=29 sha=30da0df0de4d>"
+      },
+      {
+        "start": 117.14,
+        "end": 117.84,
+        "speaker": "Agent",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=10 sha=9df78f5b3150>"
+      },
+      {
+        "start": 119.03,
+        "end": 119.77,
+        "speaker": "Agent",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 120.69,
+        "end": 122.65,
+        "speaker": "Agent",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=38 sha=bc5c104d079f>"
+      },
+      {
+        "start": 123.69,
+        "end": 128.39,
+        "speaker": "Agent",
+        "confidence": 0.7986,
+        "text_redacted": "<redacted len=90 sha=5fc92ada80dc>"
+      },
+      {
+        "start": 128.52,
+        "end": 132.32,
+        "speaker": "Agent",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=48 sha=614c89c3a312>"
+      },
+      {
+        "start": 133.39,
+        "end": 138.39,
+        "speaker": "Agent",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=86 sha=590ab00b745f>"
+      },
+      {
+        "start": 138.39,
+        "end": 139.83,
+        "speaker": "Agent",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=32 sha=5d05acbbdeed>"
+      },
+      {
+        "start": 140.78,
+        "end": 145.42,
+        "speaker": "Agent",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=84 sha=ffc3275f4be1>"
+      },
+      {
+        "start": 146.3,
+        "end": 148.96,
+        "speaker": "Agent",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=49 sha=e752c21d9ad9>"
+      },
+      {
+        "start": 150.3,
+        "end": 152.68,
+        "speaker": "Customer",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=46 sha=7a58c027649f>"
+      },
+      {
+        "start": 153.7,
+        "end": 154.66,
+        "speaker": "Customer",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=12 sha=2fa98e4d3bdb>"
+      },
+      {
+        "start": 155.78,
+        "end": 158.56,
+        "speaker": "Customer",
+        "confidence": 0.8105,
+        "text_redacted": "<redacted len=60 sha=a6ac4708668c>"
+      },
+      {
+        "start": 158.91,
+        "end": 166.22,
+        "speaker": "Agent",
+        "confidence": 0.7985,
+        "text_redacted": "<redacted len=98 sha=118fac3a1bb8>"
+      },
+      {
+        "start": 170.13,
+        "end": 176.47,
+        "speaker": "Customer",
+        "confidence": 0.7985,
+        "text_redacted": "<redacted len=87 sha=16e7f00ba900>"
+      },
+      {
+        "start": 177.44,
+        "end": 182.06,
+        "speaker": "Customer",
+        "confidence": 0.7985,
+        "text_redacted": "<redacted len=90 sha=4776895f13df>"
+      },
+      {
+        "start": 182.87,
+        "end": 188.23,
+        "speaker": "Customer",
+        "confidence": 0.7985,
+        "text_redacted": "<redacted len=93 sha=017cc5a6ba77>"
+      },
+      {
+        "start": 189.58,
+        "end": 194.89,
+        "speaker": "Agent",
+        "confidence": 0.7985,
+        "text_redacted": "<redacted len=65 sha=86bc7e39e93d>"
+      },
+      {
+        "start": 195.82,
+        "end": 208.88,
+        "speaker": "Agent",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=87 sha=3482b58edefd>"
+      },
+      {
+        "start": 211.31,
+        "end": 214.49,
+        "speaker": "Customer",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=32 sha=42322931d9d6>"
+      },
+      {
+        "start": 215.53,
+        "end": 216.53,
+        "speaker": "Agent",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=9 sha=65b83cba6ba4>"
+      },
+      {
+        "start": 217.01,
+        "end": 218.61,
+        "speaker": "Agent",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=18 sha=ba363127304b>"
+      },
+      {
+        "start": 219.27,
+        "end": 220.13,
+        "speaker": "Agent",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=18 sha=21e46b04bc92>"
+      },
+      {
+        "start": 221.71,
+        "end": 222.43,
+        "speaker": "Customer",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=16 sha=ea50b2f75179>"
+      },
+      {
+        "start": 223.32,
+        "end": 227.04,
+        "speaker": "Customer",
+        "confidence": 0.6715,
+        "text_redacted": "<redacted len=73 sha=e7a3b538b74a>"
+      },
+      {
+        "start": 227.17,
+        "end": 231.33,
+        "speaker": "Customer",
+        "confidence": 0.7615,
+        "text_redacted": "<redacted len=66 sha=8f755b440cf2>"
+      },
+      {
+        "start": 232.29,
+        "end": 233.11,
+        "speaker": "Agent",
+        "confidence": 0.7615,
+        "text_redacted": "<redacted len=12 sha=5c7367ee3690>"
+      },
+      {
+        "start": 233.96,
+        "end": 234.62,
+        "speaker": "Agent",
+        "confidence": 0.7615,
+        "text_redacted": "<redacted len=13 sha=c80d91641cbe>"
+      },
+      {
+        "start": 236.02,
+        "end": 238.38,
+        "speaker": "Customer",
+        "confidence": 0.7615,
+        "text_redacted": "<redacted len=46 sha=93adfd4cc381>"
+      },
+      {
+        "start": 239.19,
+        "end": 240.95,
+        "speaker": "Agent",
+        "confidence": 0.7615,
+        "text_redacted": "<redacted len=39 sha=93af0110f3a3>"
+      },
+      {
+        "start": 241.82,
+        "end": 242.74,
+        "speaker": "Agent",
+        "confidence": 0.7615,
+        "text_redacted": "<redacted len=21 sha=b84dd7049254>"
+      }
+    ]
+  },
+  {
+    "file": "sample_07.mp3",
+    "ok": true,
+    "runtime_sec": 8.079,
+    "segment_count": 92,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 0.18,
+        "end": 3.69,
+        "speaker": "Agent",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=14 sha=e4d70a71cac8>"
+      },
+      {
+        "start": 7.4,
+        "end": 8.6,
+        "speaker": "Customer",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=28 sha=e3b5a88414b1>"
+      },
+      {
+        "start": 9.04,
+        "end": 14.66,
+        "speaker": "Customer",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=86 sha=4ba12391c800>"
+      },
+      {
+        "start": 14.66,
+        "end": 15.26,
+        "speaker": "Agent",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=10 sha=e3177219aff3>"
+      },
+      {
+        "start": 15.78,
+        "end": 19.76,
+        "speaker": "Agent",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=67 sha=a30c4cf92c47>"
+      },
+      {
+        "start": 20.5,
+        "end": 26.04,
+        "speaker": "Agent",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=89 sha=f5f4a78cdad6>"
+      },
+      {
+        "start": 26.04,
+        "end": 29.46,
+        "speaker": "Agent",
+        "confidence": 0.7232,
+        "text_redacted": "<redacted len=57 sha=ddf9fad19367>"
+      },
+      {
+        "start": 29.46,
+        "end": 36.16,
+        "speaker": "Agent",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=87 sha=fb3fd8710bca>"
+      },
+      {
+        "start": 36.16,
+        "end": 37.28,
+        "speaker": "Customer",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=24 sha=690c281eb5f3>"
+      },
+      {
+        "start": 38.0,
+        "end": 38.12,
+        "speaker": "Customer",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=5 sha=fbde817e595d>"
+      },
+      {
+        "start": 38.9,
+        "end": 39.68,
+        "speaker": "Agent",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=16 sha=d9749df5e719>"
+      },
+      {
+        "start": 45.66,
+        "end": 47.58,
+        "speaker": "Customer",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=43 sha=58d6bdb134b2>"
+      },
+      {
+        "start": 47.94,
+        "end": 50.1,
+        "speaker": "Agent",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=36 sha=40f71b709bde>"
+      },
+      {
+        "start": 50.76,
+        "end": 52.74,
+        "speaker": "Customer",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=27 sha=9ae85ba3f356>"
+      },
+      {
+        "start": 53.54,
+        "end": 55.9,
+        "speaker": "Customer",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=40 sha=8adaeda4d5b8>"
+      },
+      {
+        "start": 56.7,
+        "end": 61.32,
+        "speaker": "Customer",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=34 sha=94dd45779592>"
+      },
+      {
+        "start": 62.61,
+        "end": 63.21,
+        "speaker": "Agent",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=13 sha=3b4ad0fbe840>"
+      },
+      {
+        "start": 63.47,
+        "end": 65.19,
+        "speaker": "Agent",
+        "confidence": 0.7096,
+        "text_redacted": "<redacted len=35 sha=cfc80bc3773a>"
+      },
+      {
+        "start": 65.19,
+        "end": 67.47,
+        "speaker": "Agent",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=34 sha=6d0c77fd6622>"
+      },
+      {
+        "start": 67.95,
+        "end": 72.31,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=55 sha=2c32d5aeef6c>"
+      },
+      {
+        "start": 73.41,
+        "end": 75.97,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=53 sha=dd3ed3a374e7>"
+      },
+      {
+        "start": 75.97,
+        "end": 77.63,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=17 sha=59f5eed3768a>"
+      },
+      {
+        "start": 77.99,
+        "end": 80.59,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=49 sha=1e42baba7f45>"
+      },
+      {
+        "start": 81.29,
+        "end": 83.49,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=36 sha=522cc7abfbef>"
+      },
+      {
+        "start": 83.49,
+        "end": 87.05,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=43 sha=1bd701fbb859>"
+      },
+      {
+        "start": 87.45,
+        "end": 88.63,
+        "speaker": "Customer",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=17 sha=692b5aa4a451>"
+      },
+      {
+        "start": 89.17,
+        "end": 89.59,
+        "speaker": "Agent",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=11 sha=fceee6f367dd>"
+      },
+      {
+        "start": 89.99,
+        "end": 90.59,
+        "speaker": "Agent",
+        "confidence": 0.725,
+        "text_redacted": "<redacted len=17 sha=52c6a4f68307>"
+      },
+      {
+        "start": 90.59,
+        "end": 100.67,
+        "speaker": "Customer",
+        "confidence": 0.7248,
+        "text_redacted": "<redacted len=98 sha=2043a734fac6>"
+      },
+      {
+        "start": 101.19,
+        "end": 105.17,
+        "speaker": "Customer",
+        "confidence": 0.7248,
+        "text_redacted": "<redacted len=62 sha=fba55e056bcd>"
+      },
+      {
+        "start": 106.8,
+        "end": 114.28,
+        "speaker": "Agent",
+        "confidence": 0.7248,
+        "text_redacted": "<redacted len=111 sha=3df6a46431bb>"
+      },
+      {
+        "start": 114.38,
+        "end": 124.68,
+        "speaker": "Agent",
+        "confidence": 0.7214,
+        "text_redacted": "<redacted len=82 sha=040965deb1a9>"
+      },
+      {
+        "start": 124.68,
+        "end": 132.02,
+        "speaker": "Agent",
+        "confidence": 0.7214,
+        "text_redacted": "<redacted len=90 sha=b24c63c66772>"
+      },
+      {
+        "start": 132.62,
+        "end": 140.24,
+        "speaker": "Agent",
+        "confidence": 0.7214,
+        "text_redacted": "<redacted len=88 sha=109a3bd3b67b>"
+      },
+      {
+        "start": 140.24,
+        "end": 147.32,
+        "speaker": "Customer",
+        "confidence": 0.7553,
+        "text_redacted": "<redacted len=79 sha=29b4a1713023>"
+      },
+      {
+        "start": 147.32,
+        "end": 152.54,
+        "speaker": "Customer",
+        "confidence": 0.7553,
+        "text_redacted": "<redacted len=77 sha=1c953c3b4164>"
+      },
+      {
+        "start": 152.88,
+        "end": 157.2,
+        "speaker": "Customer",
+        "confidence": 0.7553,
+        "text_redacted": "<redacted len=77 sha=650f3c351387>"
+      },
+      {
+        "start": 157.2,
+        "end": 161.94,
+        "speaker": "Customer",
+        "confidence": 0.7553,
+        "text_redacted": "<redacted len=70 sha=5915c9157169>"
+      },
+      {
+        "start": 162.4,
+        "end": 171.75,
+        "speaker": "Agent",
+        "confidence": 0.7553,
+        "text_redacted": "<redacted len=80 sha=439be583def5>"
+      },
+      {
+        "start": 171.75,
+        "end": 177.85,
+        "speaker": "Agent",
+        "confidence": 0.8429,
+        "text_redacted": "<redacted len=88 sha=ce7854091413>"
+      },
+      {
+        "start": 177.85,
+        "end": 186.61,
+        "speaker": "Agent",
+        "confidence": 0.8429,
+        "text_redacted": "<redacted len=82 sha=c96782af3a50>"
+      },
+      {
+        "start": 186.61,
+        "end": 193.21,
+        "speaker": "Agent",
+        "confidence": 0.8429,
+        "text_redacted": "<redacted len=94 sha=4f8c5d37b7ae>"
+      },
+      {
+        "start": 193.21,
+        "end": 199.23,
+        "speaker": "Agent",
+        "confidence": 0.8429,
+        "text_redacted": "<redacted len=89 sha=40454aa02a13>"
+      },
+      {
+        "start": 199.23,
+        "end": 201.57,
+        "speaker": "Agent",
+        "confidence": 0.7365,
+        "text_redacted": "<redacted len=22 sha=42a06c06ce9f>"
+      },
+      {
+        "start": 202.23,
+        "end": 207.65,
+        "speaker": "Customer",
+        "confidence": 0.7365,
+        "text_redacted": "<redacted len=97 sha=01e9f7cc184b>"
+      },
+      {
+        "start": 208.09,
+        "end": 214.83,
+        "speaker": "Customer",
+        "confidence": 0.7365,
+        "text_redacted": "<redacted len=115 sha=7c604f761191>"
+      },
+      {
+        "start": 215.23,
+        "end": 219.47,
+        "speaker": "Agent",
+        "confidence": 0.7365,
+        "text_redacted": "<redacted len=78 sha=8eabbbaf0150>"
+      },
+      {
+        "start": 219.95,
+        "end": 225.63,
+        "speaker": "Customer",
+        "confidence": 0.7365,
+        "text_redacted": "<redacted len=84 sha=efcc4d8b2e2c>"
+      },
+      {
+        "start": 225.63,
+        "end": 229.93,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=58 sha=b709cdf2fa7c>"
+      },
+      {
+        "start": 230.73,
+        "end": 233.15,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=38 sha=9b291b08cf52>"
+      },
+      {
+        "start": 233.57,
+        "end": 236.69,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=29 sha=8d331b5c4bfb>"
+      },
+      {
+        "start": 239.57,
+        "end": 239.82,
+        "speaker": "Agent",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 240.82,
+        "end": 245.94,
+        "speaker": "Agent",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=87 sha=f9dca330ef9f>"
+      },
+      {
+        "start": 246.58,
+        "end": 248.72,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=25 sha=79c789199e20>"
+      },
+      {
+        "start": 249.52,
+        "end": 250.52,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 251.16,
+        "end": 253.58,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=57 sha=dc257ab4c71b>"
+      },
+      {
+        "start": 253.58,
+        "end": 257.1,
+        "speaker": "Customer",
+        "confidence": 0.7332,
+        "text_redacted": "<redacted len=46 sha=b006817af4bc>"
+      },
+      {
+        "start": 257.1,
+        "end": 266.18,
+        "speaker": "Customer",
+        "confidence": 0.7043,
+        "text_redacted": "<redacted len=71 sha=71eeb49c7699>"
+      },
+      {
+        "start": 266.46,
+        "end": 267.74,
+        "speaker": "Agent",
+        "confidence": 0.7043,
+        "text_redacted": "<redacted len=20 sha=9704d1fe4466>"
+      },
+      {
+        "start": 268.8,
+        "end": 270.94,
+        "speaker": "Agent",
+        "confidence": 0.7043,
+        "text_redacted": "<redacted len=14 sha=cae722b38d46>"
+      },
+      {
+        "start": 271.7,
+        "end": 279.94,
+        "speaker": "Agent",
+        "confidence": 0.7043,
+        "text_redacted": "<redacted len=80 sha=4b5cb38dccd8>"
+      },
+      {
+        "start": 280.44,
+        "end": 284.5,
+        "speaker": "Agent",
+        "confidence": 0.7043,
+        "text_redacted": "<redacted len=43 sha=2e9cde67a321>"
+      },
+      {
+        "start": 284.86,
+        "end": 286.02,
+        "speaker": "Agent",
+        "confidence": 0.7043,
+        "text_redacted": "<redacted len=25 sha=f5f71eb26514>"
+      },
+      {
+        "start": 287.28,
+        "end": 288.72,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=19 sha=ee26f5cfc955>"
+      },
+      {
+        "start": 289.92,
+        "end": 290.48,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=18 sha=885affd4c07f>"
+      },
+      {
+        "start": 291.08,
+        "end": 294.06,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=52 sha=6d99fbb207e8>"
+      },
+      {
+        "start": 294.06,
+        "end": 296.48,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=25 sha=584f7ab1a6ad>"
+      },
+      {
+        "start": 297.04,
+        "end": 300.7,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=51 sha=4bccac73a156>"
+      },
+      {
+        "start": 300.7,
+        "end": 303.94,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=39 sha=fcb9785c3033>"
+      },
+      {
+        "start": 304.34,
+        "end": 307.14,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=55 sha=59063a004ac2>"
+      },
+      {
+        "start": 307.14,
+        "end": 310.24,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=42 sha=df6bf3b91a78>"
+      },
+      {
+        "start": 310.5,
+        "end": 312.78,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=53 sha=012ec82d5d0b>"
+      },
+      {
+        "start": 313.24,
+        "end": 313.74,
+        "speaker": "Customer",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=10 sha=801f310b479d>"
+      },
+      {
+        "start": 313.94,
+        "end": 314.76,
+        "speaker": "Agent",
+        "confidence": 0.7052,
+        "text_redacted": "<redacted len=10 sha=6ca480dea6f0>"
+      },
+      {
+        "start": 314.82,
+        "end": 318.0,
+        "speaker": "Agent",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=57 sha=e134b5e52a82>"
+      },
+      {
+        "start": 318.36,
+        "end": 318.58,
+        "speaker": "Customer",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=5 sha=3d08b37cdf5c>"
+      },
+      {
+        "start": 318.82,
+        "end": 320.92,
+        "speaker": "Customer",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=34 sha=34ac413537e6>"
+      },
+      {
+        "start": 321.24,
+        "end": 322.54,
+        "speaker": "Customer",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=18 sha=ba363127304b>"
+      },
+      {
+        "start": 323.02,
+        "end": 324.08,
+        "speaker": "Customer",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=30 sha=661aafbb51e8>"
+      },
+      {
+        "start": 324.32,
+        "end": 325.8,
+        "speaker": "Agent",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=39 sha=168c79388e56>"
+      },
+      {
+        "start": 326.14,
+        "end": 327.22,
+        "speaker": "Agent",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=21 sha=cc007dc7c72d>"
+      },
+      {
+        "start": 327.6,
+        "end": 328.7,
+        "speaker": "Agent",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=26 sha=914e4dc6ee2f>"
+      },
+      {
+        "start": 329.32,
+        "end": 329.62,
+        "speaker": "Agent",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=4 sha=d34d6c966998>"
+      },
+      {
+        "start": 333.21,
+        "end": 340.81,
+        "speaker": "Customer",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=88 sha=761691202987>"
+      },
+      {
+        "start": 340.81,
+        "end": 343.15,
+        "speaker": "Customer",
+        "confidence": 0.8193,
+        "text_redacted": "<redacted len=26 sha=5a0ef18e8aab>"
+      },
+      {
+        "start": 343.25,
+        "end": 350.25,
+        "speaker": "Customer",
+        "confidence": 0.8035,
+        "text_redacted": "<redacted len=81 sha=a18e4bd6da71>"
+      },
+      {
+        "start": 350.97,
+        "end": 357.17,
+        "speaker": "Customer",
+        "confidence": 0.8035,
+        "text_redacted": "<redacted len=75 sha=eee2ac0353e3>"
+      },
+      {
+        "start": 357.53,
+        "end": 361.23,
+        "speaker": "Customer",
+        "confidence": 0.8035,
+        "text_redacted": "<redacted len=61 sha=8a33fb15d9ae>"
+      },
+      {
+        "start": 361.71,
+        "end": 366.75,
+        "speaker": "Customer",
+        "confidence": 0.8035,
+        "text_redacted": "<redacted len=84 sha=d5850c1a89b2>"
+      },
+      {
+        "start": 366.75,
+        "end": 369.31,
+        "speaker": "Customer",
+        "confidence": 0.8035,
+        "text_redacted": "<redacted len=55 sha=e73f203248b7>"
+      },
+      {
+        "start": 369.31,
+        "end": 373.76,
+        "speaker": "Customer",
+        "confidence": 0.7445,
+        "text_redacted": "<redacted len=79 sha=66c4edc4cc62>"
+      },
+      {
+        "start": 374.72,
+        "end": 376.66,
+        "speaker": "Customer",
+        "confidence": 0.7445,
+        "text_redacted": "<redacted len=28 sha=359b30a6fd1d>"
+      }
+    ]
+  },
+  {
+    "file": "sample_08.mp3",
+    "ok": true,
+    "runtime_sec": 8.779,
+    "segment_count": 91,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.31,
+        "speaker": "Agent",
+        "confidence": 0.8385,
+        "text_redacted": "<redacted len=87 sha=8a8795af7bd3>"
+      },
+      {
+        "start": 10.24,
+        "end": 15.26,
+        "speaker": "Customer",
+        "confidence": 0.8385,
+        "text_redacted": "<redacted len=96 sha=389376586b58>"
+      },
+      {
+        "start": 15.94,
+        "end": 20.2,
+        "speaker": "Agent",
+        "confidence": 0.8385,
+        "text_redacted": "<redacted len=93 sha=bdac90fbdf0e>"
+      },
+      {
+        "start": 21.46,
+        "end": 25.3,
+        "speaker": "Customer",
+        "confidence": 0.8385,
+        "text_redacted": "<redacted len=75 sha=6554c1453d2d>"
+      },
+      {
+        "start": 25.94,
+        "end": 29.76,
+        "speaker": "Agent",
+        "confidence": 0.8385,
+        "text_redacted": "<redacted len=58 sha=e48e076ebacd>"
+      },
+      {
+        "start": 29.76,
+        "end": 33.04,
+        "speaker": "Agent",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=44 sha=4f732c6c2e53>"
+      },
+      {
+        "start": 36.53,
+        "end": 40.47,
+        "speaker": "Customer",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=16 sha=6ecb4f55f704>"
+      },
+      {
+        "start": 41.61,
+        "end": 42.41,
+        "speaker": "Customer",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=23 sha=0d55de52c711>"
+      },
+      {
+        "start": 43.05,
+        "end": 46.31,
+        "speaker": "Customer",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=76 sha=d35c3f23c9f4>"
+      },
+      {
+        "start": 47.11,
+        "end": 50.13,
+        "speaker": "Agent",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=72 sha=58850df04a81>"
+      },
+      {
+        "start": 50.27,
+        "end": 52.49,
+        "speaker": "Agent",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=43 sha=c1c98a37f452>"
+      },
+      {
+        "start": 53.29,
+        "end": 55.73,
+        "speaker": "Customer",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=39 sha=02564f8a67ec>"
+      },
+      {
+        "start": 56.27,
+        "end": 59.73,
+        "speaker": "Customer",
+        "confidence": 0.8328,
+        "text_redacted": "<redacted len=68 sha=21898e2573e2>"
+      },
+      {
+        "start": 59.73,
+        "end": 64.01,
+        "speaker": "Customer",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=56 sha=d4facca5eaf5>"
+      },
+      {
+        "start": 65.18,
+        "end": 68.44,
+        "speaker": "Customer",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=45 sha=c028108b5838>"
+      },
+      {
+        "start": 68.44,
+        "end": 72.0,
+        "speaker": "Customer",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=63 sha=183a56711824>"
+      },
+      {
+        "start": 73.02,
+        "end": 73.96,
+        "speaker": "Customer",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=21 sha=7ea9b9e27ccf>"
+      },
+      {
+        "start": 74.95,
+        "end": 77.87,
+        "speaker": "Customer",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=46 sha=72e0815ce6db>"
+      },
+      {
+        "start": 78.89,
+        "end": 82.13,
+        "speaker": "Customer",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=68 sha=240d1120b9ff>"
+      },
+      {
+        "start": 83.49,
+        "end": 85.85,
+        "speaker": "Agent",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=51 sha=1d7dd169a9d6>"
+      },
+      {
+        "start": 87.0,
+        "end": 88.54,
+        "speaker": "Agent",
+        "confidence": 0.8814,
+        "text_redacted": "<redacted len=32 sha=983b66ae78f5>"
+      },
+      {
+        "start": 88.54,
+        "end": 91.96,
+        "speaker": "Agent",
+        "confidence": 0.7661,
+        "text_redacted": "<redacted len=67 sha=c2b588e94586>"
+      },
+      {
+        "start": 93.4,
+        "end": 98.66,
+        "speaker": "Customer",
+        "confidence": 0.7661,
+        "text_redacted": "<redacted len=82 sha=65cf3cc44b45>"
+      },
+      {
+        "start": 99.99,
+        "end": 104.51,
+        "speaker": "Agent",
+        "confidence": 0.7661,
+        "text_redacted": "<redacted len=88 sha=2114590a801c>"
+      },
+      {
+        "start": 105.45,
+        "end": 112.45,
+        "speaker": "Agent",
+        "confidence": 0.7661,
+        "text_redacted": "<redacted len=80 sha=d2c499234a99>"
+      },
+      {
+        "start": 112.45,
+        "end": 115.37,
+        "speaker": "Agent",
+        "confidence": 0.7661,
+        "text_redacted": "<redacted len=54 sha=91e4c69db9b5>"
+      },
+      {
+        "start": 116.68,
+        "end": 120.92,
+        "speaker": "Customer",
+        "confidence": 0.7661,
+        "text_redacted": "<redacted len=60 sha=6012f0952204>"
+      },
+      {
+        "start": 120.92,
+        "end": 124.66,
+        "speaker": "Customer",
+        "confidence": 0.8466,
+        "text_redacted": "<redacted len=69 sha=0fa997de267d>"
+      },
+      {
+        "start": 125.9,
+        "end": 131.06,
+        "speaker": "Agent",
+        "confidence": 0.8466,
+        "text_redacted": "<redacted len=87 sha=e4f0e5e17819>"
+      },
+      {
+        "start": 131.06,
+        "end": 138.3,
+        "speaker": "Agent",
+        "confidence": 0.8466,
+        "text_redacted": "<redacted len=96 sha=e68c0ffe3e6d>"
+      },
+      {
+        "start": 138.3,
+        "end": 142.92,
+        "speaker": "Agent",
+        "confidence": 0.8466,
+        "text_redacted": "<redacted len=86 sha=3dff0f83a409>"
+      },
+      {
+        "start": 142.92,
+        "end": 147.1,
+        "speaker": "Agent",
+        "confidence": 0.8466,
+        "text_redacted": "<redacted len=68 sha=150e2113a013>"
+      },
+      {
+        "start": 147.68,
+        "end": 152.24,
+        "speaker": "Agent",
+        "confidence": 0.8466,
+        "text_redacted": "<redacted len=70 sha=ea7304452d76>"
+      },
+      {
+        "start": 152.34,
+        "end": 158.54,
+        "speaker": "Agent",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=98 sha=b10b8ddbc9de>"
+      },
+      {
+        "start": 159.02,
+        "end": 161.58,
+        "speaker": "Agent",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=50 sha=6e5443580602>"
+      },
+      {
+        "start": 162.84,
+        "end": 164.72,
+        "speaker": "Customer",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=40 sha=530d44f889e5>"
+      },
+      {
+        "start": 165.56,
+        "end": 170.7,
+        "speaker": "Customer",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=111 sha=25b88aac0fd5>"
+      },
+      {
+        "start": 170.7,
+        "end": 174.0,
+        "speaker": "Customer",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=59 sha=b244d41e4022>"
+      },
+      {
+        "start": 174.72,
+        "end": 177.18,
+        "speaker": "Customer",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=43 sha=dbbbed53c337>"
+      },
+      {
+        "start": 178.37,
+        "end": 178.93,
+        "speaker": "Agent",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=11 sha=f6045602f2f0>"
+      },
+      {
+        "start": 180.1,
+        "end": 180.88,
+        "speaker": "Agent",
+        "confidence": 0.8792,
+        "text_redacted": "<redacted len=17 sha=571ca262964e>"
+      },
+      {
+        "start": 180.88,
+        "end": 182.62,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=25 sha=23e681886d91>"
+      },
+      {
+        "start": 183.92,
+        "end": 185.74,
+        "speaker": "Customer",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=37 sha=d101d790576f>"
+      },
+      {
+        "start": 186.14,
+        "end": 188.24,
+        "speaker": "Customer",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=45 sha=a79d0690ee72>"
+      },
+      {
+        "start": 189.41,
+        "end": 191.27,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=37 sha=27084e7d20ad>"
+      },
+      {
+        "start": 192.02,
+        "end": 192.92,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=13 sha=c80d91641cbe>"
+      },
+      {
+        "start": 193.83,
+        "end": 196.71,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=43 sha=26c3691973ae>"
+      },
+      {
+        "start": 197.49,
+        "end": 197.71,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=8 sha=2b687db6298b>"
+      },
+      {
+        "start": 198.61,
+        "end": 198.89,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=8 sha=2b687db6298b>"
+      },
+      {
+        "start": 200.26,
+        "end": 202.08,
+        "speaker": "Customer",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=34 sha=9b0279450e22>"
+      },
+      {
+        "start": 202.48,
+        "end": 204.06,
+        "speaker": "Customer",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=21 sha=6020d2a66f74>"
+      },
+      {
+        "start": 204.42,
+        "end": 205.42,
+        "speaker": "Customer",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=18 sha=dbf85e4b6505>"
+      },
+      {
+        "start": 207.11,
+        "end": 208.23,
+        "speaker": "Agent",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=13 sha=2145ef614380>"
+      },
+      {
+        "start": 210.74,
+        "end": 212.76,
+        "speaker": "Customer",
+        "confidence": 0.7516,
+        "text_redacted": "<redacted len=50 sha=1f0f94c1307a>"
+      },
+      {
+        "start": 212.76,
+        "end": 215.84,
+        "speaker": "Agent",
+        "confidence": 0.7682,
+        "text_redacted": "<redacted len=46 sha=627526bcfbf5>"
+      },
+      {
+        "start": 216.75,
+        "end": 222.33,
+        "speaker": "Customer",
+        "confidence": 0.7682,
+        "text_redacted": "<redacted len=100 sha=13977afe67e3>"
+      },
+      {
+        "start": 223.23,
+        "end": 228.43,
+        "speaker": "Customer",
+        "confidence": 0.7682,
+        "text_redacted": "<redacted len=105 sha=9c08e86f9f11>"
+      },
+      {
+        "start": 229.46,
+        "end": 235.6,
+        "speaker": "Agent",
+        "confidence": 0.7682,
+        "text_redacted": "<redacted len=72 sha=b81541e851ca>"
+      },
+      {
+        "start": 236.86,
+        "end": 240.36,
+        "speaker": "Customer",
+        "confidence": 0.7682,
+        "text_redacted": "<redacted len=74 sha=4fbb135e7d99>"
+      },
+      {
+        "start": 240.36,
+        "end": 245.7,
+        "speaker": "Agent",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=81 sha=826d3dded8f8>"
+      },
+      {
+        "start": 245.92,
+        "end": 249.18,
+        "speaker": "Agent",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=57 sha=2215f2563b09>"
+      },
+      {
+        "start": 250.62,
+        "end": 251.2,
+        "speaker": "Customer",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=20 sha=b6a90ee3a885>"
+      },
+      {
+        "start": 251.74,
+        "end": 256.28,
+        "speaker": "Customer",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=89 sha=9c7dc880de4c>"
+      },
+      {
+        "start": 257.26,
+        "end": 261.62,
+        "speaker": "Customer",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=89 sha=ea4a61f2a252>"
+      },
+      {
+        "start": 261.62,
+        "end": 262.72,
+        "speaker": "Agent",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=16 sha=194219122634>"
+      },
+      {
+        "start": 263.78,
+        "end": 267.88,
+        "speaker": "Agent",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=88 sha=67e356ba6409>"
+      },
+      {
+        "start": 267.88,
+        "end": 269.1,
+        "speaker": "Customer",
+        "confidence": 0.8215,
+        "text_redacted": "<redacted len=33 sha=161238903057>"
+      },
+      {
+        "start": 269.97,
+        "end": 275.75,
+        "speaker": "Customer",
+        "confidence": 0.7768,
+        "text_redacted": "<redacted len=96 sha=67e9bdc88c14>"
+      },
+      {
+        "start": 276.15,
+        "end": 277.63,
+        "speaker": "Customer",
+        "confidence": 0.7768,
+        "text_redacted": "<redacted len=37 sha=f20079eaa9af>"
+      },
+      {
+        "start": 278.91,
+        "end": 283.05,
+        "speaker": "Agent",
+        "confidence": 0.7768,
+        "text_redacted": "<redacted len=92 sha=4e9f1477dd14>"
+      },
+      {
+        "start": 283.05,
+        "end": 288.45,
+        "speaker": "Agent",
+        "confidence": 0.7768,
+        "text_redacted": "<redacted len=88 sha=50bb0a181619>"
+      },
+      {
+        "start": 288.65,
+        "end": 292.97,
+        "speaker": "Agent",
+        "confidence": 0.7768,
+        "text_redacted": "<redacted len=88 sha=5b4510db7255>"
+      },
+      {
+        "start": 292.97,
+        "end": 295.35,
+        "speaker": "Agent",
+        "confidence": 0.7768,
+        "text_redacted": "<redacted len=51 sha=ec6e178ea694>"
+      },
+      {
+        "start": 296.02,
+        "end": 301.32,
+        "speaker": "Agent",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=90 sha=0d6697c3b234>"
+      },
+      {
+        "start": 302.77,
+        "end": 307.09,
+        "speaker": "Customer",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=94 sha=69f310344a8f>"
+      },
+      {
+        "start": 307.55,
+        "end": 310.83,
+        "speaker": "Customer",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=71 sha=313739dbd83a>"
+      },
+      {
+        "start": 312.4,
+        "end": 313.04,
+        "speaker": "Agent",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=7 sha=5179dad09edb>"
+      },
+      {
+        "start": 313.36,
+        "end": 316.84,
+        "speaker": "Agent",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=71 sha=53b03bec9eed>"
+      },
+      {
+        "start": 317.46,
+        "end": 319.98,
+        "speaker": "Agent",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=44 sha=5516ca60de14>"
+      },
+      {
+        "start": 321.11,
+        "end": 321.73,
+        "speaker": "Customer",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=13 sha=e85a911d6255>"
+      },
+      {
+        "start": 322.23,
+        "end": 326.27,
+        "speaker": "Customer",
+        "confidence": 0.8358,
+        "text_redacted": "<redacted len=87 sha=985b933cfe6d>"
+      },
+      {
+        "start": 327.27,
+        "end": 330.93,
+        "speaker": "Customer",
+        "confidence": 0.8077,
+        "text_redacted": "<redacted len=60 sha=e0811405273c>"
+      },
+      {
+        "start": 331.88,
+        "end": 338.22,
+        "speaker": "Customer",
+        "confidence": 0.8077,
+        "text_redacted": "<redacted len=126 sha=2e014b0fd7fc>"
+      },
+      {
+        "start": 339.13,
+        "end": 341.95,
+        "speaker": "Customer",
+        "confidence": 0.8077,
+        "text_redacted": "<redacted len=58 sha=788db4536b79>"
+      },
+      {
+        "start": 342.19,
+        "end": 348.61,
+        "speaker": "Customer",
+        "confidence": 0.8077,
+        "text_redacted": "<redacted len=135 sha=93f60c43cbfb>"
+      },
+      {
+        "start": 349.01,
+        "end": 351.73,
+        "speaker": "Customer",
+        "confidence": 0.8077,
+        "text_redacted": "<redacted len=49 sha=b9ffc9841d36>"
+      },
+      {
+        "start": 352.49,
+        "end": 355.25,
+        "speaker": "Agent",
+        "confidence": 0.8077,
+        "text_redacted": "<redacted len=60 sha=a9199010c1ab>"
+      },
+      {
+        "start": 355.25,
+        "end": 358.99,
+        "speaker": "Customer",
+        "confidence": 0.7588,
+        "text_redacted": "<redacted len=56 sha=bef3d05a2dff>"
+      },
+      {
+        "start": 359.29,
+        "end": 360.11,
+        "speaker": "Agent",
+        "confidence": 0.7588,
+        "text_redacted": "<redacted len=17 sha=b92d18c45665>"
+      },
+      {
+        "start": 360.77,
+        "end": 361.13,
+        "speaker": "Agent",
+        "confidence": 0.7588,
+        "text_redacted": "<redacted len=8 sha=2b687db6298b>"
+      },
+      {
+        "start": 362.39,
+        "end": 365.45,
+        "speaker": "Customer",
+        "confidence": 0.7588,
+        "text_redacted": "<redacted len=45 sha=a3629b04755b>"
+      }
+    ]
+  },
+  {
+    "file": "sample_09.mp3",
+    "ok": true,
+    "runtime_sec": 7.98,
+    "segment_count": 106,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.84,
+        "speaker": "Agent",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=48 sha=8ba5f9178152>"
+      },
+      {
+        "start": 4.38,
+        "end": 7.89,
+        "speaker": "Agent",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=40 sha=7d22121981f0>"
+      },
+      {
+        "start": 8.43,
+        "end": 12.44,
+        "speaker": "Agent",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=31 sha=ce07aa9dfa07>"
+      },
+      {
+        "start": 14.24,
+        "end": 16.4,
+        "speaker": "Customer",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=51 sha=05bd189bc9cc>"
+      },
+      {
+        "start": 16.86,
+        "end": 17.62,
+        "speaker": "Agent",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=17 sha=4fb0534bf894>"
+      },
+      {
+        "start": 18.1,
+        "end": 19.26,
+        "speaker": "Agent",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=27 sha=928404974020>"
+      },
+      {
+        "start": 20.18,
+        "end": 22.3,
+        "speaker": "Customer",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=40 sha=76315a3029ef>"
+      },
+      {
+        "start": 22.78,
+        "end": 24.74,
+        "speaker": "Customer",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=42 sha=67013a758a84>"
+      },
+      {
+        "start": 25.16,
+        "end": 26.92,
+        "speaker": "Customer",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=45 sha=633c2f1d92a4>"
+      },
+      {
+        "start": 27.24,
+        "end": 28.96,
+        "speaker": "Agent",
+        "confidence": 0.8548,
+        "text_redacted": "<redacted len=30 sha=97f668db4f94>"
+      },
+      {
+        "start": 29.5,
+        "end": 36.32,
+        "speaker": "Agent",
+        "confidence": 0.8072,
+        "text_redacted": "<redacted len=119 sha=963eb271dec5>"
+      },
+      {
+        "start": 37.27,
+        "end": 43.39,
+        "speaker": "Customer",
+        "confidence": 0.8072,
+        "text_redacted": "<redacted len=27 sha=926e56a6e1af>"
+      },
+      {
+        "start": 44.08,
+        "end": 48.16,
+        "speaker": "Customer",
+        "confidence": 0.8072,
+        "text_redacted": "<redacted len=77 sha=4d703fb53cba>"
+      },
+      {
+        "start": 49.0,
+        "end": 55.16,
+        "speaker": "Customer",
+        "confidence": 0.8072,
+        "text_redacted": "<redacted len=125 sha=83b030d5dd0b>"
+      },
+      {
+        "start": 55.7,
+        "end": 61.68,
+        "speaker": "Customer",
+        "confidence": 0.8683,
+        "text_redacted": "<redacted len=91 sha=e43a8173a7ad>"
+      },
+      {
+        "start": 62.12,
+        "end": 67.3,
+        "speaker": "Customer",
+        "confidence": 0.8683,
+        "text_redacted": "<redacted len=79 sha=5aa8015906a3>"
+      },
+      {
+        "start": 68.33,
+        "end": 77.25,
+        "speaker": "Customer",
+        "confidence": 0.8683,
+        "text_redacted": "<redacted len=168 sha=641ec7882bd7>"
+      },
+      {
+        "start": 78.05,
+        "end": 83.75,
+        "speaker": "Agent",
+        "confidence": 0.8683,
+        "text_redacted": "<redacted len=108 sha=b6ab88000f01>"
+      },
+      {
+        "start": 83.75,
+        "end": 90.85,
+        "speaker": "Customer",
+        "confidence": 0.8877,
+        "text_redacted": "<redacted len=114 sha=4bf206de69e0>"
+      },
+      {
+        "start": 91.39,
+        "end": 97.85,
+        "speaker": "Customer",
+        "confidence": 0.8877,
+        "text_redacted": "<redacted len=126 sha=dc131564cddc>"
+      },
+      {
+        "start": 98.11,
+        "end": 100.07,
+        "speaker": "Customer",
+        "confidence": 0.8877,
+        "text_redacted": "<redacted len=37 sha=1c1fdf47eb51>"
+      },
+      {
+        "start": 100.73,
+        "end": 105.87,
+        "speaker": "Agent",
+        "confidence": 0.8877,
+        "text_redacted": "<redacted len=105 sha=a18063d15090>"
+      },
+      {
+        "start": 106.59,
+        "end": 110.19,
+        "speaker": "Agent",
+        "confidence": 0.8877,
+        "text_redacted": "<redacted len=62 sha=b78610dca17b>"
+      },
+      {
+        "start": 110.19,
+        "end": 113.53,
+        "speaker": "Agent",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=56 sha=3cafb8708072>"
+      },
+      {
+        "start": 113.89,
+        "end": 115.17,
+        "speaker": "Agent",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=29 sha=9219df9367a8>"
+      },
+      {
+        "start": 116.23,
+        "end": 119.77,
+        "speaker": "Agent",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=80 sha=24e491d7c694>"
+      },
+      {
+        "start": 120.89,
+        "end": 122.79,
+        "speaker": "Agent",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=48 sha=4d0a91db4369>"
+      },
+      {
+        "start": 123.61,
+        "end": 126.79,
+        "speaker": "Customer",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=64 sha=660138414d14>"
+      },
+      {
+        "start": 127.43,
+        "end": 129.19,
+        "speaker": "Customer",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=39 sha=ed93a30c187e>"
+      },
+      {
+        "start": 129.63,
+        "end": 132.19,
+        "speaker": "Customer",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=64 sha=10fec6f2c64b>"
+      },
+      {
+        "start": 132.81,
+        "end": 134.07,
+        "speaker": "Customer",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=21 sha=f3baf120b564>"
+      },
+      {
+        "start": 134.93,
+        "end": 137.49,
+        "speaker": "Customer",
+        "confidence": 0.6864,
+        "text_redacted": "<redacted len=57 sha=1c62923b1604>"
+      },
+      {
+        "start": 137.49,
+        "end": 141.83,
+        "speaker": "Customer",
+        "confidence": 0.6178,
+        "text_redacted": "<redacted len=4 sha=8b7df143d91c>"
+      },
+      {
+        "start": 142.29,
+        "end": 149.13,
+        "speaker": "Customer",
+        "confidence": 0.6178,
+        "text_redacted": "<redacted len=75 sha=39a56840fb5e>"
+      },
+      {
+        "start": 149.93,
+        "end": 153.61,
+        "speaker": "Customer",
+        "confidence": 0.6178,
+        "text_redacted": "<redacted len=37 sha=2fa34de35256>"
+      },
+      {
+        "start": 155.09,
+        "end": 162.01,
+        "speaker": "Agent",
+        "confidence": 0.6178,
+        "text_redacted": "<redacted len=95 sha=90d19fb8d41a>"
+      },
+      {
+        "start": 162.01,
+        "end": 163.89,
+        "speaker": "Agent",
+        "confidence": 0.6178,
+        "text_redacted": "<redacted len=28 sha=17d7ea046a7a>"
+      },
+      {
+        "start": 164.14,
+        "end": 169.3,
+        "speaker": "Customer",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=59 sha=137b3997d0c7>"
+      },
+      {
+        "start": 169.7,
+        "end": 170.78,
+        "speaker": "Customer",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=26 sha=770fd862c3f4>"
+      },
+      {
+        "start": 171.94,
+        "end": 174.34,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=58 sha=abe4bb74216b>"
+      },
+      {
+        "start": 175.04,
+        "end": 176.22,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=24 sha=05785568cc80>"
+      },
+      {
+        "start": 176.9,
+        "end": 180.8,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=88 sha=b3d9de07c66b>"
+      },
+      {
+        "start": 180.8,
+        "end": 181.38,
+        "speaker": "Customer",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=13 sha=26fa527d4704>"
+      },
+      {
+        "start": 182.34,
+        "end": 183.14,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=19 sha=71e285f88536>"
+      },
+      {
+        "start": 183.68,
+        "end": 187.76,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=25 sha=4a883b3080ed>"
+      },
+      {
+        "start": 188.52,
+        "end": 189.66,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=17 sha=22d0a208937c>"
+      },
+      {
+        "start": 189.98,
+        "end": 190.92,
+        "speaker": "Agent",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=26 sha=9626c48411b0>"
+      },
+      {
+        "start": 191.62,
+        "end": 191.98,
+        "speaker": "Customer",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=4 sha=5f9a2b795615>"
+      },
+      {
+        "start": 192.22,
+        "end": 193.58,
+        "speaker": "Customer",
+        "confidence": 0.7643,
+        "text_redacted": "<redacted len=30 sha=d2ac6570ea18>"
+      },
+      {
+        "start": 194.09,
+        "end": 195.93,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=30 sha=77ad846ddf88>"
+      },
+      {
+        "start": 196.59,
+        "end": 197.81,
+        "speaker": "Agent",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=9 sha=9f35d64864df>"
+      },
+      {
+        "start": 199.14,
+        "end": 200.52,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=29 sha=009038ee9fea>"
+      },
+      {
+        "start": 200.84,
+        "end": 202.18,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=37 sha=80823b6258d8>"
+      },
+      {
+        "start": 203.11,
+        "end": 205.03,
+        "speaker": "Agent",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=36 sha=fd8f9c6be437>"
+      },
+      {
+        "start": 206.53,
+        "end": 207.17,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=11 sha=226659ffbc12>"
+      },
+      {
+        "start": 207.57,
+        "end": 209.39,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=43 sha=ed72b05dd965>"
+      },
+      {
+        "start": 210.66,
+        "end": 211.36,
+        "speaker": "Agent",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=15 sha=cf8965badde2>"
+      },
+      {
+        "start": 211.7,
+        "end": 212.88,
+        "speaker": "Agent",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=27 sha=045d8d887f9f>"
+      },
+      {
+        "start": 213.85,
+        "end": 214.11,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=3 sha=38178a20b470>"
+      },
+      {
+        "start": 214.75,
+        "end": 216.57,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=39 sha=17e72a2211cc>"
+      },
+      {
+        "start": 217.11,
+        "end": 219.51,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=47 sha=e6b00c0a2f96>"
+      },
+      {
+        "start": 220.08,
+        "end": 223.36,
+        "speaker": "Customer",
+        "confidence": 0.8909,
+        "text_redacted": "<redacted len=66 sha=338df99de615>"
+      },
+      {
+        "start": 224.09,
+        "end": 226.45,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=39 sha=953f0c449aa6>"
+      },
+      {
+        "start": 227.38,
+        "end": 228.42,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=16 sha=8e242a3ff226>"
+      },
+      {
+        "start": 228.98,
+        "end": 231.04,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=46 sha=56e903ebf72b>"
+      },
+      {
+        "start": 231.5,
+        "end": 232.98,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=27 sha=2a393a0af78b>"
+      },
+      {
+        "start": 234.1,
+        "end": 235.38,
+        "speaker": "Agent",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=36 sha=f19df2222747>"
+      },
+      {
+        "start": 235.82,
+        "end": 238.84,
+        "speaker": "Agent",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=72 sha=baae82888ed5>"
+      },
+      {
+        "start": 239.97,
+        "end": 241.51,
+        "speaker": "Agent",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=43 sha=8adae4cabd0d>"
+      },
+      {
+        "start": 242.59,
+        "end": 243.25,
+        "speaker": "Agent",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=16 sha=fbc68422a8ae>"
+      },
+      {
+        "start": 244.17,
+        "end": 246.85,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=41 sha=2ae149ff9919>"
+      },
+      {
+        "start": 247.41,
+        "end": 249.91,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=36 sha=9c978860eb89>"
+      },
+      {
+        "start": 250.44,
+        "end": 252.26,
+        "speaker": "Customer",
+        "confidence": 0.8782,
+        "text_redacted": "<redacted len=37 sha=edd7f36b84d1>"
+      },
+      {
+        "start": 252.26,
+        "end": 254.9,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=45 sha=00ca7879feaa>"
+      },
+      {
+        "start": 256.06,
+        "end": 258.8,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=67 sha=c220f7c30be9>"
+      },
+      {
+        "start": 259.4,
+        "end": 261.26,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=53 sha=7de8e63bb196>"
+      },
+      {
+        "start": 262.83,
+        "end": 265.01,
+        "speaker": "Agent",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=53 sha=3bfc57272706>"
+      },
+      {
+        "start": 266.26,
+        "end": 267.82,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=44 sha=473590317b7a>"
+      },
+      {
+        "start": 268.54,
+        "end": 270.24,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=34 sha=aa69e8888b7c>"
+      },
+      {
+        "start": 271.64,
+        "end": 274.98,
+        "speaker": "Agent",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=76 sha=440d8b5d726e>"
+      },
+      {
+        "start": 275.34,
+        "end": 276.32,
+        "speaker": "Agent",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=23 sha=cefea50e7bc4>"
+      },
+      {
+        "start": 277.59,
+        "end": 281.53,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=74 sha=a998db262232>"
+      },
+      {
+        "start": 281.77,
+        "end": 284.07,
+        "speaker": "Customer",
+        "confidence": 0.891,
+        "text_redacted": "<redacted len=53 sha=3c8a97489b65>"
+      },
+      {
+        "start": 285.08,
+        "end": 286.92,
+        "speaker": "Customer",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=35 sha=866035f08f32>"
+      },
+      {
+        "start": 287.44,
+        "end": 289.4,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=51 sha=337da385452c>"
+      },
+      {
+        "start": 290.69,
+        "end": 293.11,
+        "speaker": "Customer",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=41 sha=ec38d74bdab3>"
+      },
+      {
+        "start": 293.61,
+        "end": 297.95,
+        "speaker": "Customer",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=52 sha=7d5ee7bf4ede>"
+      },
+      {
+        "start": 299.39,
+        "end": 301.03,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=16 sha=3e77236aa7e3>"
+      },
+      {
+        "start": 302.16,
+        "end": 305.18,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=67 sha=618688a498a1>"
+      },
+      {
+        "start": 305.91,
+        "end": 307.65,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=33 sha=f3d1392e5839>"
+      },
+      {
+        "start": 307.79,
+        "end": 309.49,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=33 sha=4f90f64b212a>"
+      },
+      {
+        "start": 310.29,
+        "end": 312.03,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=40 sha=240c0bbb40f9>"
+      },
+      {
+        "start": 312.63,
+        "end": 315.05,
+        "speaker": "Agent",
+        "confidence": 0.8675,
+        "text_redacted": "<redacted len=59 sha=35174134fd37>"
+      },
+      {
+        "start": 315.66,
+        "end": 318.6,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=55 sha=26e75f383d16>"
+      },
+      {
+        "start": 319.04,
+        "end": 320.54,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=34 sha=210754594466>"
+      },
+      {
+        "start": 321.58,
+        "end": 323.0,
+        "speaker": "Customer",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=23 sha=21a181735d06>"
+      },
+      {
+        "start": 323.24,
+        "end": 325.14,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=49 sha=935c076bf130>"
+      },
+      {
+        "start": 326.1,
+        "end": 327.16,
+        "speaker": "Customer",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=15 sha=bf956cb29ad5>"
+      },
+      {
+        "start": 327.38,
+        "end": 328.78,
+        "speaker": "Customer",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=27 sha=663f20c80e17>"
+      },
+      {
+        "start": 329.56,
+        "end": 331.48,
+        "speaker": "Customer",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=49 sha=369b9d2b0f99>"
+      },
+      {
+        "start": 332.85,
+        "end": 335.25,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=40 sha=393807c7423f>"
+      },
+      {
+        "start": 336.23,
+        "end": 337.29,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=21 sha=35f137b18025>"
+      },
+      {
+        "start": 337.51,
+        "end": 338.57,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=25 sha=e55253686226>"
+      },
+      {
+        "start": 339.52,
+        "end": 340.04,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=12 sha=5ded6208017a>"
+      },
+      {
+        "start": 341.08,
+        "end": 341.44,
+        "speaker": "Agent",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=8 sha=2b687db6298b>"
+      },
+      {
+        "start": 342.77,
+        "end": 345.59,
+        "speaker": "Customer",
+        "confidence": 0.7497,
+        "text_redacted": "<redacted len=45 sha=56985a2b95e7>"
+      }
+    ]
+  },
+  {
+    "file": "sample_10.mp3",
+    "ok": true,
+    "runtime_sec": 8.442,
+    "segment_count": 69,
+    "error": null,
+    "speaker_set": [
+      "Agent",
+      "Customer"
+    ],
+    "segments": [
+      {
+        "start": 11.38,
+        "end": 15.66,
+        "speaker": "Agent",
+        "confidence": 0.5617,
+        "text_redacted": "<redacted len=81 sha=90a03f86eb17>"
+      },
+      {
+        "start": 16.4,
+        "end": 20.96,
+        "speaker": "Customer",
+        "confidence": 0.5617,
+        "text_redacted": "<redacted len=69 sha=237a53cdebea>"
+      },
+      {
+        "start": 20.96,
+        "end": 25.88,
+        "speaker": "Customer",
+        "confidence": 0.5617,
+        "text_redacted": "<redacted len=79 sha=6ef739eb2a77>"
+      },
+      {
+        "start": 25.88,
+        "end": 29.74,
+        "speaker": "Customer",
+        "confidence": 0.5617,
+        "text_redacted": "<redacted len=67 sha=05c04f18a4e6>"
+      },
+      {
+        "start": 29.74,
+        "end": 34.71,
+        "speaker": "Customer",
+        "confidence": 0.5617,
+        "text_redacted": "<redacted len=75 sha=7b79edefec6b>"
+      },
+      {
+        "start": 34.71,
+        "end": 39.71,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=13 sha=99d2537ef987>"
+      },
+      {
+        "start": 41.1,
+        "end": 41.56,
+        "speaker": "Customer",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 41.88,
+        "end": 44.82,
+        "speaker": "Customer",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=52 sha=ff10101e4bbb>"
+      },
+      {
+        "start": 46.25,
+        "end": 46.33,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=5 sha=03b25bed61da>"
+      },
+      {
+        "start": 46.85,
+        "end": 50.11,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=43 sha=cad07a0ba6ab>"
+      },
+      {
+        "start": 50.11,
+        "end": 54.96,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=18 sha=638cb22b10b9>"
+      },
+      {
+        "start": 56.16,
+        "end": 56.48,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=10 sha=6cdbc2f5a879>"
+      },
+      {
+        "start": 56.6,
+        "end": 58.66,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=49 sha=748c330f1c91>"
+      },
+      {
+        "start": 59.54,
+        "end": 61.8,
+        "speaker": "Agent",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=28 sha=d16e8580f925>"
+      },
+      {
+        "start": 63.43,
+        "end": 63.77,
+        "speaker": "Customer",
+        "confidence": 0.7157,
+        "text_redacted": "<redacted len=5 sha=c10c03715605>"
+      },
+      {
+        "start": 63.77,
+        "end": 70.77,
+        "speaker": "Customer",
+        "confidence": 0.5483,
+        "text_redacted": "<redacted len=55 sha=0fcc8d7d6a66>"
+      },
+      {
+        "start": 73.77,
+        "end": 77.93,
+        "speaker": "Agent",
+        "confidence": 0.5483,
+        "text_redacted": "<redacted len=69 sha=44e93aab034a>"
+      },
+      {
+        "start": 80.01,
+        "end": 82.85,
+        "speaker": "Customer",
+        "confidence": 0.5483,
+        "text_redacted": "<redacted len=35 sha=05fd750e904a>"
+      },
+      {
+        "start": 83.79,
+        "end": 87.69,
+        "speaker": "Customer",
+        "confidence": 0.5483,
+        "text_redacted": "<redacted len=37 sha=5b1094060490>"
+      },
+      {
+        "start": 92.06,
+        "end": 96.08,
+        "speaker": "Agent",
+        "confidence": 0.5483,
+        "text_redacted": "<redacted len=61 sha=1c63a3d19ef1>"
+      },
+      {
+        "start": 96.08,
+        "end": 97.56,
+        "speaker": "Agent",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=13 sha=cff6489a58cf>"
+      },
+      {
+        "start": 98.0,
+        "end": 98.4,
+        "speaker": "Agent",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=11 sha=4c0f4c432e02>"
+      },
+      {
+        "start": 98.68,
+        "end": 99.4,
+        "speaker": "Agent",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=15 sha=71659e9e5d2b>"
+      },
+      {
+        "start": 108.1,
+        "end": 108.3,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=10 sha=6cdbc2f5a879>"
+      },
+      {
+        "start": 108.84,
+        "end": 111.26,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=47 sha=e22df3467b43>"
+      },
+      {
+        "start": 111.48,
+        "end": 114.56,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=59 sha=99035251f21e>"
+      },
+      {
+        "start": 115.57,
+        "end": 115.93,
+        "speaker": "Agent",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=4 sha=5f9a2b795615>"
+      },
+      {
+        "start": 115.97,
+        "end": 121.37,
+        "speaker": "Agent",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=76 sha=28f12349ec37>"
+      },
+      {
+        "start": 125.53,
+        "end": 125.85,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=5 sha=03b25bed61da>"
+      },
+      {
+        "start": 126.37,
+        "end": 128.33,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=43 sha=a424731f1f07>"
+      },
+      {
+        "start": 130.15,
+        "end": 132.95,
+        "speaker": "Agent",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=28 sha=7c14ef77d2d4>"
+      },
+      {
+        "start": 135.83,
+        "end": 136.27,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=5 sha=03b25bed61da>"
+      },
+      {
+        "start": 136.83,
+        "end": 139.09,
+        "speaker": "Customer",
+        "confidence": 0.6954,
+        "text_redacted": "<redacted len=51 sha=5ea5786adad6>"
+      },
+      {
+        "start": 140.08,
+        "end": 142.98,
+        "speaker": "Customer",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=35 sha=e4023bc5006d>"
+      },
+      {
+        "start": 143.68,
+        "end": 144.66,
+        "speaker": "Customer",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 150.11,
+        "end": 152.21,
+        "speaker": "Agent",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=31 sha=36a018c94288>"
+      },
+      {
+        "start": 153.46,
+        "end": 156.72,
+        "speaker": "Customer",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=51 sha=fd263e003583>"
+      },
+      {
+        "start": 157.99,
+        "end": 162.99,
+        "speaker": "Agent",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=64 sha=fe51d9d07b47>"
+      },
+      {
+        "start": 164.27,
+        "end": 168.41,
+        "speaker": "Customer",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=40 sha=a20d37444587>"
+      },
+      {
+        "start": 169.33,
+        "end": 173.79,
+        "speaker": "Customer",
+        "confidence": 0.7008,
+        "text_redacted": "<redacted len=38 sha=d5e44698430f>"
+      },
+      {
+        "start": 174.46,
+        "end": 177.96,
+        "speaker": "Customer",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=16 sha=056b5511850d>"
+      },
+      {
+        "start": 179.77,
+        "end": 183.13,
+        "speaker": "Agent",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=51 sha=454dcaf5f69a>"
+      },
+      {
+        "start": 190.89,
+        "end": 191.25,
+        "speaker": "Customer",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=8 sha=fa6bb5072755>"
+      },
+      {
+        "start": 192.3,
+        "end": 194.18,
+        "speaker": "Customer",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=22 sha=bd8f479ee720>"
+      },
+      {
+        "start": 194.5,
+        "end": 198.62,
+        "speaker": "Customer",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=73 sha=ff4de561e27e>"
+      },
+      {
+        "start": 198.86,
+        "end": 199.04,
+        "speaker": "Agent",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=5 sha=c10c03715605>"
+      },
+      {
+        "start": 200.28,
+        "end": 201.86,
+        "speaker": "Customer",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=32 sha=5dd64afb67af>"
+      },
+      {
+        "start": 203.69,
+        "end": 204.09,
+        "speaker": "Agent",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=5 sha=03b25bed61da>"
+      },
+      {
+        "start": 204.65,
+        "end": 207.05,
+        "speaker": "Agent",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=18 sha=926b4afbadc6>"
+      },
+      {
+        "start": 208.11,
+        "end": 208.81,
+        "speaker": "Agent",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=4 sha=2feb2ca15525>"
+      },
+      {
+        "start": 209.89,
+        "end": 210.43,
+        "speaker": "Agent",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=4 sha=2feb2ca15525>"
+      },
+      {
+        "start": 213.71,
+        "end": 214.31,
+        "speaker": "Customer",
+        "confidence": 0.7426,
+        "text_redacted": "<redacted len=10 sha=8569efc4ed5a>"
+      },
+      {
+        "start": 219.66,
+        "end": 227.01,
+        "speaker": "Agent",
+        "confidence": 0.732,
+        "text_redacted": "<redacted len=68 sha=1527e082c561>"
+      },
+      {
+        "start": 228.72,
+        "end": 233.62,
+        "speaker": "Customer",
+        "confidence": 0.732,
+        "text_redacted": "<redacted len=58 sha=aa4bbecafa9e>"
+      },
+      {
+        "start": 234.52,
+        "end": 236.04,
+        "speaker": "Agent",
+        "confidence": 0.732,
+        "text_redacted": "<redacted len=14 sha=8006f9897afd>"
+      },
+      {
+        "start": 236.68,
+        "end": 238.68,
+        "speaker": "Agent",
+        "confidence": 0.732,
+        "text_redacted": "<redacted len=38 sha=7812f352b5d8>"
+      },
+      {
+        "start": 241.33,
+        "end": 244.75,
+        "speaker": "Customer",
+        "confidence": 0.732,
+        "text_redacted": "<redacted len=35 sha=99bfafe2d905>"
+      },
+      {
+        "start": 246.1,
+        "end": 251.56,
+        "speaker": "Agent",
+        "confidence": 0.732,
+        "text_redacted": "<redacted len=72 sha=db53847c321b>"
+      },
+      {
+        "start": 251.56,
+        "end": 256.0,
+        "speaker": "Agent",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=61 sha=be0750673595>"
+      },
+      {
+        "start": 256.7,
+        "end": 258.44,
+        "speaker": "Customer",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=22 sha=6c765c4b7e57>"
+      },
+      {
+        "start": 259.85,
+        "end": 260.27,
+        "speaker": "Agent",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=4 sha=6eaba6ac4f20>"
+      },
+      {
+        "start": 261.99,
+        "end": 270.02,
+        "speaker": "Customer",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=48 sha=c370892915f0>"
+      },
+      {
+        "start": 271.9,
+        "end": 278.12,
+        "speaker": "Agent",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=27 sha=053f14865d07>"
+      },
+      {
+        "start": 278.92,
+        "end": 282.8,
+        "speaker": "Agent",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=17 sha=cd0408e35aae>"
+      },
+      {
+        "start": 282.8,
+        "end": 285.46,
+        "speaker": "Agent",
+        "confidence": 0.6524,
+        "text_redacted": "<redacted len=27 sha=053f14865d07>"
+      },
+      {
+        "start": 286.8,
+        "end": 290.9,
+        "speaker": "Customer",
+        "confidence": 0.6891,
+        "text_redacted": "<redacted len=58 sha=b5bd151d4ec6>"
+      },
+      {
+        "start": 291.56,
+        "end": 300.77,
+        "speaker": "Customer",
+        "confidence": 0.6891,
+        "text_redacted": "<redacted len=41 sha=0baeebc08ce1>"
+      },
+      {
+        "start": 302.58,
+        "end": 306.16,
+        "speaker": "Agent",
+        "confidence": 0.6891,
+        "text_redacted": "<redacted len=75 sha=eba317bbcd08>"
+      },
+      {
+        "start": 306.66,
+        "end": 309.98,
+        "speaker": "Agent",
+        "confidence": 0.6891,
+        "text_redacted": "<redacted len=58 sha=2f7c6491666f>"
+      }
+    ]
+  }
+]

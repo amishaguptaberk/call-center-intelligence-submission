@@ -1,0 +1,39 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+diagnostics/
+data/.cache/
+.cache/
+.scratch/
+data/*.sqlite3
+data/*.db
+call-center-intelligence.git/
+mailmap
+
+# Evaluation: local prediction runs and any raw transcripts / full text
+evaluation/runs/
+evaluation/local/
+**/predictions_full.json
+**/*transcripts*.json
+evaluation/worksheets/*_filled.*
+evaluation/worksheets/*_local.*
+
+# Legacy transcript exports and local editor settings
+evaluation/reports/transcripts/
+.vscode/
+
+# Frontend (web/)
+web/node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+web/tsconfig.tsbuildinfo
+
+# Local runtime data (uploaded audio store, AUDIO_DIR)
+var/
+.ruff_cache/
+.mypy_cache/
+data/audio/

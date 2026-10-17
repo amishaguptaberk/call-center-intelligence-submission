@@ -1,0 +1,132 @@
+{
+  "sample_01": {
+    "sample": "sample_01",
+    "ambiguous_words_align": 4,
+    "before": {
+      "unresolved_ambiguous_utterances": 3,
+      "segment_count": 32,
+      "missing_words": [],
+      "duplicated_words": [],
+      "score": {
+        "correct": 35,
+        "incorrect": 0,
+        "accuracy": 1.0
+      },
+      "errors": []
+    },
+    "after": {
+      "unresolved_ambiguous_utterances": 3,
+      "segment_count": 32,
+      "absorbed_count": 1,
+      "missing_words": [],
+      "duplicated_words": [],
+      "score": {
+        "correct": 35,
+        "incorrect": 0,
+        "accuracy": 1.0
+      },
+      "errors": []
+    },
+    "speaker_assignment_changes": [],
+    "region_91s_changes": [],
+    "region_91s_words": {
+      "before": [
+        [
+          91.2,
+          91.42,
+          "Oh,",
+          "Ambiguous",
+          null,
+          true,
+          "boundary_collar"
+        ],
+        [
+          91.62,
+          91.74,
+          "OK.",
+          "Customer",
+          "SPEAKER_00",
+          false,
+          "overlap_majority"
+        ],
+        [
+          91.74,
+          92.5,
+          "In",
+          "Ambiguous",
+          null,
+          true,
+          "overlapping_speech"
+        ]
+      ],
+      "after": [
+        [
+          91.2,
+          91.42,
+          "Oh,",
+          "Ambiguous",
+          null,
+          true,
+          "boundary_collar"
+        ],
+        [
+          91.62,
+          91.74,
+          "OK.",
+          "Customer",
+          "SPEAKER_00",
+          false,
+          "overlap_majority"
+        ],
+        [
+          91.74,
+          92.5,
+          "In",
+          "Ambiguous",
+          null,
+          true,
+          "overlapping_speech"
+        ]
+      ]
+    }
+  },
+  "sample_03": {
+    "sample": "sample_03",
+    "ambiguous_words_align": 3,
+    "before": {
+      "unresolved_ambiguous_utterances": 4,
+      "segment_count": 60,
+      "missing_words": [],
+      "duplicated_words": []
+    },
+    "after": {
+      "unresolved_ambiguous_utterances": 3,
+      "segment_count": 59,
+      "absorbed_count": 0,
+      "missing_words": [],
+      "duplicated_words": []
+    },
+    "speaker_assignment_changes": [
+      {
+        "word": [
+          40.46,
+          41.66,
+          "Yeah,"
+        ],
+        "before": "Ambiguous",
+        "after": "Agent"
+      }
+    ],
+    "yeah_focus": [
+      {
+        "word": [
+          40.46,
+          41.66,
+          "Yeah,"
+        ],
+        "before": "Ambiguous",
+        "after": "Agent"
+      }
+    ]
+  }
+}

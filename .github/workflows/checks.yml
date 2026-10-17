@@ -1,0 +1,79 @@
+name: Checks
+on: [push, pull_request]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python -m pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: python -m pytest -q
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and smoke test container without provider credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          image="submission-smoke:${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          container="submission-smoke-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          volume="${container}-records"
+          cleanup() {
+            timeout 15 docker logs "$container" 2>/dev/null || true
+            timeout 30 docker rm -f "$container" >/dev/null 2>&1 || true
+            timeout 30 docker volume rm "$volume" >/dev/null 2>&1 || true
+            timeout 30 docker image rm "$image" >/dev/null 2>&1 || true
+          }
+          trap cleanup EXIT
+          timeout 1200 docker build --tag "$image" .
+          timeout 30 docker volume create "$volume"
+          start() {
+            timeout 30 docker run -d --name "$container" \
+              --publish 127.0.0.1:17860:7860 \
+              --mount "type=volume,source=$volume,target=/app/var" \
+              --env DB_PATH=/app/var/db.sqlite3 \
+              --env WHISPER_PRELOAD=false \
+              --env GRADIO_ANALYTICS_ENABLED=False \
+              --env OPENAI_API_KEY= --env GOOGLE_API_KEY= --env GROQ_API_KEY= \
+              "$image"
+          }
+          ready() {
+            for attempt in $(seq 1 60); do
+              test "$(timeout 10 docker inspect -f '{{.State.Running}}' "$container")" = true
+              if curl --fail --silent --max-time 2 http://127.0.0.1:17860/config > /tmp/submission-config.json; then
+                python -c 'import json; c=json.load(open("/tmp/submission-config.json")); assert [item["props"].get("label") for item in c["components"] if item["type"] == "tabitem"] == ["Analyze call", "All MP3 History", "Observability"]; assert c["version"]'
+                return 0
+              fi
+              sleep 2
+            done
+            return 1
+          }
+          start
+          ready
+          timeout 30 docker exec "$container" python -c 'import os; assert os.getuid() != 0'
+          timeout 30 docker exec "$container" ffmpeg -version
+          timeout 30 docker exec "$container" python -c '
+          import os, sqlite3
+          from pathlib import Path
+          assert list(Path("/app/data/samples").rglob("*.mp3"))
+          with sqlite3.connect(os.environ["DB_PATH"]) as db:
+              assert db.execute("SELECT name FROM sqlite_master WHERE name = ?", ("call_records",)).fetchone()
+              db.execute("CREATE TABLE container_smoke (value TEXT NOT NULL)")
+              db.execute("INSERT INTO container_smoke VALUES (?)", ("survives-replacement",))
+          '
+          timeout 30 docker stop --time 10 "$container"
+          timeout 30 docker rm "$container"
+          start
+          ready
+          timeout 30 docker exec "$container" python -c '
+          import os, sqlite3
+          with sqlite3.connect(os.environ["DB_PATH"]) as db:
+              assert db.execute("SELECT value FROM container_smoke").fetchall() == [("survives-replacement",)]
+          '

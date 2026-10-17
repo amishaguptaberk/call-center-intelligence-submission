@@ -1,0 +1,66 @@
+{
+  "recording_id": "sample_01",
+  "annotation": "evaluation/annotations/recordings/sample_01/annotation.v2.json",
+  "runtime_sec": 156.171,
+  "design": {
+    "shared": "Community-1 + word align + utterance group",
+    "acoustic_only": "Agent/Customer via best global SPEAKER permutation vs annotation (eval matching only; no opening-cue / first-speaker role heuristics)",
+    "acoustic_plus_role_heuristics": "production map_roles()",
+    "excluded": [
+      "QUESTION_SWITCH",
+      "SILENCE_GAP",
+      "FALLBACK speaker-switch rules"
+    ]
+  },
+  "arms": {
+    "acoustic_only": {
+      "role_mapping": {
+        "method": "best_permutation_vs_annotation",
+        "mapping": {
+          "SPEAKER_00": "Customer",
+          "SPEAKER_01": "Agent"
+        },
+        "notes": "Eval-only matching; accuracy=1.0000; mapping={'SPEAKER_00': 'Customer', 'SPEAKER_01': 'Agent'}"
+      },
+      "score": {
+        "clear_intervals": 35,
+        "correct": 35,
+        "incorrect": 0,
+        "accuracy": 1.0,
+        "confusions": {}
+      },
+      "errors": []
+    },
+    "acoustic_plus_role_heuristics": {
+      "role_mapping": {
+        "method": "opening_greeting_cues",
+        "mapping": {
+          "SPEAKER_00": "Customer",
+          "SPEAKER_01": "Agent"
+        },
+        "notes": "Opening cues favored SPEAKER_01: {'SPEAKER_00': 0, 'SPEAKER_01': 2}"
+      },
+      "score": {
+        "clear_intervals": 35,
+        "correct": 35,
+        "incorrect": 0,
+        "accuracy": 1.0,
+        "confusions": {}
+      },
+      "errors": []
+    }
+  },
+  "delta": {
+    "fixed_by_role_heuristics": [],
+    "newly_introduced_by_role_heuristics": [],
+    "still_wrong_under_both": [],
+    "summary": {
+      "acoustic_only_errors": 0,
+      "role_heuristics_errors": 0,
+      "fixed": 0,
+      "newly_introduced": 0,
+      "unchanged_errors": 0,
+      "same_mapping_as_oracle": true
+    }
+  }
+}

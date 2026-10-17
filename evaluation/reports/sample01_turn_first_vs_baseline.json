@@ -1,0 +1,193 @@
+{
+  "sample_01": {
+    "runtime_sec": 115.772,
+    "arms": {
+      "baseline_consecutive": {
+        "turn_first": false,
+        "segment_count": 30,
+        "ambiguous_words_align": 4,
+        "absorbed_count": 0,
+        "absorptions": [],
+        "unresolved_ambiguous_utterances": 4,
+        "bleed_candidate_count": 2,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          }
+        },
+        "score": {
+          "clear_intervals": 35,
+          "correct": 34,
+          "incorrect": 1,
+          "accuracy": 0.9714285714285714,
+          "confusions": {}
+        },
+        "errors": [
+          {
+            "id": "s01-student-029",
+            "gt": "Customer",
+            "pred": null,
+            "correct": false
+          }
+        ]
+      },
+      "turn_first": {
+        "turn_first": true,
+        "segment_count": 32,
+        "ambiguous_words_align": 4,
+        "absorbed_count": 1,
+        "absorptions": [
+          {
+            "word": "we",
+            "start": 39.54,
+            "end": 39.54,
+            "original_ambiguous": true,
+            "original_reason": "no_acoustic_overlap",
+            "original_speaker_id": null,
+            "absorbed_into_speaker_id": "SPEAKER_00",
+            "turn_start": 38.6916,
+            "turn_end": 40.4297,
+            "absorption": "single_turn_containment"
+          }
+        ],
+        "unresolved_ambiguous_utterances": 3,
+        "bleed_candidate_count": 2,
+        "role_mapping": {
+          "method": "opening_greeting_cues",
+          "mapping": {
+            "SPEAKER_00": "Customer",
+            "SPEAKER_01": "Agent"
+          }
+        },
+        "score": {
+          "clear_intervals": 35,
+          "correct": 35,
+          "incorrect": 0,
+          "accuracy": 1.0,
+          "confusions": {}
+        },
+        "errors": []
+      }
+    },
+    "delta": {
+      "fixed_by_turn_first": [
+        {
+          "id": "s01-student-029",
+          "gt": "Customer",
+          "baseline_pred": null,
+          "turn_first_pred": "Customer",
+          "start_sec": 91.2,
+          "end_sec": 91.74
+        }
+      ],
+      "regressions_by_turn_first": [],
+      "still_wrong_both": []
+    },
+    "bleed_candidates": [
+      {
+        "word": "Oh",
+        "start": 36.58,
+        "end": 37.6,
+        "duration_sec": 1.02,
+        "align_reason": "overlapping_speech",
+        "preserved_overlaps": [
+          {
+            "speaker_id": "SPEAKER_00",
+            "interval_start": 33.6291,
+            "interval_end": 36.9535,
+            "overlap_sec": 0.3735,
+            "overlap_frac_of_word": 0.3661
+          },
+          {
+            "speaker_id": "SPEAKER_01",
+            "interval_start": 37.4428,
+            "interval_end": 38.3203,
+            "overlap_sec": 0.1572,
+            "overlap_frac_of_word": 0.1541
+          }
+        ],
+        "earlier_interval": {
+          "speaker_id": "SPEAKER_00",
+          "start": 33.6291,
+          "end": 36.9535
+        },
+        "later_interval": {
+          "speaker_id": "SPEAKER_01",
+          "start": 37.4428,
+          "end": 38.3203
+        },
+        "inter_speaker_gap_sec": 0.4894,
+        "majority_overlap_speaker": "SPEAKER_00",
+        "hypothetical_clamp_speaker": "SPEAKER_01",
+        "hypothetical_clamp_window": {
+          "start": 36.9535,
+          "end": 37.6
+        },
+        "clamp_vs_majority_disagree": true,
+        "auto_reassigned": false,
+        "note": "Flag only. Clamp hypothesis assumes earlier-turn overlap is timestamp bleed \u2014 not established; do not auto-apply."
+      },
+      {
+        "word": "In",
+        "start": 91.74,
+        "end": 92.5,
+        "duration_sec": 0.76,
+        "align_reason": "overlapping_speech",
+        "preserved_overlaps": [
+          {
+            "speaker_id": "SPEAKER_00",
+            "interval_start": 91.2741,
+            "interval_end": 91.8985,
+            "overlap_sec": 0.1585,
+            "overlap_frac_of_word": 0.2085
+          },
+          {
+            "speaker_id": "SPEAKER_01",
+            "interval_start": 92.3541,
+            "interval_end": 96.5222,
+            "overlap_sec": 0.1459,
+            "overlap_frac_of_word": 0.192
+          }
+        ],
+        "earlier_interval": {
+          "speaker_id": "SPEAKER_00",
+          "start": 91.2741,
+          "end": 91.8985
+        },
+        "later_interval": {
+          "speaker_id": "SPEAKER_01",
+          "start": 92.3541,
+          "end": 96.5222
+        },
+        "inter_speaker_gap_sec": 0.4556,
+        "majority_overlap_speaker": "SPEAKER_00",
+        "hypothetical_clamp_speaker": "SPEAKER_01",
+        "hypothetical_clamp_window": {
+          "start": 91.8985,
+          "end": 92.5
+        },
+        "clamp_vs_majority_disagree": true,
+        "auto_reassigned": false,
+        "note": "Flag only. Clamp hypothesis assumes earlier-turn overlap is timestamp bleed \u2014 not established; do not auto-apply."
+      }
+    ]
+  },
+  "sample_02": {
+    "ambiguous_words_align": 39,
+    "baseline_amb_utts": 39,
+    "turn_first_amb_utts": 36,
+    "absorbed": 3,
+    "bleed_candidates": 35,
+    "note": "unverified \u2014 no accuracy claimed"
+  },
+  "sample_03": {
+    "ambiguous_words_align": 3,
+    "baseline_amb_utts": 3,
+    "turn_first_amb_utts": 4,
+    "absorbed": 0,
+    "bleed_candidates": 3,
+    "note": "unverified \u2014 no accuracy claimed"
+  }
+}

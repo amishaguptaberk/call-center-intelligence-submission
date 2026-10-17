@@ -1,0 +1,23 @@
+[project]
+name = "call-center-intelligence"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["evaluation/local", "data"]
+
+[tool.ruff.lint]
+# pycodestyle errors, pyflakes, import order, bugbear, pyupgrade.
+select = ["E", "F", "I", "B", "UP"]
+ignore = [
+    "E501",  # line length is owned by `ruff format`; long string literals are left alone
+    "B905",  # zip(strict=...) would change runtime behavior; not adopted in a lint-only pass
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Scripts and the test bootstrap adjust sys.path / environment before importing src.
+"scripts/**" = ["E402"]
+"try_transcription.py" = ["E402"]
+"tests/conftest.py" = ["E402"]

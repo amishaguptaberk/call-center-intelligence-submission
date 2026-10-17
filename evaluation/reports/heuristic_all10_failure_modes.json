@@ -1,0 +1,1088 @@
+{
+  "note": "Heuristic-only. sample_01 has annotation.v2; other failure signatures are structural proxies. Raw example call text omitted for public submission; timing, speaker, reason, and aggregate diagnostics retained.",
+  "files": 10,
+  "global_reason_counts": {
+    "PATTERN": 56,
+    "FALLBACK_PINNED": 740,
+    "ACT_QUESTION_FLIP": 152,
+    "SILENCE_FLIP": 103,
+    "ACT_ACK_FLIP": 4,
+    "OPENING_PRIOR": 5,
+    "FALLBACK_PREV": 15
+  },
+  "signature_totals": {
+    "broken_customer_reply_continuum": 181,
+    "long_agent_fallback_run": 40,
+    "missed_short_customer_ack": 19,
+    "no_customer_pattern_entire_call": 7,
+    "agent_majority_ge_75pct": 4,
+    "flip_oscillation": 1
+  },
+  "signature_present_in_n_files": {
+    "broken_customer_reply_continuum": 10,
+    "long_agent_fallback_run": 10,
+    "missed_short_customer_ack": 9,
+    "no_customer_pattern_entire_call": 7,
+    "agent_majority_ge_75pct": 4,
+    "flip_oscillation": 1
+  },
+  "per_file": {
+    "sample_01": {
+      "runtime_sec": 7.28,
+      "sentences": 43,
+      "segments": 21,
+      "speaker_mix": {
+        "Agent": 14,
+        "Customer": 7
+      },
+      "label_mix_sentences": {
+        "Agent": 36,
+        "Customer": 7
+      },
+      "agent_sentence_frac": 0.837,
+      "pattern_sentences": 4,
+      "pattern_frac": 0.093,
+      "fallback_frac": 0.721,
+      "reason_counts": {
+        "PATTERN": 4,
+        "FALLBACK_PINNED": 31,
+        "ACT_QUESTION_FLIP": 8
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 12,
+        "long_agent_fallback_run": 3,
+        "missed_short_customer_ack": 2,
+        "no_customer_pattern_entire_call": 1,
+        "agent_majority_ge_75pct": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 13,
+            "t": 28.1,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_26.5"
+          },
+          {
+            "i": 14,
+            "t": 30.66,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_26.5"
+          },
+          {
+            "i": 15,
+            "t": 33.68,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_26.5"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 12,
+            "t": 27.44,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "ack",
+            "text": null,
+            "note": "len=7"
+          },
+          {
+            "i": 21,
+            "t": 53.7,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=7"
+          },
+          {
+            "i": 29,
+            "t": 79.3,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=12"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 16,
+            "t": 36.58,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 35,
+            "t": 91.2,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      },
+      "annotation_v2": {
+        "correct": 27,
+        "clear": 35,
+        "accuracy": 0.7714285714285715,
+        "confusions": {
+          "Customer->Agent": 8
+        },
+        "error_ids": [
+          "s01-student-006",
+          "s01-student-009",
+          "s01-student-011",
+          "s01-student-015",
+          "s01-student-021",
+          "s01-student-029",
+          "s01-student-032",
+          "s01-student-036"
+        ]
+      }
+    },
+    "sample_02": {
+      "runtime_sec": 34.49,
+      "sentences": 160,
+      "segments": 64,
+      "speaker_mix": {
+        "Agent": 32,
+        "Customer": 32
+      },
+      "label_mix_sentences": {
+        "Agent": 78,
+        "Customer": 82
+      },
+      "agent_sentence_frac": 0.487,
+      "pattern_sentences": 6,
+      "pattern_frac": 0.037,
+      "fallback_frac": 0.787,
+      "reason_counts": {
+        "PATTERN": 6,
+        "FALLBACK_PINNED": 126,
+        "ACT_QUESTION_FLIP": 18,
+        "SILENCE_FLIP": 9,
+        "ACT_ACK_FLIP": 1
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 15,
+        "long_agent_fallback_run": 6,
+        "missed_short_customer_ack": 4
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 4,
+            "t": 18.62,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_17.4"
+          },
+          {
+            "i": 5,
+            "t": 19.96,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_17.4"
+          },
+          {
+            "i": 6,
+            "t": 20.36,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_17.4"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 96,
+            "t": 321.64,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=12"
+          },
+          {
+            "i": 109,
+            "t": 368.12,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=5"
+          },
+          {
+            "i": 121,
+            "t": 410.52,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=8"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 106,
+            "t": 365.48,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 110,
+            "t": 371.32,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 123,
+            "t": 413.64,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "ack",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    },
+    "sample_03": {
+      "runtime_sec": 12.25,
+      "sentences": 68,
+      "segments": 47,
+      "speaker_mix": {
+        "Agent": 28,
+        "Customer": 19
+      },
+      "label_mix_sentences": {
+        "Agent": 49,
+        "Customer": 19
+      },
+      "agent_sentence_frac": 0.721,
+      "pattern_sentences": 4,
+      "pattern_frac": 0.059,
+      "fallback_frac": 0.618,
+      "reason_counts": {
+        "PATTERN": 4,
+        "FALLBACK_PINNED": 42,
+        "ACT_QUESTION_FLIP": 11,
+        "SILENCE_FLIP": 10,
+        "ACT_ACK_FLIP": 1
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 8,
+        "long_agent_fallback_run": 2,
+        "missed_short_customer_ack": 2,
+        "no_customer_pattern_entire_call": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 4,
+            "t": 15.7,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_14.8"
+          },
+          {
+            "i": 20,
+            "t": 66.56,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_64.1"
+          },
+          {
+            "i": 31,
+            "t": 99.67,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_97.8"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 33,
+            "t": 104.87,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=6"
+          },
+          {
+            "i": 48,
+            "t": 140.41,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=5"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 49,
+            "t": 142.36,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 55,
+            "t": 153.35,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    },
+    "sample_04": {
+      "runtime_sec": 30.42,
+      "sentences": 152,
+      "segments": 72,
+      "speaker_mix": {
+        "Agent": 44,
+        "Customer": 28
+      },
+      "label_mix_sentences": {
+        "Agent": 123,
+        "Customer": 29
+      },
+      "agent_sentence_frac": 0.809,
+      "pattern_sentences": 5,
+      "pattern_frac": 0.033,
+      "fallback_frac": 0.73,
+      "reason_counts": {
+        "OPENING_PRIOR": 1,
+        "SILENCE_FLIP": 15,
+        "FALLBACK_PREV": 3,
+        "PATTERN": 5,
+        "FALLBACK_PINNED": 108,
+        "ACT_QUESTION_FLIP": 20
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 24,
+        "long_agent_fallback_run": 8,
+        "missed_short_customer_ack": 4,
+        "flip_oscillation": 1,
+        "no_customer_pattern_entire_call": 1,
+        "agent_majority_ge_75pct": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 16,
+            "t": 56.37,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_55.2"
+          },
+          {
+            "i": 17,
+            "t": 58.41,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_55.2"
+          },
+          {
+            "i": 18,
+            "t": 62.93,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_55.2"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 16,
+            "t": 56.37,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=11"
+          },
+          {
+            "i": 34,
+            "t": 111.51,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=6"
+          },
+          {
+            "i": 50,
+            "t": 161.64,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=5"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 19,
+            "t": 65.59,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 25,
+            "t": 90.75,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 39,
+            "t": 123.96,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "ack",
+            "text": null,
+            "note": ""
+          }
+        ],
+        "flip_oscillation": [
+          {
+            "i": 1,
+            "t": 6.54,
+            "label": "Customer",
+            "reason": "SILENCE_FLIP",
+            "act": "statement",
+            "text": null,
+            "note": "flip_labels=['Customer', 'Agent', 'Customer', 'Agent', 'Customer', 'Agent']"
+          }
+        ]
+      }
+    },
+    "sample_05": {
+      "runtime_sec": 21.5,
+      "sentences": 118,
+      "segments": 46,
+      "speaker_mix": {
+        "Agent": 31,
+        "Customer": 15
+      },
+      "label_mix_sentences": {
+        "Agent": 103,
+        "Customer": 15
+      },
+      "agent_sentence_frac": 0.873,
+      "pattern_sentences": 4,
+      "pattern_frac": 0.034,
+      "fallback_frac": 0.797,
+      "reason_counts": {
+        "OPENING_PRIOR": 1,
+        "SILENCE_FLIP": 4,
+        "PATTERN": 4,
+        "FALLBACK_PINNED": 94,
+        "ACT_QUESTION_FLIP": 15
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 28,
+        "long_agent_fallback_run": 7,
+        "missed_short_customer_ack": 3,
+        "no_customer_pattern_entire_call": 1,
+        "agent_majority_ge_75pct": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 8,
+            "t": 16.36,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_15.0"
+          },
+          {
+            "i": 9,
+            "t": 18.82,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_15.0"
+          },
+          {
+            "i": 10,
+            "t": 21.4,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_15.0"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 8,
+            "t": 16.36,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=7"
+          },
+          {
+            "i": 19,
+            "t": 40.3,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=6"
+          },
+          {
+            "i": 27,
+            "t": 63.56,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=14"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 22,
+            "t": 53.48,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 34,
+            "t": 80.08,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          },
+          {
+            "i": 75,
+            "t": 200.14,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    },
+    "sample_06": {
+      "runtime_sec": 13.74,
+      "sentences": 78,
+      "segments": 68,
+      "speaker_mix": {
+        "Agent": 44,
+        "Customer": 24
+      },
+      "label_mix_sentences": {
+        "Agent": 54,
+        "Customer": 24
+      },
+      "agent_sentence_frac": 0.692,
+      "pattern_sentences": 5,
+      "pattern_frac": 0.064,
+      "fallback_frac": 0.577,
+      "reason_counts": {
+        "PATTERN": 5,
+        "FALLBACK_PINNED": 45,
+        "ACT_QUESTION_FLIP": 10,
+        "SILENCE_FLIP": 18
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 18,
+        "long_agent_fallback_run": 1,
+        "no_customer_pattern_entire_call": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 4,
+            "t": 19.34,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_16.8"
+          },
+          {
+            "i": 5,
+            "t": 23.45,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_16.8"
+          },
+          {
+            "i": 6,
+            "t": 28.15,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_16.8"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 36,
+            "t": 120.51,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=5"
+          }
+        ]
+      }
+    },
+    "sample_07": {
+      "runtime_sec": 20.96,
+      "sentences": 110,
+      "segments": 47,
+      "speaker_mix": {
+        "Agent": 27,
+        "Customer": 20
+      },
+      "label_mix_sentences": {
+        "Agent": 87,
+        "Customer": 23
+      },
+      "agent_sentence_frac": 0.791,
+      "pattern_sentences": 5,
+      "pattern_frac": 0.045,
+      "fallback_frac": 0.718,
+      "reason_counts": {
+        "OPENING_PRIOR": 1,
+        "SILENCE_FLIP": 6,
+        "FALLBACK_PREV": 9,
+        "ACT_QUESTION_FLIP": 19,
+        "PATTERN": 5,
+        "FALLBACK_PINNED": 70
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 19,
+        "long_agent_fallback_run": 5,
+        "missed_short_customer_ack": 1,
+        "no_customer_pattern_entire_call": 1,
+        "agent_majority_ge_75pct": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 24,
+            "t": 77.17,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_67.0"
+          },
+          {
+            "i": 29,
+            "t": 100.87,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_90.4"
+          },
+          {
+            "i": 32,
+            "t": 107.9,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_106.7"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 37,
+            "t": 124.04,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=5"
+          },
+          {
+            "i": 54,
+            "t": 173.67,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=6"
+          },
+          {
+            "i": 72,
+            "t": 248.02,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=12"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 79,
+            "t": 268.16,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    },
+    "sample_08": {
+      "runtime_sec": 20.38,
+      "sentences": 131,
+      "segments": 75,
+      "speaker_mix": {
+        "Agent": 43,
+        "Customer": 32
+      },
+      "label_mix_sentences": {
+        "Agent": 88,
+        "Customer": 43
+      },
+      "agent_sentence_frac": 0.672,
+      "pattern_sentences": 7,
+      "pattern_frac": 0.053,
+      "fallback_frac": 0.718,
+      "reason_counts": {
+        "OPENING_PRIOR": 1,
+        "FALLBACK_PREV": 1,
+        "PATTERN": 7,
+        "FALLBACK_PINNED": 93,
+        "ACT_QUESTION_FLIP": 18,
+        "SILENCE_FLIP": 11
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 19,
+        "long_agent_fallback_run": 3,
+        "missed_short_customer_ack": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 44,
+            "t": 127.84,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_125.8"
+          },
+          {
+            "i": 45,
+            "t": 130.5,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_125.8"
+          },
+          {
+            "i": 69,
+            "t": 191.76,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_189.2"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 47,
+            "t": 141.04,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=15"
+          },
+          {
+            "i": 90,
+            "t": 251.68,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=7"
+          },
+          {
+            "i": 109,
+            "t": 322.23,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=15"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 36,
+            "t": 104.95,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    },
+    "sample_09": {
+      "runtime_sec": 17.19,
+      "sentences": 130,
+      "segments": 77,
+      "speaker_mix": {
+        "Agent": 41,
+        "Customer": 36
+      },
+      "label_mix_sentences": {
+        "Agent": 78,
+        "Customer": 52
+      },
+      "agent_sentence_frac": 0.6,
+      "pattern_sentences": 11,
+      "pattern_frac": 0.085,
+      "fallback_frac": 0.669,
+      "reason_counts": {
+        "OPENING_PRIOR": 1,
+        "FALLBACK_PREV": 2,
+        "PATTERN": 11,
+        "FALLBACK_PINNED": 85,
+        "ACT_QUESTION_FLIP": 22,
+        "SILENCE_FLIP": 9
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 25,
+        "long_agent_fallback_run": 4,
+        "missed_short_customer_ack": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 7,
+            "t": 22.7,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_20.1"
+          },
+          {
+            "i": 10,
+            "t": 29.42,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_27.2"
+          },
+          {
+            "i": 11,
+            "t": 32.56,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_27.2"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 18,
+            "t": 48.82,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=9"
+          },
+          {
+            "i": 29,
+            "t": 85.83,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=7"
+          },
+          {
+            "i": 47,
+            "t": 124.39,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=8"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 50,
+            "t": 132.59,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    },
+    "sample_10": {
+      "runtime_sec": 11.9,
+      "sentences": 85,
+      "segments": 63,
+      "speaker_mix": {
+        "Agent": 36,
+        "Customer": 27
+      },
+      "label_mix_sentences": {
+        "Agent": 58,
+        "Customer": 27
+      },
+      "agent_sentence_frac": 0.682,
+      "pattern_sentences": 5,
+      "pattern_frac": 0.059,
+      "fallback_frac": 0.541,
+      "reason_counts": {
+        "PATTERN": 5,
+        "FALLBACK_PINNED": 46,
+        "ACT_QUESTION_FLIP": 11,
+        "SILENCE_FLIP": 21,
+        "ACT_ACK_FLIP": 2
+      },
+      "failure_signatures": {
+        "broken_customer_reply_continuum": 13,
+        "long_agent_fallback_run": 1,
+        "missed_short_customer_ack": 1,
+        "no_customer_pattern_entire_call": 1
+      },
+      "examples": {
+        "broken_customer_reply_continuum": [
+          {
+            "i": 4,
+            "t": 18.9,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_16.3"
+          },
+          {
+            "i": 5,
+            "t": 21.72,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_16.3"
+          },
+          {
+            "i": 22,
+            "t": 83.65,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "after_flip_at_79.8"
+          }
+        ],
+        "long_agent_fallback_run": [
+          {
+            "i": 7,
+            "t": 26.24,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": "len=7"
+          }
+        ],
+        "missed_short_customer_ack": [
+          {
+            "i": 26,
+            "t": 96.8,
+            "label": "Agent",
+            "reason": "FALLBACK_PINNED",
+            "act": "statement",
+            "text": null,
+            "note": ""
+          }
+        ]
+      }
+    }
+  }
+}

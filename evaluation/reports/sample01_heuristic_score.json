@@ -1,0 +1,31 @@
+{
+  "backend": "heuristic",
+  "runtime_sec": 14.944,
+  "segment_count": 14,
+  "diagnostics": {
+    "backend": "heuristic",
+    "ok": true,
+    "note": "two-pass sentence heuristic (pattern anchors + structural window fill)",
+    "segment_count": 14,
+    "timing_sec": {
+      "whisper_model_init": 1.415,
+      "whisper_transcribe": 11.653,
+      "heuristic_diarize": 0.014,
+      "total_run_transcription": 14.944
+    }
+  },
+  "score": {
+    "clear_intervals": 35,
+    "correct": 23,
+    "incorrect": 12,
+    "unscored_non_clear": 1,
+    "accuracy": 0.6571428571428571,
+    "confusions": {
+      "Customer->Agent": 7,
+      "Agent->Customer": 5
+    }
+  },
+  "historical_non_comparable": {
+    "heuristics_listen_disagreements_10_of_35": "see evaluation/historical/"
+  }
+}

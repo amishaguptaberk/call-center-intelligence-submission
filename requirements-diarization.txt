@@ -1,0 +1,2 @@
+# Extra deps for local Community-1 diarization
+pyannote.audio>=3.3.0

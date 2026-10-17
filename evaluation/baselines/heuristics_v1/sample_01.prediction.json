@@ -1,0 +1,570 @@
+{
+  "schema_version": "1.0",
+  "run_id": "heuristics_v1_sample_01",
+  "system_id": "student",
+  "created_at": "2026-09-20T20:58:21Z",
+  "git_commit": "feb702148b442248cbf1b95ec11636f2343a708d-dirty",
+  "model": {
+    "whisper_size": "base",
+    "note": "WHISPER_MODEL_SIZE default from src/utils/config.py at baseline capture; confirm against the machine env used for diagnostics/debug.log if needed.",
+    "source_diagnostic": "diagnostics/debug.log sample_01",
+    "baseline_name": "heuristics_v1"
+  },
+  "audio": {
+    "recording_id": "sample_01",
+    "filename": "sample_01.mp3",
+    "sha256": "992feada7a67a56ee2881e0e2dc6ae8980d3190238be26c58d5b29b323b47989",
+    "path_local": null
+  },
+  "operational": {
+    "ok": true,
+    "runtime_sec": null,
+    "error": null
+  },
+  "segments": [
+    {
+      "start_sec": 7.79,
+      "end_sec": 11.49,
+      "label": "Agent",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "AGENT_PATTERN",
+        "previous": null,
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": null
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 11.49,
+      "end_sec": 14.0,
+      "label": "Customer",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 14.0,
+      "end_sec": 15.94,
+      "label": "Agent",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "AGENT_PATTERN",
+        "previous": "Customer",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": 1.3699999999999992
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 15.94,
+      "end_sec": 20.62,
+      "label": "Customer",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6399999999999988
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 20.62,
+      "end_sec": 24.0,
+      "label": "Agent",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "AGENT_PATTERN",
+        "previous": "Customer",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": 0.6600000000000001
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 24.0,
+      "end_sec": 26.54,
+      "label": "Customer",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.17999999999999972
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 26.54,
+      "end_sec": 30.66,
+      "label": "Agent",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.3999999999999986
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 30.66,
+      "end_sec": 33.68,
+      "label": "Agent",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7399999999999984
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 33.68,
+      "end_sec": 36.58,
+      "label": "Agent",
+      "confidence": 0.72,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5200000000000031
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 36.58,
+      "end_sec": 38.72,
+      "label": "Agent",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 38.72,
+      "end_sec": 41.08,
+      "label": "Agent",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6199999999999974
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 41.08,
+      "end_sec": 43.28,
+      "label": "Agent",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6400000000000006
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 43.28,
+      "end_sec": 46.64,
+      "label": "Agent",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "AGENT_PATTERN",
+        "previous": "Agent",
+        "agent_match": true,
+        "customer_match": false,
+        "gap_sec": 0.21999999999999886
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 46.64,
+      "end_sec": 53.7,
+      "label": "Customer",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 53.7,
+      "end_sec": 58.26,
+      "label": "Customer",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6200000000000045
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 58.26,
+      "end_sec": 60.86,
+      "label": "Customer",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6799999999999997
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 60.86,
+      "end_sec": 64.84,
+      "label": "Customer",
+      "confidence": 0.76,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7000000000000028
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 64.84,
+      "end_sec": 68.58,
+      "label": "Customer",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 68.58,
+      "end_sec": 72.32,
+      "label": "Customer",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.9200000000000017
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 72.32,
+      "end_sec": 74.74,
+      "label": "Customer",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8599999999999994
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 74.74,
+      "end_sec": 76.68,
+      "label": "Customer",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7999999999999972
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 76.68,
+      "end_sec": 79.3,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.10000000000000853
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 79.3,
+      "end_sec": 81.08,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8400000000000034
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 81.08,
+      "end_sec": 83.58,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 83.58,
+      "end_sec": 85.54,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.9399999999999977
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 85.54,
+      "end_sec": 86.96,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 86.96,
+      "end_sec": 89.3,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 89.3,
+      "end_sec": 91.2,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 91.2,
+      "end_sec": 91.74,
+      "label": "Agent",
+      "confidence": 0.83,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.2400000000000091
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 91.74,
+      "end_sec": 97.02,
+      "label": "Agent",
+      "confidence": 0.86,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 97.02,
+      "end_sec": 102.46,
+      "label": "Agent",
+      "confidence": 0.86,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.5999999999999943
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 102.46,
+      "end_sec": 104.74,
+      "label": "Agent",
+      "confidence": 0.86,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.6599999999999966
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 104.74,
+      "end_sec": 110.16,
+      "label": "Agent",
+      "confidence": 0.86,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8599999999999994
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 110.16,
+      "end_sec": 113.76,
+      "label": "Agent",
+      "confidence": 0.86,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.8999999999999915
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 113.76,
+      "end_sec": 116.44,
+      "label": "Customer",
+      "confidence": 0.86,
+      "rule_trace": {
+        "rule": "QUESTION_SWITCH",
+        "previous": "Agent",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.7600000000000051
+      },
+      "text_sha256_12": null,
+      "text": null
+    },
+    {
+      "start_sec": 116.44,
+      "end_sec": 118.0,
+      "label": "Customer",
+      "confidence": 0.44,
+      "rule_trace": {
+        "rule": "FALLBACK",
+        "previous": "Customer",
+        "agent_match": false,
+        "customer_match": false,
+        "gap_sec": 0.0
+      },
+      "text_sha256_12": null,
+      "text": null
+    }
+  ],
+  "privacy": {
+    "transcripts_included": false,
+    "transcripts_path_local": null
+  }
+}

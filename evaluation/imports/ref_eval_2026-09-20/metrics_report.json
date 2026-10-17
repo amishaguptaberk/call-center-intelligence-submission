@@ -1,0 +1,439 @@
+{
+  "pipeline_success": 10,
+  "pipeline_fail": 0,
+  "total_files": 10,
+  "total_segments": 809,
+  "total_runtime_sec": 76.112,
+  "anchor_segments_scored": 70,
+  "anchor_accuracy_overall": 0.5142857142857142,
+  "agent_to_customer_errors": 23,
+  "customer_to_agent_errors": 11,
+  "der_status": "NOT_COMPUTED",
+  "der_reason": "No independent acoustic speaker timeline (RTTM) or human-audited time-aligned labels. Anchor metrics use ASR segment boundaries from the system under test, so classic DER is not valid here.",
+  "gt_method": "Independent content-role anchors from ASR text inspection; plus full manual content labeling for sample_01. Not acoustic ground truth.",
+  "per_file": [
+    {
+      "file": "sample_01.mp3",
+      "ok": true,
+      "runtime_sec": 4.509,
+      "segment_count": 38,
+      "anchor_count": 8,
+      "anchor_accuracy": 0.5,
+      "time_weighted_anchor_accuracy": 0.43021032504780116,
+      "confusions": {
+        "Agent->Customer": 2,
+        "Customer->Agent": 2
+      },
+      "ambiguous_merged_asr_segments": 1,
+      "manual_content_gt": {
+        "labeled_clear": 37,
+        "correct": 15,
+        "incorrect": 22,
+        "ambiguous_or_merged": 1,
+        "accuracy_on_clear_labels": 0.40540540540540543,
+        "details": [
+          {
+            "i": 0,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 7.79
+          },
+          {
+            "i": 1,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 11.63
+          },
+          {
+            "i": 2,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 14.22
+          },
+          {
+            "i": 3,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 16.18
+          },
+          {
+            "i": 4,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 20.76
+          },
+          {
+            "i": 5,
+            "gt": "Ambiguous",
+            "pred": "Agent",
+            "correct": null
+          },
+          {
+            "i": 6,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 26.62
+          },
+          {
+            "i": 7,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 27.56
+          },
+          {
+            "i": 8,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 30.86
+          },
+          {
+            "i": 9,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 33.72
+          },
+          {
+            "i": 10,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 36.72
+          },
+          {
+            "i": 11,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 38.86
+          },
+          {
+            "i": 12,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 41.34
+          },
+          {
+            "i": 13,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 43.38
+          },
+          {
+            "i": 14,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 46.74
+          },
+          {
+            "i": 15,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 50.82
+          },
+          {
+            "i": 16,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 53.98
+          },
+          {
+            "i": 17,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 58.38
+          },
+          {
+            "i": 18,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 61.16
+          },
+          {
+            "i": 19,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 64.92
+          },
+          {
+            "i": 20,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 68.74
+          },
+          {
+            "i": 21,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 70.9
+          },
+          {
+            "i": 22,
+            "gt": "Agent",
+            "pred": "Agent",
+            "correct": true,
+            "start": 72.38
+          },
+          {
+            "i": 23,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 75.56
+          },
+          {
+            "i": 24,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 76.66
+          },
+          {
+            "i": 25,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 79.56
+          },
+          {
+            "i": 26,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 79.9
+          },
+          {
+            "i": 27,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 83.76
+          },
+          {
+            "i": 28,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 87.2
+          },
+          {
+            "i": 29,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 90.04
+          },
+          {
+            "i": 30,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 91.28
+          },
+          {
+            "i": 31,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 92.1
+          },
+          {
+            "i": 32,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 97.2
+          },
+          {
+            "i": 33,
+            "gt": "Customer",
+            "pred": "Customer",
+            "correct": true,
+            "start": 102.78
+          },
+          {
+            "i": 34,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 104.92
+          },
+          {
+            "i": 35,
+            "gt": "Agent",
+            "pred": "Customer",
+            "correct": false,
+            "start": 110.34
+          },
+          {
+            "i": 36,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 113.8
+          },
+          {
+            "i": 37,
+            "gt": "Customer",
+            "pred": "Agent",
+            "correct": false,
+            "start": 117.74
+          }
+        ]
+      }
+    },
+    {
+      "file": "sample_02.mp3",
+      "ok": true,
+      "runtime_sec": 12.012,
+      "segment_count": 110,
+      "anchor_count": 10,
+      "anchor_accuracy": 0.6,
+      "time_weighted_anchor_accuracy": 0.6537896283854715,
+      "confusions": {
+        "Agent->Customer": 2,
+        "Customer->Agent": 2
+      },
+      "ambiguous_merged_asr_segments": 0,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_03.mp3",
+      "ok": true,
+      "runtime_sec": 3.561,
+      "segment_count": 41,
+      "anchor_count": 5,
+      "anchor_accuracy": 0.4,
+      "time_weighted_anchor_accuracy": 0.28447204968944095,
+      "confusions": {
+        "Agent->Customer": 3,
+        "Customer->Agent": 0
+      },
+      "ambiguous_merged_asr_segments": 0,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_04.mp3",
+      "ok": true,
+      "runtime_sec": 9.626,
+      "segment_count": 114,
+      "anchor_count": 5,
+      "anchor_accuracy": 0.8,
+      "time_weighted_anchor_accuracy": 0.701854493580599,
+      "confusions": {
+        "Agent->Customer": 0,
+        "Customer->Agent": 1
+      },
+      "ambiguous_merged_asr_segments": 0,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_05.mp3",
+      "ok": true,
+      "runtime_sec": 7.836,
+      "segment_count": 91,
+      "anchor_count": 2,
+      "anchor_accuracy": 0.5,
+      "time_weighted_anchor_accuracy": 0.3992932862190799,
+      "confusions": {
+        "Agent->Customer": 1,
+        "Customer->Agent": 0
+      },
+      "ambiguous_merged_asr_segments": 1,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_06.mp3",
+      "ok": true,
+      "runtime_sec": 5.288,
+      "segment_count": 57,
+      "anchor_count": 6,
+      "anchor_accuracy": 0.3333333333333333,
+      "time_weighted_anchor_accuracy": 0.3508102955195418,
+      "confusions": {
+        "Agent->Customer": 3,
+        "Customer->Agent": 1
+      },
+      "ambiguous_merged_asr_segments": 0,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_07.mp3",
+      "ok": true,
+      "runtime_sec": 8.079,
+      "segment_count": 92,
+      "anchor_count": 4,
+      "anchor_accuracy": 0.75,
+      "time_weighted_anchor_accuracy": 0.7362637362637369,
+      "confusions": {
+        "Agent->Customer": 1,
+        "Customer->Agent": 0
+      },
+      "ambiguous_merged_asr_segments": 0,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_08.mp3",
+      "ok": true,
+      "runtime_sec": 8.779,
+      "segment_count": 91,
+      "anchor_count": 7,
+      "anchor_accuracy": 0.2857142857142857,
+      "time_weighted_anchor_accuracy": 0.2660818713450296,
+      "confusions": {
+        "Agent->Customer": 2,
+        "Customer->Agent": 3
+      },
+      "ambiguous_merged_asr_segments": 2,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_09.mp3",
+      "ok": true,
+      "runtime_sec": 7.98,
+      "segment_count": 106,
+      "anchor_count": 13,
+      "anchor_accuracy": 0.46153846153846156,
+      "time_weighted_anchor_accuracy": 0.472532814778804,
+      "confusions": {
+        "Agent->Customer": 5,
+        "Customer->Agent": 2
+      },
+      "ambiguous_merged_asr_segments": 1,
+      "manual_content_gt": null
+    },
+    {
+      "file": "sample_10.mp3",
+      "ok": true,
+      "runtime_sec": 8.442,
+      "segment_count": 69,
+      "anchor_count": 10,
+      "anchor_accuracy": 0.6,
+      "time_weighted_anchor_accuracy": 0.5923532579429193,
+      "confusions": {
+        "Agent->Customer": 4,
+        "Customer->Agent": 0
+      },
+      "ambiguous_merged_asr_segments": 0,
+      "manual_content_gt": null
+    }
+  ]
+}

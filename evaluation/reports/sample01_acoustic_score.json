@@ -1,0 +1,192 @@
+{
+  "backend": "acoustic",
+  "runtime_sec": 38.323,
+  "segment_count": 29,
+  "diagnostics": {
+    "backend": "acoustic",
+    "model": "pyannote/speaker-diarization-community-1",
+    "acoustic_intervals": 30,
+    "acoustic_speakers": [
+      "SPEAKER_00",
+      "SPEAKER_01"
+    ],
+    "attributed_words": 328,
+    "ambiguous_words": 4,
+    "turn_first_grouping": true,
+    "absorbed_ambiguous_words": [
+      {
+        "word": "Oh",
+        "start": 36.58,
+        "end": 37.6,
+        "original_ambiguous": true,
+        "original_reason": "overlapping_speech",
+        "original_speaker_id": null,
+        "absorbed_into_speaker_id": "SPEAKER_01",
+        "turn_start": 37.4428,
+        "turn_end": 38.3203,
+        "absorption": "asr_span_continuation"
+      },
+      {
+        "word": "we",
+        "start": 39.54,
+        "end": 39.54,
+        "original_ambiguous": true,
+        "original_reason": "no_acoustic_overlap",
+        "original_speaker_id": null,
+        "absorbed_into_speaker_id": "SPEAKER_00",
+        "turn_start": 38.6916,
+        "turn_end": 40.4297,
+        "absorption": "single_turn_containment"
+      },
+      {
+        "word": "Oh,",
+        "start": 91.2,
+        "end": 91.42,
+        "original_ambiguous": true,
+        "original_reason": "boundary_collar",
+        "original_speaker_id": "SPEAKER_00",
+        "absorbed_into_speaker_id": "SPEAKER_00",
+        "turn_start": 91.2741,
+        "turn_end": 91.8985,
+        "absorption": "asr_span_continuation"
+      },
+      {
+        "word": "In",
+        "start": 91.74,
+        "end": 92.5,
+        "original_ambiguous": true,
+        "original_reason": "overlapping_speech",
+        "original_speaker_id": null,
+        "absorbed_into_speaker_id": "SPEAKER_01",
+        "turn_start": 92.3541,
+        "turn_end": 96.5222,
+        "absorption": "asr_span_continuation"
+      }
+    ],
+    "absorbed_ambiguous_count": 4,
+    "boundary_bleed_candidates": [
+      {
+        "word": "Oh",
+        "start": 36.58,
+        "end": 37.6,
+        "duration_sec": 1.02,
+        "align_reason": "overlapping_speech",
+        "preserved_overlaps": [
+          {
+            "speaker_id": "SPEAKER_00",
+            "interval_start": 33.6291,
+            "interval_end": 36.9535,
+            "overlap_sec": 0.3735,
+            "overlap_frac_of_word": 0.3661
+          },
+          {
+            "speaker_id": "SPEAKER_01",
+            "interval_start": 37.4428,
+            "interval_end": 38.3203,
+            "overlap_sec": 0.1572,
+            "overlap_frac_of_word": 0.1541
+          }
+        ],
+        "earlier_interval": {
+          "speaker_id": "SPEAKER_00",
+          "start": 33.6291,
+          "end": 36.9535
+        },
+        "later_interval": {
+          "speaker_id": "SPEAKER_01",
+          "start": 37.4428,
+          "end": 38.3203
+        },
+        "inter_speaker_gap_sec": 0.4894,
+        "majority_overlap_speaker": "SPEAKER_00",
+        "hypothetical_clamp_speaker": "SPEAKER_01",
+        "hypothetical_clamp_window": {
+          "start": 36.9535,
+          "end": 37.6
+        },
+        "clamp_vs_majority_disagree": true,
+        "auto_reassigned": false,
+        "note": "Flag only. Clamp hypothesis assumes earlier-turn overlap is timestamp bleed \u2014 not established; do not auto-apply."
+      },
+      {
+        "word": "In",
+        "start": 91.74,
+        "end": 92.5,
+        "duration_sec": 0.76,
+        "align_reason": "overlapping_speech",
+        "preserved_overlaps": [
+          {
+            "speaker_id": "SPEAKER_00",
+            "interval_start": 91.2741,
+            "interval_end": 91.8985,
+            "overlap_sec": 0.1585,
+            "overlap_frac_of_word": 0.2085
+          },
+          {
+            "speaker_id": "SPEAKER_01",
+            "interval_start": 92.3541,
+            "interval_end": 96.5222,
+            "overlap_sec": 0.1459,
+            "overlap_frac_of_word": 0.192
+          }
+        ],
+        "earlier_interval": {
+          "speaker_id": "SPEAKER_00",
+          "start": 91.2741,
+          "end": 91.8985
+        },
+        "later_interval": {
+          "speaker_id": "SPEAKER_01",
+          "start": 92.3541,
+          "end": 96.5222
+        },
+        "inter_speaker_gap_sec": 0.4556,
+        "majority_overlap_speaker": "SPEAKER_00",
+        "hypothetical_clamp_speaker": "SPEAKER_01",
+        "hypothetical_clamp_window": {
+          "start": 91.8985,
+          "end": 92.5
+        },
+        "clamp_vs_majority_disagree": true,
+        "auto_reassigned": false,
+        "note": "Flag only. Clamp hypothesis assumes earlier-turn overlap is timestamp bleed \u2014 not established; do not auto-apply."
+      }
+    ],
+    "boundary_bleed_candidate_count": 2,
+    "utterances": 29,
+    "unresolved_ambiguous_utterances": 0,
+    "mixed_asr_splits": 2,
+    "role_mapping": {
+      "method": "opening_greeting_cues",
+      "mapping": {
+        "SPEAKER_00": "Customer",
+        "SPEAKER_01": "Agent"
+      },
+      "notes": "Opening cues favored SPEAKER_01: {'SPEAKER_00': 0, 'SPEAKER_01': 2}"
+    },
+    "schema_limitation": "TranscriptionSegment.speaker is a required string. Ambiguous/unmapped utterances should be emitted as speaker='Ambiguous' with confidence<=0.3.",
+    "timing_sec": {
+      "whisper_model_init": 0.898,
+      "whisper_transcribe": 7.745,
+      "community1_device": "mps",
+      "community1_pipeline_init": 4.855,
+      "community1_inference": 23.697,
+      "align_group_role": 0.014,
+      "total_run_transcription": 38.321
+    },
+    "ambiguous_or_unmapped_utterances": 0,
+    "ok": true,
+    "segment_count": 29
+  },
+  "score": {
+    "clear_intervals": 35,
+    "correct": 35,
+    "incorrect": 0,
+    "unscored_non_clear": 1,
+    "accuracy": 1.0,
+    "confusions": {}
+  },
+  "historical_non_comparable": {
+    "heuristics_listen_disagreements_10_of_35": "see evaluation/historical/"
+  }
+}

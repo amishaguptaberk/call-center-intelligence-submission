@@ -1,0 +1,13 @@
+{
+  "provider": "openai",
+  "model_override": null,
+  "synthetic_input": true,
+  "attempts_per_agent": 1,
+  "timeout_seconds": 20,
+  "summary_valid": true,
+  "status": "passed",
+  "identity_preserved": true,
+  "dimensions": 5,
+  "weighted_score": 3.25,
+  "resolution": "resolved"
+}
