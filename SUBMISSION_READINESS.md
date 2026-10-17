@@ -1,150 +1,95 @@
 # Submission Readiness
 
-Audit date: 2026-10-16. Scope: this standalone SQLite/Gradio repository, not
-the extended Echo dashboard. The milestone guide and the final requirements
-guide are the acceptance references. This checklist does not award a grade.
+Status on 2026-10-16: **pending final acceptance and publication**.
+Scope: the standalone SQLite/Gradio capstone. Tickets 06/07 remain open.
+The previous ZIP is stale. This checklist does not award a grade.
 
-## Current Verdict
+This is the source snapshot's evidence and release checklist. Consult
+[Actions](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions)
+for results tied to the final revision and
+[Releases](https://github.com/amishaguptaberk/call-center-intelligence-submission/releases)
+and the final handoff for public-access confirmation, release revision, archive
+checksum, and extraction results. Those external records are populated after
+checks and packaging; their links do not assert completion. Archive metadata
+is kept outside its own source snapshot to avoid a checksum self-reference.
 
-The implementation has substantial local verification. Submission packaging,
-public reviewer access, remote checks, and container verification remain open.
-Do not submit the existing ZIP: it predates the latest fixes.
+## Accepted Evidence
 
-## Verified Locally
+| Evidence | Scope and result |
+| --- | --- |
+| Requirements, accepted `e8e5d2c` | [Requirement matrix](docs/milestones/requirements-matrix.md); Gradio 6, filepath audio, and three-tab compatibility decisions documented. Python target is 3.11. |
+| Privacy, accepted `8825f5d` | Current report excerpts sanitized; original history remains unsuitable for publication. See [publication review](PUBLICATION_REVIEW.md). |
+| Clean-install report, accepted `28669fb` | Exported source `8825f5d`: fresh install, 362 tests, lint, format, pip check, and HTTP startup with three tabs passed on Python 3.11.15/macOS ARM64 with FFmpeg 7.1. [Full report](docs/verification/clean-install.md) preserves earlier failures and corrected test isolation. |
+| Live browser walkthrough | Two analyses verified detected-pattern redaction, matching PDF/JSON IDs, weighted 3.45/5, cache, history/restart, and metrics. [Walkthrough](docs/verification/reviewer-walkthrough.md) records failures and limits. |
 
-- [x] Python 3.11.15 environment.
-- [x] Full unit, integration, and security suite: 358 passed, no skips or failures.
-- [x] Ruff lint and formatting checks.
-- [x] Installed dependency compatibility check.
-- [x] Ten bundled sample recordings are present.
-- [x] Analyze call, stored history, and Observability have regression coverage.
-- [x] Weighted scores, security boundaries, routing, persistence, and exports
-  have automated coverage. See SUBMISSION.md and RUBRIC_REVIEW.md.
-- [x] Previously staged work saved as focused commits; no history rewritten.
+## Hosted Baseline
 
-Earlier live transcription, provider analysis, browser downloads, PDF inspection,
-and desktop/mobile evidence are recorded in VERIFICATION.md. They were not
-repeated on this audit date. Unit tests do not replace those live checks.
+Supplied staging evidence confirms private clean-history repository
+[call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission)
+exists with initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`,
+mapping to private source `2882df9`. Its new root contains 139 files; original
+private history was not uploaded. Baseline local checks passed 363 tests,
+lint, and formatting; the bounded scan found no blocked token patterns or
+forbidden runtime paths.
 
-## Required Before Submission
+[Run 38990340548](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38990340548)
+completed successfully with both tests and container jobs passing.
+These results certify the staging baseline only. Updated local source passes
+365 tests, including new container integration coverage. Synthetic browser
+checks pass mobile geometry/History stacking, desktop columns, invalid-decode
+feedback and recovery after reload, redacted exports, cache, history, metrics,
+and newest-20 audit rows. Real `score_qa` overrides a fixture's incorrect
+overall 5 with weighted 3.70 from scores 4/2/5/3/4 in JSON/PDF/UI.
+These are fixture results, separate from the two real analyses.
+Independent UI repair review passed: 365 tests, lint, formatting, and fresh
+browser software checks were independently rerun. Final CI, public visibility,
+and archive verification remain pending; 365 tests is not a fresh Linux result.
 
-### 1. Check The Final Requirements Against The Implementation
+## Remaining Gates
 
-- [ ] Walk through each self-check in all six milestones and the final guide;
-  add file/test references and mark every unverified item explicitly.
-- [ ] Confirm the documented compatibility differences are acceptable: the
-  project uses Gradio 6 rather than the guide's Gradio 5, filepath audio with
-  microphone support rather than numpy-only UI input, and three tabs because
-  the final overview requires history while another section specifies two.
-- [ ] Confirm Python support is declared clearly in dependency/project metadata;
-  `.python-version` and lint targets currently select 3.11, but pyproject.toml
-  contains no package-level `requires-python` declaration.
-- [ ] Check all environment settings, provider/model defaults, and startup
-  behavior against README and .env.example.
+- [x] Complete independent UI repair review: 365 tests, lint, formatting, and
+  fresh browser software checks passed on independent rerun, including zero
+  overflow at 390px and stacked History. Prior failures remain recorded.
+- [ ] Verify physical microphone permission, capture, and end-to-end recording.
+  One device was found, but actual capture returned `NotSupportedError`;
+  manual user verification remains pending.
+- [x] Verify software invalid-decode feedback/recovery and newest-20 audit rows
+  with the synthetic browser harness; recovery required reload.
+- [ ] Review final container changes and confirm passing final-source CI.
+  Baseline hosted container execution passed; local Docker readiness timed out
+  and no local image build/run passed. See the
+  [container report](docs/verification/container.md). Extended source `a732aa1`
+  passed independent source review and eight targeted tests; real-pipeline
+  synthetic audio with mocked ASR/model boundaries, reports, and persisted
+  History exports after replacement still require final CI execution.
+- [ ] Run relevant checks against final source, review the complete final diff
+  and publication scope, and record exact revision/results.
+- [x] Prepare a private source-only staging repository with newly created history.
+  Keep original local commits, refs, tags, and objects private.
+- [ ] Verify publication and unauthenticated access at the intended
+  [public repository](https://github.com/amishaguptaberk/call-center-intelligence-submission).
+  This destination URL is not proof of publication.
+- [ ] Monitor all required final-source remote checks to completion and record
+  run links and outcomes. Baseline CI success does not certify later changes.
+- [ ] Make the repository public only after final-source CI and review pass;
+  then verify unauthenticated access.
+- [ ] Generate an archive from the final publication revision; compare contents,
+  extract it, verify documented setup/smoke behavior, and record checksum/SHA.
+  Exclude secrets, runtime data, caches, private evidence, model weights, and
+  repository internals.
+- [ ] Record final proof in the release/handoff: revision-specific CI, review,
+  public visibility/access, archive checksum, and extraction verification.
+  Source evidence remains in [verification](VERIFICATION.md) and
+  [submission notes](SUBMISSION.md).
 
-Acceptance: the requirement matrix has no unexplained gaps. Do not change
-working behavior just to match example function names or file layouts.
+The owner approved inclusion of the ten samples; the existing synthetic Echo
+demo is included. No new media is required. Owner approval is not independent
+third-party rights verification. Private extended Echo source is outside scope.
 
-### 2. Verify A Clean Installation
+## Limits
 
-- [ ] Create a fresh checkout/export of the final commit and a fresh Python 3.11
-  environment; do not reuse the developer environment or local database.
-- [ ] Install requirements-dev.txt with FFmpeg available.
-- [ ] Run the exact automated commands below and record the commit and results.
-- [ ] Confirm startup with only the documented configuration and no private
-  developer paths, downloaded local artifacts, or hidden setup steps.
-
-```sh
-python -m pip install -r requirements-dev.txt
-python -m pytest tests/ -v
-ruff check .
-ruff format --check .
-python -m pip check
-```
-
-Acceptance: at least 100 tests pass without provider credentials; the documented
-startup works with the configured provider key. An installed-environment pass
-does not establish fresh-install reproducibility.
-
-### 3. Finish Docker Verification
-
-- [ ] Restore a responsive Docker daemon. `docker info` timed out after 12
-  seconds during this audit; no fresh build or run was possible.
-- [ ] Build from the final clean checkout: `docker build -t callcenter .`.
-- [ ] Run with a private local environment file and expose port 7860.
-- [ ] Open the Gradio app, process a bundled sample, and download both reports.
-- [ ] Check non-root permissions, model download/cache, and persisted SQLite
-  behavior using the documented Compose volume.
-
-Acceptance: a clean image builds and serves a complete analysis without manual
-container edits. Record commands and results; a Dockerfile text test is not
-build/run evidence.
-
-### 4. Repeat The Final Reviewer Walkthrough
-
-- [ ] Start `python app.py`; verify the speech model initializes once.
-- [ ] Analyze a supplied sample with blank optional metadata. Verify labeled,
-  redacted transcript; summary; five scores; weighted overall; and evidence.
-- [ ] Download PDF and JSON. Verify matching call IDs and inspect the PDF.
-- [ ] Repeat the same recording and confirm a transcription cache hit.
-- [ ] Open history and regenerate exports without another analysis request.
-- [ ] Check Observability counts against completed, failed, and review outcomes.
-- [ ] Exercise invalid input, injection blocking, critical review routing, and
-  low-confidence handling. Use regression fixtures for controlled unsafe cases;
-  do not require a model to produce a particular flag from uncontrolled audio.
-- [ ] Verify physical microphone permission/recording and a narrow viewport.
-
-Acceptance: actual UI behavior matches the expected reviewer journeys. Distinguish
-mocked failure-path coverage from live inference and recording observations.
-
-### 5. Prepare The Submission Repository And Access
-
-- [ ] Confirm the standalone submission's publication scope. The guide requires
-  a public repository; the extended Echo implementation can remain private.
-- [ ] Review tracked content and reachable history for credentials, private
-  recordings, generated databases/reports, and accidental artifacts. Check that
-  bundled recordings can be redistributed before publishing them.
-- [ ] Create or select the dedicated submission repository and configure a
-  remote. This local repository currently has no remote.
-- [ ] Review the entire final diff, commit metadata, contribution instructions,
-  and workflow requirements before pushing.
-- [ ] Push the final commits, monitor every required workflow to completion,
-  and fix attributable failures. Do not claim remote checks passed before they run.
-- [ ] Test the submission URL as a reviewer without privileged account access.
-
-Acceptance: reviewers can access the intended repository and its required checks
-are green. No remote repository or hosted service was created by this audit.
-
-### 6. Rebuild And Inspect The Archive
-
-- [ ] Retain the existing ZIP as an older snapshot; generate a newly named ZIP
-  from the final committed revision using `git archive`.
-- [ ] Compare its members/content with that revision; verify history support,
-  regression tests, configuration, docs, and intended samples are included.
-- [ ] Confirm it excludes .env, .git, .venv, caches, databases, downloaded model
-  weights, and local verification evidence.
-- [ ] Extract it into a fresh directory and run the documented setup/smoke path.
-- [ ] Record the source commit and archive checksum with the handoff.
-
-Acceptance: the archive matches the final source exactly. The current older ZIP
-differs in 58 tracked files and lacks nine newly tracked files at audit time.
-
-## Conditional And Optional Checks
-
-- A hosted Space is optional unless the submission portal separately requires
-  a live URL. Publishing requires a write-capable account and configured secrets;
-  a private Space also requires reviewer access.
-- GPU, acoustic diarization, and additional live provider checks are needed only
-  for claims about those paths. Keep existing limitations explicit otherwise.
-- Echo's dashboard video is an extended-product demonstration. It does not prove
-  that the Gradio submission works; retain the separate reviewer walkthrough.
-- Human-reviewed scoring accuracy, compliance validity, and production-scale
-  performance are not established by the passing software tests.
-
-## Final Handoff
-
-- [ ] Update VERIFICATION.md with fresh results and remaining limitations.
-- [ ] Supply the final repository URL, commit, test totals, and archive checksum.
-- [ ] Include a hosted URL only if deployed and verified.
-- [ ] Mark submission ready only after required items above are resolved or an
-  explicit requirement exception is documented.
+Tests do not establish scoring accuracy, policy validity, production capacity,
+or complete anonymization. Live provider evidence covers OpenAI/GPT-4o;
+other providers, GPU, and acoustic diarization remain unverified. A hosted
+Space is optional unless separately required and has not been verified.
+Historical failures remain in their reports; later passes do not erase them.

@@ -1,86 +1,139 @@
 # Verification Report
 
-## Local Recheck: 2026-10-16
+## Current Evidence: 2026-10-16
 
-The current standalone source passed all 358 tests on Python 3.11.15, Ruff lint,
-Ruff formatting (88 files), and installed dependency compatibility. There were
-four third-party audio-reader warnings and no failures or skipped tests.
-The existing changes were saved in focused commits, separating formatting,
-runtime behavior, regression coverage, and submission documentation.
+Final handoff remains **pending**. Requirements were accepted at `e8e5d2c`,
+privacy sanitization at `8825f5d`, and clean-install documentation at
+`28669fb`. Latest observed container source is `a732aa1`,
+extending container acceptance checks. Passing evidence is tied to tested source,
+not automatically to HEAD or a future publication revision.
 
-Docker info again timed out after 12 seconds. No container build/run, fresh
-environment installation, or new live browser/provider walkthrough was completed
-in this recheck. The evidence below predates this recheck. The standalone repo
-has no remote, and the older submission ZIP does not match current source.
-See SUBMISSION_READINESS.md for the complete remaining acceptance checklist.
+This report records evidence available for the source snapshot. Latest
+revision-specific hosted outcomes are in
+[Actions](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions).
+The final handoff and
+[Releases](https://github.com/amishaguptaberk/call-center-intelligence-submission/releases)
+carry subsequent public-visibility/access confirmation, release revision,
+archive checksum, and extraction verification. Links alone do not prove
+completion; archive metadata is external to the source snapshot it identifies.
 
-## Final Results
+## Fresh Installation
 
-- Full Python 3.11.15 suite: **358 passed**, four third-party audio-reader
-  deprecation warnings, no failures or skipped tests.
-- Ruff lint and formatting hooks pass; pre-commit is installed locally.
-- Installed dependency compatibility check passes.
-- Real Faster-Whisper and GPT-4o processing succeeds for Samples 01 and 03.
-- Re-uploaded Sample 01 serves a transcription cache hit.
-- Browser analysis succeeds with both optional metadata fields blank.
-- PDF and JSON download through the actual Gradio interface; the files have
-  matching call IDs and a mathematically verified 3.45/5 score.
-- All three pages of a real PDF were rendered and inspected for clipping,
-  missing content, and broken glyphs.
-- History reopens stored reviews and regenerates exports without inference.
-- Observability's seven completed calls, 14 events, and 3.18 average match the
-  test database. Failure/review metrics also have regression coverage.
-- Desktop and 390px browser checks pass. The mobile document width equals the
-  viewport after the audit-table overflow correction.
+The [clean-install report](docs/verification/clean-install.md) records fresh
+exported source `8825f5dc23a2a9edf7b089292f8f7d5227813177` on macOS ARM64,
+Python 3.11.15 and externally supplied FFmpeg 7.1:
 
-## Changes and Regression Coverage
+- Fresh requirements-dev installation: passed.
+- Full suite: **362 passed, 5 warnings**, no skipped or weakened tests.
+- Ruff lint and formatting: passed, 92 files formatted.
+- Dependency consistency (`python -m pip check`): passed.
+- Actual HTTP `/config`: 200, with Analyze call, All MP3 History, and
+  Observability; provider credentials absent and speech preload disabled.
 
-| Files | Root cause and final behavior | Regression coverage |
-| --- | --- | --- |
-| `src/services/pipeline.py` | Blank Gradio fields were None; they are normalized. Export retention is configurable, and failed microphone conversion cleans its file. | Blank-field browser reproduction and integration test; retention and microphone tuple tests |
-| `src/graph/workflow.py`, `src/graph/nodes.py` | Provider exception messages could leak. Stage/type errors replace raw text; earlier results survive; intake audio is removed on success or failure; confidence holds precede inference. | Stage failure, low-confidence, injection blocking, file lifecycle, routing |
-| `src/security/pii_redactor.py` | PII spanning numeric segment boundaries could destroy turn attribution during redaction. Redaction now preserves unaffected words, speakers, and timestamps. | Card/SSN split across segments, 5+ variants per required PII category |
-| `src/database/connection.py`, `models.py`, `repository.py` | Audit immutability was convention only. SQLite rejects update/delete. `call_records` now stores status/filename and upgrades existing `call_analyses` without data loss. | Immutable audit, database restart, repeated legacy migration, stored history |
-| `src/services/history.py`, `src/ui/app.py` | Missing history browser and mobile table overflow. Saved reviews expose the same summary, QA, transcript, and reports. | History/export regression, browser selection, mobile width measurement |
-| `src/services/observability.py` | Failed attempts were missing from totals and review scores polluted completed-call averages. Metrics now use the intended populations. | Completed/review/failed scenarios and actual database comparison |
-| `src/utils/logging_config.py`, analysis agents, `app.py` | Sparse logging and deferred startup initialization. JSON stage/model/retry events and one startup workflow/model initialization are present. | Existing retry/singleton tests; real startup and pipeline events |
-| `src/utils/llm_factory.py` | Default sampling caused repeat-call scoring variation. Temperature defaults to zero; weighted overall remains calculated in Python. | All provider adapters, deterministic weighted score, live GPT-4o output |
-| `.env.example`, `.python-version`, Makefile, development requirements, hooks, CI | Missing configuration/formatting setup. New settings are documented and Ruff checks are enforced. | Local lint, hooks, Python 3.11 install and tests |
-| README, submission notes, rubric review, `docs/demo/` | Reviewers lacked a path to the extended personal version. The private Echo link and an independently viewable synthetic-data video are included. | Repository URL/privacy verified; original demo copied intact |
+Earlier failures remain in that report: an older install ran out of disk;
+a subsequent suite had 361 passed and 1 failed because the harness disabled
+dotenv loading needed by a test fixture. After the authorized pytest environment
+correction, all 362 passed without source changes. HTTP startup alone does not
+verify model download or inference.
 
-Ruff also normalized existing Python formatting to pass the repository-wide
-format hook. No unrelated behavior was changed in that mechanical pass.
+## Live Reviewer Walkthrough
 
-## Live Evidence and Limits
+The [walkthrough](docs/verification/reviewer-walkthrough.md) records exactly
+two actual browser analyses of Sample 01 on accepted source `8825f5d`:
 
-Initial live Sample 01 analysis took 151.91 seconds including cold model setup.
-Sample 03 completed in 56.62 seconds. The first cached Sample 01 replay completed
-in 5.02 seconds. Later temperature-zero cached runs completed in about 10 seconds.
-These timings describe this machine and provider, not a throughput guarantee.
+- Real transcription and provider analysis completed.
+- The detected sample pattern was redacted from UI and downloaded reports.
+- Browser PDF/JSON exports had matching call IDs; PDFs contained three pages.
+- Independent weighted calculations matched the rendered **3.45/5** score.
+- Repeated audio hit the transcription cache; downstream analysis still ran.
+- History reopened stored results and regenerated exports without inference,
+  including after restart.
+- Observability matched the isolated database: two completed calls, one cache
+  row, four audit events, 100% success, average 3.45.
 
-OpenAI/GPT-4o live structured output passes. Gemini and Groq keys are absent;
-their factory selection, schemas, retry behavior, and configuration are tested
-with mocks, but live connectivity is unverified.
+This does not establish complete PII detection or scoring accuracy. Separately,
+11 reviewer-journey and 29 intake fixture tests passed; mocked failure, routing,
+and microphone cases do not establish live hardware behavior.
 
-Docker availability timed out after 12 seconds; a successful image build/run
-cannot be claimed. No GPU or acoustic model run, physical microphone recording,
-remote CI execution, or hosted smoke test was performed. Microphone tuple input
-and CPU behavior are tested. Heuristic speaker attribution remains approximate.
-Regex redaction does not guarantee anonymization; the raw local cache has no
-automatic expiry. Stock SQLite is not encrypted by setting a PRAGMA alone.
+## Hosted Baseline Evidence
 
-## Deployment and Access
+Supplied evidence confirms private staging repository
+[call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission)
+at initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`, mapped to
+private source `2882df9`. Its new Git root contains 139 files; original private
+history was not uploaded. Before push, baseline local verification passed
+363 tests, lint, and formatting; the bounded publication scan found no blocked
+token patterns or forbidden runtime paths.
 
-The private Hugging Face Space package is prepared. Account `amishacodes` was
-verified with a read-only project token; a write-capable CLI login is still
-required. No Space was created and no provider secret uploaded.
+[Run 38990340548](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38990340548)
+completed successfully: both tests and container jobs passed. This is hosted
+baseline evidence supplied for this documentation update, not a new execution
+by this documentation pass. It does not certify pending mobile changes.
 
-The linked Echo repository is private. Reviewers need access to read its source;
-the included synthetic-data MP4 is viewable from the submission archive.
+## Supplied Source And Browser Update
 
-## Final Diff Review
+The updated source suite passed **365 tests**, including new container
+integration coverage. This is a supplied local source result, not a fresh Linux
+installation or final hosted CI result. Supplied independent UI repair review
+passed, with all 365 tests, lint, formatting, and fresh browser software checks
+independently rerun. This verifies source/software behavior, not hardware capture.
 
-The original Echo checkout and its uncommitted work are untouched. Credentials,
-runtime databases, model weights, live reports, screenshots, and temporary test
-evidence are excluded from the submission commit and ZIP. The ZIP contains
-tracked source, tests, docs, sample recordings, and the requested Echo demo.
+The synthetic browser harness now passes 390px geometry with zero overflow,
+stacked History panels, and two-column desktop layout. Invalid decode produces
+a visible error without a traceback; recovery passed after reload. Redacted
+exports, transcription cache, stored history, metrics, and the newest 20 audit
+rows passed fixture checks. Earlier mobile and audit assertion failures remain
+historical evidence in the walkthrough.
+
+The score fixture runs the real `score_qa` implementation with unequal scores
+4/2/5/3/4. The model's incorrect overall 5 is overridden by the weighted
+**3.70/5**, verified in JSON, PDF, and UI. Browser regression went from failing
+to passing. ASR/model boundaries use fixtures; these results remain separate
+from the two real analyses and their 3.45/5 observations.
+
+Physical microphone capture remains unverified. Device enumeration found an
+input, but actual `getUserMedia` returned `NotSupportedError`. Manual user
+verification is pending with the application launched on port 7860; launch
+alone does not establish successful hardware recording.
+
+Local `docker info` timed out after 12 seconds; no fresh local image build/run
+passed. Hosted baseline container execution passed in the run above. See the
+[container report](docs/verification/container.md). Extended container source
+`a732aa1` passed independent source review and eight targeted tests. Its
+real-pipeline synthetic-WAV smoke mocks ASR/model boundaries and checks actual
+reports and persisted History exports after container replacement. Execution
+of this extended smoke remains pending final CI; it is not live inference.
+
+No final-source full acceptance or final-source CI pass, GPU/acoustic-model run,
+additional live provider verification, or hosted smoke test is claimed.
+Gradio 6 is documented; Python support targets 3.11, with later minors uncertified.
+
+## Publication And Archive
+
+The new [submission staging repository](https://github.com/amishaguptaberk/call-center-intelligence-submission)
+exists privately with clean history. Public visibility and unauthenticated
+access remain pending until final-source CI and review pass. Original local
+history contains raw excerpts and remains private. See
+[publication review](PUBLICATION_REVIEW.md).
+
+The owner approved the ten samples. The existing synthetic Echo demo remains
+included; its direct README link depends on publication. Extended Echo source
+remains private. No new media was created for this handoff.
+
+The previous ZIP is stale. Final revision, archive checksum, content comparison,
+extracted setup/smoke check, final diff review, and remote workflow outcomes
+remain pending. Tickets 06/07 are open. See
+[submission readiness](SUBMISSION_READINESS.md).
+
+## Historical Evidence And Limits
+
+Earlier evidence reported 358 tests, Sample 01/03 analysis, PDF rendering,
+cache/history, metrics, and a mobile pass. It predates the fresh-install and
+latest walkthrough reports and is not final-source acceptance. The initial
+mobile failure and subsequent fixture-based repair checks are recorded above;
+independent UI repair review subsequently passed for source/software behavior.
+Timings were machine/provider-specific.
+
+Regex redaction is approximate; raw local transcription cache has no automatic
+expiry. Stock SQLite is not encrypted by setting a PRAGMA alone. Passing
+software tests does not establish production readiness or policy validity.

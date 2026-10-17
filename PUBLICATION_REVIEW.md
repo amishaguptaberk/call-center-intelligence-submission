@@ -1,8 +1,45 @@
 # Publication review
 
-Date: 2026-10-16. Status: **green for the reviewed source snapshot, conditional
-on a new clean-history publication repository**. This is a bounded publication
+Date: 2026-10-16. Status: **conditional source review; publication pending**.
+This is a bounded publication
 review, not exhaustive secret, media-content, or legal clearance.
+
+The review below applies to its stated historical snapshot. Sanitization was
+accepted at `8825f5d`; subsequent requirement/verification work includes
+`28669fb`, and HEAD observed for this documentation pass is `2882df9`.
+Later changes still require final diff and publication-scope review.
+The intended public destination is
+[call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission).
+Public access and final archive remain pending. Tickets 06/07 remain open.
+
+## Clean-history Staging Update
+
+Supplied evidence confirms the destination now exists as a private staging
+repository. Initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`
+maps to private source `2882df9`, with a new Git root containing 139 files.
+Original private history was not uploaded. Baseline local verification passed
+363 tests, lint, and formatting; a bounded scan found no blocked token patterns
+or forbidden runtime paths. These findings are not exhaustive privacy clearance.
+
+[Run 38990340548](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38990340548)
+completed successfully for both tests and container jobs. Later supplied source
+verification passed 365 local tests and synthetic browser repair checks;
+extended container source `a732aa1` passed independent source review and eight
+targeted tests. Independent UI repair review passed with 365 tests, lint,
+formatting, and fresh browser software checks independently rerun.
+Physical microphone capture remains unverified; final-source CI remains pending.
+These local results do not extend the baseline hosted result or establish a
+fresh Linux pass. Change visibility to public only
+after those checks and review pass, then verify unauthenticated access.
+The historical review below retains its original scope and observations.
+
+Subsequent final-source checks are recorded in
+[Actions](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions).
+Public visibility/access confirmation and archive revision/checksum/extraction
+results belong in the final handoff and
+[Releases](https://github.com/amishaguptaberk/call-center-intelligence-submission/releases),
+outside the source snapshot being archived. Their links are reference points,
+not claims that publication or final checks have completed.
 
 ## Scope and boundary
 
@@ -54,8 +91,9 @@ note, this review, sanitized report, and regression test in that snapshot.
 
 Ticket 06 must verify that the new repository contains only the reviewed
 snapshot and clean newly created history before publication. This is a
-mandatory acceptance condition, not a suggestion. No new repository or
-publication was created by this review. The original history is **not cleared
+mandatory acceptance condition, not a suggestion. At the historical review
+snapshot, no new repository or publication had been created; private staging
+was subsequently created as recorded above. The original history is **not cleared
 for publication**. Under this explicit condition, the concrete current-source
 disclosure finding is resolved; no other actual disclosure issue was identified
 within the bounded review. Owner recording approval is not third-party licensing.

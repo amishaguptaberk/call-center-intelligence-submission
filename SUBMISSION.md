@@ -44,3 +44,52 @@ credentials and downloaded model weights. GPU behavior is unverified.
 
 Historical milestone evidence under `docs/milestones/` describes earlier work;
 it does not establish checks passed for this export. See `VERIFICATION.md`.
+
+## Handoff Status: 2026-10-16
+
+Requirement reconciliation was accepted at `e8e5d2c`, publication sanitization
+at `8825f5d`, and clean-install documentation at `28669fb`. The fresh source
+actually exercised was `8825f5d`: 362 tests, lint, formatting, dependency
+consistency, and HTTP startup with all three tabs passed. HEAD observed during
+this documentation pass is `2882df9`, adding container acceptance checks;
+baseline hosted execution is now recorded below; final-source acceptance remains pending.
+
+Two live browser analyses verified redaction for the detected sample pattern,
+matching PDF/JSON exports, a weighted 3.45/5 score, transcription caching,
+stored history, and metrics. Subsequent synthetic browser checks pass mobile
+geometry/History stacking, desktop columns, invalid-decode feedback and recovery
+after reload, exports/cache/history/metrics, and newest-20 audit rows. A real
+`score_qa` fixture with scores 4/2/5/3/4 overrides model overall 5 to weighted
+3.70 in JSON/PDF/UI. These fixture results are separate from live analyses.
+The source suite now passes 365 tests, including container integration;
+independent UI repair review passed with 365 tests, lint, formatting, and fresh
+browser software checks independently rerun. Final CI remains pending; this is
+not a fresh Linux result. Physical capture returned `NotSupportedError`; manual verification
+remains pending. See [reviewer walkthrough](docs/verification/reviewer-walkthrough.md).
+
+The private clean-history staging repository is
+[call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission).
+Initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16` maps to private
+source `2882df9`; its new root has 139 files and original history was not uploaded.
+Baseline local verification passed 363 tests, lint, and formatting, with no
+blocked token patterns or forbidden runtime paths found by the bounded scan.
+[Hosted run 38990340548](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38990340548)
+completed successfully for both tests and container jobs.
+
+Extended container source `a732aa1` passed independent source review and eight
+targeted tests. Final CI must execute its synthetic-audio real-pipeline smoke,
+with mocked ASR/model boundaries, reports, and History exports after replacement.
+
+Hosted results above apply to the baseline. Final CI,
+public visibility/access, and the final archive/checksum/extraction checks remain
+pending. Make the repository public only after final-source CI and review pass.
+Original local history contains raw excerpts and remains private.
+Tickets 06/07 are not complete.
+
+This status records evidence available at the source snapshot. Consult
+[Actions](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions)
+for revision-specific checks and the final handoff/
+[Releases](https://github.com/amishaguptaberk/call-center-intelligence-submission/releases)
+for subsequent public-access confirmation, release revision, archive checksum,
+and extraction results. Archive metadata is not embedded in its own source
+snapshot. These links do not assert release completion.

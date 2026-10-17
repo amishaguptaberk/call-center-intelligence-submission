@@ -9,6 +9,8 @@ pinned: false
 
 # Call Intelligence
 
+[![Checks](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/workflows/checks.yml/badge.svg)](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/workflows/checks.yml)
+
 A Gradio application for post-call review: local transcription, speaker labels,
 structured summaries, evidence-based QA, compliance findings, and PDF/JSON exports.
 
@@ -19,15 +21,16 @@ builds on this capstone with a Next.js dashboard, FastAPI, Postgres, call queues
 recording playback, human review decisions, and evaluator calibration.
 That repository is private; reviewers need GitHub access.
 
-[![Echo demo preview](docs/demo/echo-demo-preview.png)](docs/demo/echo-demo.mp4)
+[![Echo demo preview](docs/demo/echo-demo-preview.png)](https://raw.githubusercontent.com/amishaguptaberk/call-center-intelligence-submission/HEAD/docs/demo/echo-demo.mp4)
 
-[Watch the included Echo walkthrough](docs/demo/echo-demo.mp4). The recorded
-demo uses synthetic calls and is included here for reviewers without access
-to the extended repository.
+[Open/download the Echo walkthrough MP4](https://raw.githubusercontent.com/amishaguptaberk/call-center-intelligence-submission/HEAD/docs/demo/echo-demo.mp4).
+This direct link requires repository access. In an extracted archive,
+open `docs/demo/echo-demo.mp4`.
+The included recording uses synthetic calls; it demonstrates the extended product.
 
 ## Quick Start
 
-Requires Python 3.11+ and FFmpeg (macOS: `brew install ffmpeg`; Ubuntu:
+Targets Python 3.11 (later minors are not certified) and requires FFmpeg (macOS: `brew install ffmpeg`; Ubuntu:
 `sudo apt-get install ffmpeg`):
 
 ```sh
@@ -97,6 +100,20 @@ See [submission notes](SUBMISSION.md) for milestone mapping.
 
 See [submission readiness](SUBMISSION_READINESS.md) for the remaining acceptance
 checks, packaging steps, and publication requirements.
+Fresh-install verification passed 362 tests on source `8825f5d`. Staging
+baseline `2ea14c0` (private source `2882df9`) passed 363 local tests, lint,
+and formatting; hosted [tests and container jobs passed](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38990340548).
+Updated local source passes 365 tests; synthetic browser checks pass mobile
+geometry and scoring/export journeys. Independent UI repair review passed,
+with 365 tests, lint, formatting, and fresh browser software checks rerun
+independently; this is a local result, not a fresh Linux result.
+For revision-specific hosted results, see [Actions](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions).
+For publication/access confirmation, release revision, archive checksum, and
+extraction verification, see the final handoff and
+[Releases](https://github.com/amishaguptaberk/call-center-intelligence-submission/releases).
+These links do not assert a successful final run or published release.
+Physical microphone capture is not verified. Gradio 6 is the
+documented compatibility choice; see [submission notes](SUBMISSION.md).
 
 ```sh
 make test
