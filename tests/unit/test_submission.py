@@ -67,6 +67,8 @@ def test_ci_runs_bounded_container_build_and_persistence_smoke():
         "docker volume rm",
         "WHISPER_PRELOAD=false",
         "timeout 1200",
+        'docker exec -i "$container" python - < scripts/container_smoke.py',
+        'docker exec -i "$container" python - --check-persistence < scripts/container_smoke.py',
         'assert [item["props"].get("label") for item in c["components"] '
         'if item["type"] == "tabitem"] == '
         '["Analyze call", "All MP3 History", "Observability"]',

@@ -57,6 +57,7 @@ jobs:
           }
           start
           ready
+          timeout 60 docker exec -i "$container" python - < scripts/container_smoke.py
           timeout 30 docker exec "$container" python -c 'import os; assert os.getuid() != 0'
           timeout 30 docker exec "$container" ffmpeg -version
           timeout 30 docker exec "$container" python -c '
@@ -72,6 +73,7 @@ jobs:
           timeout 30 docker rm "$container"
           start
           ready
+          timeout 60 docker exec -i "$container" python - --check-persistence < scripts/container_smoke.py
           timeout 30 docker exec "$container" python -c '
           import os, sqlite3
           with sqlite3.connect(os.environ["DB_PATH"]) as db:

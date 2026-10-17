@@ -13,6 +13,7 @@ CSS = """
 .gradio-container .main { width:100%!important; }
 .ledger { min-width:0!important; max-width:100%!important; overflow:auto!important; }
 [role="tablist"] { flex-wrap:wrap!important; }
+.tab-container.visually-hidden { position:fixed!important; left:0!important; }
 :root { --canvas:#f6f7f8; --surface:#fff; --ink:#17212b; --muted:#5d6b78; --accent:#245b78; --line:#d7dde2; --soft:#eef2f4; --warning:#9a5b12; }
 .gradio-container { --body-text-color:var(--ink)!important; --body-text-color-subdued:var(--muted)!important; --block-label-text-color:var(--ink)!important; --block-info-text-color:var(--muted)!important; --background-fill-primary:var(--canvas)!important; --background-fill-secondary:var(--surface)!important; --block-background-fill:var(--surface)!important; --input-background-fill:var(--surface)!important; --input-border-color:#b8c2ca!important; --input-placeholder-color:#667684!important; --border-color-primary:var(--line)!important; --table-border-color:var(--line)!important; --table-even-background-fill:var(--surface)!important; --table-odd-background-fill:#f8fafb!important; background:var(--canvas)!important; color:var(--ink)!important; max-width:1180px!important; margin:auto!important; padding-inline:24px!important; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif!important; font-size:15px!important; line-height:1.5; overflow-wrap:anywhere; }
 .gradio-container .prose { color:var(--ink)!important; font-size:.95rem!important; line-height:1.55!important; }
@@ -225,9 +226,11 @@ def build_app() -> gr.Blocks:
                 history_status = gr.Markdown("Select a stored call.")
                 with gr.Column(visible=False) as history_results:
                     history_meta = gr.Markdown()
-                    with gr.Row():
-                        history_summary = gr.Markdown(elem_classes="analysis-panel")
-                        history_qa = gr.Markdown(elem_classes="analysis-panel")
+                    with gr.Row(equal_height=False):
+                        with gr.Column():
+                            history_summary = gr.Markdown(elem_classes="analysis-panel")
+                        with gr.Column():
+                            history_qa = gr.Markdown(elem_classes="analysis-panel")
                     history_transcript = gr.Textbox(
                         label="Stored transcript", lines=15, interactive=False, buttons=["copy"]
                     )
