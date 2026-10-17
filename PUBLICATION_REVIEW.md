@@ -1,6 +1,6 @@
 # Publication review
 
-Date: 2026-10-16. Status: **conditional source review; publication pending**.
+Date: 2026-10-16. Status: **public clean-history source; code CI passed**.
 This is a bounded publication
 review, not exhaustive secret, media-content, or legal clearance.
 
@@ -8,14 +8,16 @@ The review below applies to its stated historical snapshot. Sanitization was
 accepted at `8825f5d`; subsequent requirement/verification work includes
 `28669fb`, and HEAD observed for this documentation pass is `2882df9`.
 Later changes still require final diff and publication-scope review.
-The intended public destination is
+The public submission repository is
 [call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission).
-Public access and final archive remain pending. Tickets 06/07 remain open.
+Proven public code revision is `1ce33f620cec42f0a97ff4c0b2b3e689a28fbc24`.
+Anonymous API returned `private: false`, raw README GET 200, and demo HEAD 200.
+Final release metadata remains external; tickets 06/07 are not marked complete.
 
-## Clean-history Staging Update
+## Clean-history Publication Update
 
-Supplied evidence confirms the destination now exists as a private staging
-repository. Initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`
+The repository was initially staged privately and is now public.
+Initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`
 maps to private source `2882df9`, with a new Git root containing 139 files.
 Original private history was not uploaded. Baseline local verification passed
 363 tests, lint, and formatting; a bounded scan found no blocked token patterns
@@ -27,10 +29,18 @@ verification passed 365 local tests and synthetic browser repair checks;
 extended container source `a732aa1` passed independent source review and eight
 targeted tests. Independent UI repair review passed with 365 tests, lint,
 formatting, and fresh browser software checks independently rerun.
-Physical microphone capture remains unverified; final-source CI remains pending.
+Physical microphone capture remains unverified; full ticket 04 remains open.
 These local results do not extend the baseline hosted result or establish a
-fresh Linux pass. Change visibility to public only
-after those checks and review pass, then verify unauthenticated access.
+fresh Linux pass. Current [run 38991300177](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38991300177)
+completed successfully for code revision `1ce33f6`: 365 Linux tests and the
+extended container job passed. Container logs report fixture
+`4e65793b-f47c-40e6-ae72-b947a0ffa00a`, overall 3, and persistence verified
+after replacement. This later documentation revision will rerun CI; no result
+for it is asserted.
+The preliminary 143-file ZIP was byte-verified; extracted source passed 365 tests
+using the existing environment, not a fresh installation. Anonymous demo HEAD
+200 is availability evidence, not browser playback. Final release
+revision/checksum remain in the external handoff.
 The historical review below retains its original scope and observations.
 
 Subsequent final-source checks are recorded in

@@ -1,6 +1,6 @@
 # Submission Readiness
 
-Status on 2026-10-16: **pending final acceptance and publication**.
+Status on 2026-10-16: **public source; final acceptance evidence pending**.
 Scope: the standalone SQLite/Gradio capstone. Tickets 06/07 remain open.
 The previous ZIP is stale. This checklist does not award a grade.
 
@@ -24,9 +24,9 @@ is kept outside its own source snapshot to avoid a checksum self-reference.
 
 ## Hosted Baseline
 
-Supplied staging evidence confirms private clean-history repository
+Historical staging evidence records the clean-history repository
 [call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission)
-exists with initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`,
+initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`,
 mapping to private source `2882df9`. Its new root contains 139 files; original
 private history was not uploaded. Baseline local checks passed 363 tests,
 lint, and formatting; the bounded scan found no blocked token patterns or
@@ -42,8 +42,16 @@ and newest-20 audit rows. Real `score_qa` overrides a fixture's incorrect
 overall 5 with weighted 3.70 from scores 4/2/5/3/4 in JSON/PDF/UI.
 These are fixture results, separate from the two real analyses.
 Independent UI repair review passed: 365 tests, lint, formatting, and fresh
-browser software checks were independently rerun. Final CI, public visibility,
-and archive verification remain pending; 365 tests is not a fresh Linux result.
+browser software checks were independently rerun. The repository is now public
+at proven code revision `1ce33f620cec42f0a97ff4c0b2b3e689a28fbc24`;
+[run 38991300177](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38991300177)
+completed successfully with 365 Linux tests and the extended container job.
+Anonymous repository API returned `private: false`, raw README GET 200, and
+demo HEAD 200; these probes do not establish browser playback.
+The preliminary 143-file ZIP was byte-verified and extracted
+source passed 365 tests using the existing environment, not a fresh install.
+CI for the later documentation revision will rerun; no result for that revision
+is claimed. Final release revision/checksum remains in the external handoff.
 
 ## Remaining Gates
 
@@ -55,26 +63,30 @@ and archive verification remain pending; 365 tests is not a fresh Linux result.
   manual user verification remains pending.
 - [x] Verify software invalid-decode feedback/recovery and newest-20 audit rows
   with the synthetic browser harness; recovery required reload.
-- [ ] Review final container changes and confirm passing final-source CI.
+- [x] Verify code revision `1ce33f6` in run 38991300177: tests and extended
+  container job passed, including persisted History exports after replacement.
   Baseline hosted container execution passed; local Docker readiness timed out
   and no local image build/run passed. See the
   [container report](docs/verification/container.md). Extended source `a732aa1`
   passed independent source review and eight targeted tests; real-pipeline
   synthetic audio with mocked ASR/model boundaries, reports, and persisted
-  History exports after replacement still require final CI execution.
+  History exports after replacement passed hosted execution. Fixture overall
+  was 3 and `persistence_verified` was true.
 - [ ] Run relevant checks against final source, review the complete final diff
   and publication scope, and record exact revision/results.
-- [x] Prepare a private source-only staging repository with newly created history.
+- [x] Prepare a source-only repository with newly created history, now public.
   Keep original local commits, refs, tags, and objects private.
-- [ ] Verify publication and unauthenticated access at the intended
+- [x] Confirm public visibility of the clean-history
   [public repository](https://github.com/amishaguptaberk/call-center-intelligence-submission).
-  This destination URL is not proof of publication.
+- [x] Record anonymous probes: API `private: false`, raw README GET 200,
+  demo HEAD 200. Browser playback is not established.
 - [ ] Monitor all required final-source remote checks to completion and record
-  run links and outcomes. Baseline CI success does not certify later changes.
-- [ ] Make the repository public only after final-source CI and review pass;
-  then verify unauthenticated access.
-- [ ] Generate an archive from the final publication revision; compare contents,
-  extract it, verify documented setup/smoke behavior, and record checksum/SHA.
+  run links and outcomes for the later documentation revision. The proven code
+  run does not certify subsequent revisions.
+- [x] Byte-verify the 143-file ZIP and run its extracted source: 365 tests passed
+  using the existing environment, not a new installation.
+- [ ] Record release revision/checksum and any final archive regeneration in the
+  external handoff/release; reverify if subsequent source changes alter it.
   Exclude secrets, runtime data, caches, private evidence, model weights, and
   repository internals.
 - [ ] Record final proof in the release/handoff: revision-specific CI, review,

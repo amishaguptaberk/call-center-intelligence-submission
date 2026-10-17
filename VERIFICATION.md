@@ -57,7 +57,7 @@ and microphone cases do not establish live hardware behavior.
 
 ## Hosted Baseline Evidence
 
-Supplied evidence confirms private staging repository
+Historical supplied evidence records the initially private staging repository
 [call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission)
 at initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16`, mapped to
 private source `2882df9`. Its new Git root contains 139 files; original private
@@ -68,7 +68,7 @@ token patterns or forbidden runtime paths.
 [Run 38990340548](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38990340548)
 completed successfully: both tests and container jobs passed. This is hosted
 baseline evidence supplied for this documentation update, not a new execution
-by this documentation pass. It does not certify pending mobile changes.
+by this documentation pass. It does not certify subsequent source changes.
 
 ## Supplied Source And Browser Update
 
@@ -102,27 +102,45 @@ passed. Hosted baseline container execution passed in the run above. See the
 `a732aa1` passed independent source review and eight targeted tests. Its
 real-pipeline synthetic-WAV smoke mocks ASR/model boundaries and checks actual
 reports and persisted History exports after container replacement. Execution
-of this extended smoke remains pending final CI; it is not live inference.
+of this extended smoke passed in run 38991300177 at code revision
+`1ce33f620cec42f0a97ff4c0b2b3e689a28fbc24`. Logs identify fixture
+`4e65793b-f47c-40e6-ae72-b947a0ffa00a`, overall 3, and
+`persistence_verified: true` after replacement. This is not live inference.
 
-No final-source full acceptance or final-source CI pass, GPU/acoustic-model run,
-additional live provider verification, or hosted smoke test is claimed.
+Code revision CI passed, including 365 Linux tests and the extended container
+job. CI will rerun for this later documentation revision; its result is not
+claimed here. No GPU/acoustic-model run or additional live provider verification
+is claimed. Full ticket 04 remains open on physical microphone verification.
 Gradio 6 is documented; Python support targets 3.11, with later minors uncertified.
 
 ## Publication And Archive
 
-The new [submission staging repository](https://github.com/amishaguptaberk/call-center-intelligence-submission)
-exists privately with clean history. Public visibility and unauthenticated
-access remain pending until final-source CI and review pass. Original local
+The [submission repository](https://github.com/amishaguptaberk/call-center-intelligence-submission)
+is now public with clean history, at proven code revision
+`1ce33f620cec42f0a97ff4c0b2b3e689a28fbc24`.
+[Run 38991300177](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38991300177)
+completed successfully for both tests and container jobs. Supplied anonymous
+probes returned repository API `private: false`, raw README GET 200, and
+demo HEAD 200. Original local
 history contains raw excerpts and remains private. See
 [publication review](PUBLICATION_REVIEW.md).
 
 The owner approved the ten samples. The existing synthetic Echo demo remains
-included; its direct README link depends on publication. Extended Echo source
+included in the public repository; demo HEAD 200 confirms availability,
+not browser playback. Extended Echo source
 remains private. No new media was created for this handoff.
 
-The previous ZIP is stale. Final revision, archive checksum, content comparison,
-extracted setup/smoke check, final diff review, and remote workflow outcomes
-remain pending. Tickets 06/07 are open. See
+The preliminary 143-file ZIP was byte-verified. Its extracted source passed
+365 tests with four warnings using an existing environment, not a fresh
+installation. Ruff formatting passed for 98 files. Extracted `app.main`
+startup returned HTTP 200 with exactly Analyze call, All MP3 History, and
+Observability on Gradio 6.28.0. The initial normal entrypoint hit a port
+conflict because the user's app occupied 7860; a launch shim overrode only
+`server_port` to 17862. This was a verification-environment conflict, not a
+product defect; no source was edited for the retry. Final release
+revision/checksum, any archive regeneration after later edits, final diff review,
+and final workflow outcomes belong in the external handoff/release.
+Tickets 06/07 are not marked complete here. See
 [submission readiness](SUBMISSION_READINESS.md).
 
 ## Historical Evidence And Limits

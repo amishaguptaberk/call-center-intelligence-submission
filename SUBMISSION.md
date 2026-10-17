@@ -52,7 +52,7 @@ at `8825f5d`, and clean-install documentation at `28669fb`. The fresh source
 actually exercised was `8825f5d`: 362 tests, lint, formatting, dependency
 consistency, and HTTP startup with all three tabs passed. HEAD observed during
 this documentation pass is `2882df9`, adding container acceptance checks;
-baseline hosted execution is now recorded below; final-source acceptance remains pending.
+hosted execution for the baseline and later code revision is recorded below.
 
 Two live browser analyses verified redaction for the detected sample pattern,
 matching PDF/JSON exports, a weighted 3.45/5 score, transcription caching,
@@ -63,11 +63,11 @@ after reload, exports/cache/history/metrics, and newest-20 audit rows. A real
 3.70 in JSON/PDF/UI. These fixture results are separate from live analyses.
 The source suite now passes 365 tests, including container integration;
 independent UI repair review passed with 365 tests, lint, formatting, and fresh
-browser software checks independently rerun. Final CI remains pending; this is
-not a fresh Linux result. Physical capture returned `NotSupportedError`; manual verification
+browser software checks independently rerun. These local checks are separate
+from the passing Linux CI below. Physical capture returned `NotSupportedError`; manual verification
 remains pending. See [reviewer walkthrough](docs/verification/reviewer-walkthrough.md).
 
-The private clean-history staging repository is
+The public clean-history submission repository is
 [call-center-intelligence-submission](https://github.com/amishaguptaberk/call-center-intelligence-submission).
 Initial revision `2ea14c02de44c884437bfa6cc1d0c737f0402c16` maps to private
 source `2882df9`; its new root has 139 files and original history was not uploaded.
@@ -77,12 +77,20 @@ blocked token patterns or forbidden runtime paths found by the bounded scan.
 completed successfully for both tests and container jobs.
 
 Extended container source `a732aa1` passed independent source review and eight
-targeted tests. Final CI must execute its synthetic-audio real-pipeline smoke,
-with mocked ASR/model boundaries, reports, and History exports after replacement.
+targeted tests. Its synthetic-audio real-pipeline smoke, with mocked ASR/model
+boundaries, reports, and History exports after replacement passed in the hosted
+code run below; overall was 3 and persistence verification was true.
 
-Hosted results above apply to the baseline. Final CI,
-public visibility/access, and the final archive/checksum/extraction checks remain
-pending. Make the repository public only after final-source CI and review pass.
+Hosted passing results above apply to the baseline. The public revision is now
+`1ce33f620cec42f0a97ff4c0b2b3e689a28fbc24`;
+[run 38991300177](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38991300177)
+completed successfully with 365 Linux tests and the extended container job.
+This later documentation revision will rerun CI; its outcome is not claimed.
+The preliminary 143-file ZIP was byte-verified and extracted source passed
+365 tests using the existing environment, not a fresh installation.
+Anonymous probes returned repository API `private: false`, raw README GET 200,
+and demo HEAD 200; browser playback is not proven. Final release revision and
+checksum remain in the external handoff.
 Original local history contains raw excerpts and remains private.
 Tickets 06/07 are not complete.
 

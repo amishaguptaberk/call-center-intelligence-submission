@@ -24,8 +24,9 @@ That repository is private; reviewers need GitHub access.
 [![Echo demo preview](docs/demo/echo-demo-preview.png)](https://raw.githubusercontent.com/amishaguptaberk/call-center-intelligence-submission/HEAD/docs/demo/echo-demo.mp4)
 
 [Open/download the Echo walkthrough MP4](https://raw.githubusercontent.com/amishaguptaberk/call-center-intelligence-submission/HEAD/docs/demo/echo-demo.mp4).
-This direct link requires repository access. In an extracted archive,
-open `docs/demo/echo-demo.mp4`.
+The MP4 is included in this public repository. In an extracted archive,
+open `docs/demo/echo-demo.mp4`. Anonymous demo HEAD returned 200;
+this verifies availability, not browser playback.
 The included recording uses synthetic calls; it demonstrates the extended product.
 
 ## Quick Start
@@ -107,11 +108,21 @@ Updated local source passes 365 tests; synthetic browser checks pass mobile
 geometry and scoring/export journeys. Independent UI repair review passed,
 with 365 tests, lint, formatting, and fresh browser software checks rerun
 independently; this is a local result, not a fresh Linux result.
+The clean-history repository is public. Code revision
+`1ce33f620cec42f0a97ff4c0b2b3e689a28fbc24` passed 365 Linux tests and
+the extended container job in
+[Run 38991300177](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions/runs/38991300177)
+which completed successfully. That result does not certify this later
+documentation revision; its CI will rerun. Anonymous repository API reported
+`private: false` and raw README GET returned 200.
+The preliminary 143-file ZIP was byte-verified and its extracted source passed 365 tests
+using the existing environment, not a fresh installation.
 For revision-specific hosted results, see [Actions](https://github.com/amishaguptaberk/call-center-intelligence-submission/actions).
 For publication/access confirmation, release revision, archive checksum, and
 extraction verification, see the final handoff and
 [Releases](https://github.com/amishaguptaberk/call-center-intelligence-submission/releases).
-These links do not assert a successful final run or published release.
+These links identify subsequent checks and release metadata without asserting
+results for later revisions.
 Physical microphone capture is not verified. Gradio 6 is the
 documented compatibility choice; see [submission notes](SUBMISSION.md).
 
